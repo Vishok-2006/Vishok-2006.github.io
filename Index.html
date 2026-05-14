@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Your Name</title>
+    <script src="https://tailwindcss.com"></script>
+    <script src="https://unpkg.com"></script>
+    <style>
+        @import url('https://googleapis.com');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-gray-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter">DEV.PORTFOLIO</span>
+            <div class="space-x-8 hidden md:flex font-medium text-sm">
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Building digital <span class="text-blue-600">experiences</span> that matter.
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mb-8 leading-relaxed">
+                Hi, I'm [Your Name]. A Full-stack Developer focused on creating clean, 
+                user-centric applications and solving complex problems with code.
+            </p>
+            <div class="flex gap-4">
+                <a href="#projects" class="bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition">View Projects</a>
+                <a href="https://github.com" class="border border-gray-300 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition flex items-center gap-2">
+                    <i data-lucide="github" class="w-5 h-5"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">Selected Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Project Card 1 -->
+                <div class="group border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i data-lucide="layout" class="w-12 h-12 text-gray-400 group-hover:text-blue-500 transition"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Dashboard</h3>
+                        <p class="text-gray-600 mb-4 text-sm">A real-time inventory management system built with React and Supabase.</p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-100 text-xs rounded-full">React</span>
+                            <span class="px-3 py-1 bg-gray-100 text-xs rounded-full">Node.js</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-semibold text-sm inline-flex items-center gap-1 hover:underline">
+                            View Case Study <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="group border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i data-lucide="database" class="w-12 h-12 text-gray-400 group-hover:text-blue-500 transition"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">API Gateway Orchestrator</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Microservices architecture handling 1M+ requests per day with Go.</p>
+                        <div class="flex gap-2 mb-4">
+                            <span class="px-3 py-1 bg-gray-100 text-xs rounded-full">Go</span>
+                            <span class="px-3 py-1 bg-gray-100 text-xs rounded-full">Docker</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-semibold text-sm inline-flex items-center gap-1 hover:underline">
+                            View Repository <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Tech Stack</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-blue-400 transition">
+                    <i data-lucide="code-2" class="w-8 h-8 mx-auto mb-3 text-blue-600"></i>
+                    <p class="font-semibold">Frontend</p>
+                    <p class="text-xs text-gray-500">React, Tailwind, Vue</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-blue-400 transition">
+                    <i data-lucide="server" class="w-8 h-8 mx-auto mb-3 text-blue-600"></i>
+                    <p class="font-semibold">Backend</p>
+                    <p class="text-xs text-gray-500">Node, Python, Go</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-blue-400 transition">
+                    <i data-lucide="layers" class="w-8 h-8 mx-auto mb-3 text-blue-600"></i>
+                    <p class="font-semibold">Database</p>
+                    <p class="text-xs text-gray-500">PostgreSQL, Redis</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-blue-400 transition">
+                    <i data-lucide="terminal" class="w-8 h-8 mx-auto mb-3 text-blue-600"></i>
+                    <p class="font-semibold">DevOps</p>
+                    <p class="text-xs text-gray-500">AWS, Docker, CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="py-20 px-6 bg-black text-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's work together.</h2>
+            <p class="text-gray-400 mb-8">Currently looking for new opportunities.</p>
+            <a href="mailto:hello@example.com" class="text-2xl font-light hover:text-blue-400 transition underline underline-offset-8">
+                hello@example.com
+            </a>
+            
+            <div class="flex justify-center gap-8 mt-16 text-gray-400">
+                <a href="#" class="hover:text-white transition">Twitter</a>
+                <a href="#" class="hover:text-white transition">LinkedIn</a>
+                <a href="#" class="hover:text-white transition">GitHub</a>
+            </div>
+            <p class="mt-12 text-xs text-gray-600">© 2024 Your Name. Built with Tailwind CSS.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
