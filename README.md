@@ -3,13 +3,12 @@
 A modern futuristic developer portfolio built using Next.js, TypeScript, Tailwind CSS, and Framer Motion.  
 This portfolio showcases my projects, skills, experience, and achievements with a clean space-themed UI and smooth animations.
 
-![Portfolio Preview](./public/preview.png)
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 [View Portfolio](https://your-portfolio-link.vercel.app)
+🔗 [View Portfolio](https://vishok.vercel.app)
 
 ---
 
@@ -70,13 +69,7 @@ An AI-powered insurance assistant for claim analysis and intelligent recommendat
 
 🔗 GitHub: https://github.com/Vishok-2006/InsureAI
 
----
 
-## 📸 Screenshots
-
-| Home Page | Projects Section |
-|------------|-----------------|
-| ![](./public/home.png) | ![](./public/projects.png) |
 
 ---
 
@@ -139,7 +132,6 @@ src/
 ## 🤝 Connect With Me
 
 - GitHub: https://github.com/Vishok-2006
-- LinkedIn: https://linkedin.com/in/your-linkedin
 - Email: pvishok969@gmail.com
 
 ---
