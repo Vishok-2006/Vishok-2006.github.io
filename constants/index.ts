@@ -26,24 +26,31 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  
+  {
+    skill_name: "Shell Scripts",
+    image: "shell.png",
+    width: 80,
+    height: 80,
+  },
+
+
 ] as const;
 
 export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/vtm___alone__king__143?igsh=MWJ1YzVicW5vMGxqMg==",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/Vishok-2006",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/vishok-p-319075387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 ] as const;
 
@@ -67,12 +74,17 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "java",
+    image: "java.png",
     width: 80,
     height: 80,
   },
- 
+  {
+    skill_name: "Python",
+    image: "python.png",
+    width: 80,
+    height: 80,
+  },
   {
     skill_name: "React",
     image: "react.png",
@@ -80,16 +92,10 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
  
- 
+
   {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
+    skill_name: "Solidity",
+    image: "solidity.png",
     width: 80,
     height: 80,
   },
@@ -102,7 +108,12 @@ export const BACKEND_SKILL = [
     width: 80,
     height: 80,
   },
-  
+  {
+    skill_name: "Spring Boot",
+    image: "springboot.png",
+    width: 80,
+    height: 80,
+  },
  
   {
     skill_name: "PostgreSQL",
@@ -127,8 +138,20 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
+    skill_name: "Git",
+    image: "git.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "GitHub",
+    image: "github.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "BlockChain",
+    image: "blockchain.png",
     width: 70,
     height: 70,
   },
@@ -154,25 +177,35 @@ export const OTHER_SKILL: {
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "ChainDrive",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "A blockchain-powered decentralized storage and file management platform focused on secure and transparent data handling.",
+    image: "chaindrive.png",
+      link: "https://github.com/Vishok-2006/ChainDrive.git",
   },
+
   {
-    title: "Interactive Cards Portfolio",
+    title: "Vector Project",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "An AI-powered vector search and Retrieval-Augmented Generation (RAG) project designed for intelligent document querying and semantic search.",
+   image: "vector.png",
+      link: "https://github.com/Vishok-2006/Vector-Project.git",
   },
+
   {
-    title: "Space Themed Website",
+    title: "InsureAI",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      "An AI-based insurance assistant that simplifies policy analysis, claim understanding, and intelligent insurance recommendations.",
+    image: "insureai.png",
+      link: "https://github.com/Vishok-2006/InsureAI.git",
+  },
+
+  {
+    title: "Agrow AI",
+    description:
+      "A smart agriculture assistant using Weather API and AI to provide crop suggestions, farming insights, and weather-aware recommendations.",
+    image: "agrowai.png",
+      link: "https://github.com/Vishok-2006/Agrow-AI.git",
   },
 ] as const;
 
@@ -188,44 +221,40 @@ export const FOOTER_DATA = [
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.gg/Zv2HbfnF2N",
       },
     ],
   },
   {
     title: "Social Media",
     data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
+       {
+    name: "Instagram",
+    icon: RxInstagramLogo,
+    link: "https://www.instagram.com/vtm___alone__king__143?igsh=MWJ1YzVicW5vMGxqMg==",
+  },
      
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
+     {
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/vishok-p-319075387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
     ],
   },
   {
     title: "About",
     data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
+    
       {
         name: "Learning about me",
         icon: null,
         link: "https://github.com/Vishok-2006",
       },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "pvishok969@gmail.com",
-      },
+     {
+  name: "Contact Me",
+  icon: null,
+  link: "https://mail.google.com/mail/?view=cm&fs=1&to=pvishok969@gmail.com",
+},
     ],
   },
 ] as const;

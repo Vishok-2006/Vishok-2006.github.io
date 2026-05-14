@@ -1,7 +1,11 @@
 .
 |-- .eslintrc.json
 |-- .git
+|   |-- COMMIT_EDITMSG
+|   |-- FETCH_HEAD
 |   |-- HEAD
+|   |-- ORIG_HEAD
+|   |-- REBASE_HEAD
 |   |-- config
 |   |-- description
 |   |-- gk
@@ -31,36 +35,316 @@
 |   |       |   `-- main
 |   |       `-- remotes
 |   |           `-- origin
-|   |               `-- HEAD
+|   |               |-- HEAD
+|   |               `-- main
 |   |-- objects
+|   |   |-- 00
+|   |   |   `-- 9c99c52e346aaab714d549948f334bfdd918df
+|   |   |-- 02
+|   |   |   `-- e43efda43f4c0beffbc105e2c0e2bb0371e8f6
+|   |   |-- 03
+|   |   |   |-- 4e848032092eaf8ef96eac731b6ed5961987f3
+|   |   |   `-- e234d45ebeeb4f833a140cc8e6a3000e7bac56
+|   |   |-- 04
+|   |   |   `-- 4ba5bb52ebdb5c14f77766a05a396fe5ee83cf
+|   |   |-- 07
+|   |   |   |-- 2229b870650dd4ef5370a52c6aa62b3a9752c7
+|   |   |   `-- b3c60036810b84f7923af43bf2ddd38eab97b2
+|   |   |-- 08
+|   |   |   |-- 7bbcf00201ef28a2366ab3b6c0d617bb6cee0e
+|   |   |   |-- 7f97df1243ac48d6d5d5e8222c780f2ae66a67
+|   |   |   `-- dde40d19fc5e299f813a7cae9e48f83a60494f
+|   |   |-- 09
+|   |   |   `-- c0519cf4bd7deb7c5a490d4a2716bc604c220b
+|   |   |-- 0a
+|   |   |   `-- 3289317cb7d7442f0e1f39cf784f6adbee06b0
+|   |   |-- 0b
+|   |   |   `-- da4fc4aeb0257055917ea782530f63e2f0f812
+|   |   |-- 0c
+|   |   |   `-- 14f462dc91fa0d276a2f5df003c545426daca7
+|   |   |-- 0d
+|   |   |   `-- 03b6378f4206fbfefdf1169626f8093c39d0fe
+|   |   |-- 14
+|   |   |   |-- 5c02b60da2a6da4a3a470b03fac3615e44dfaf
+|   |   |   |-- 849614e4e626515121fef9aee04e55eeb023d1
+|   |   |   `-- e9fd3f2c284645948eae39b86462e12ef6a058
+|   |   |-- 17
+|   |   |   `-- cdeb7b033ae6470346a5f5436aeceeb772450d
+|   |   |-- 1c
+|   |   |   `-- 6c34d48f899b94e59ca659748111b4baafe861
+|   |   |-- 1f
+|   |   |   |-- 485b655c7ced60369e82d5adf0401222cf15d5
+|   |   |   `-- 8152236d8765fc72803613b5a3a6c4e21346f8
+|   |   |-- 21
+|   |   |   `-- 8967a4d426f4434de571e0b87985dbe9756f93
+|   |   |-- 22
+|   |   |   |-- 60768dc5ed2038ca4a4ee405a15f82886a290f
+|   |   |   `-- dedd17a1981744b15ffc1bc685c8af63ad0e0d
+|   |   |-- 24
+|   |   |   `-- f77ba74f79609fc4cf4cc495a629f822a5fd0d
+|   |   |-- 28
+|   |   |   `-- c847c8b140bada7a8678445c58146159ff5c1d
+|   |   |-- 29
+|   |   |   `-- 594d3ba6da95f356a7915572faa7bd121488a4
+|   |   |-- 2b
+|   |   |   `-- 7284ad7ae0f4bcf8452ae6ba57b75016770000
+|   |   |-- 2c
+|   |   |   |-- 615f0a41e9d6d3b9d3920010e0656e7a9953cb
+|   |   |   |-- b9503674a55c0827ba6baea4e147eadddc2cad
+|   |   |   `-- d45edf43e09cc2a636223245f0563655d0cc0d
+|   |   |-- 2e
+|   |   |   |-- 18dc2540e6ef57e7d2187cedda16cd15aa5e1f
+|   |   |   `-- 5cca7869d0694823474eacb072347be4205627
+|   |   |-- 32
+|   |   |   `-- 959004feaa8606cac0fcdec097f50a0306e438
+|   |   |-- 33
+|   |   |   `-- ad091d26d8a9dc95ebdf616e217d985ec215b8
+|   |   |-- 34
+|   |   |   `-- 0328ef5e9f79c6ee791578fb3e45c8d48b9e68
+|   |   |-- 35
+|   |   |   `-- dd5e7b6ebceb9ac3389cf47b2bd064eeb7c9e3
+|   |   |-- 36
+|   |   |   `-- 5058cebd7d2bdb327ca1c081b16e4937e11050
+|   |   |-- 37
+|   |   |   `-- 758df73704c0a79befe4f201e88b98282263b6
+|   |   |-- 3c
+|   |   |   `-- f43d66a47e58a24394c0f121609ae922ee2c35
+|   |   |-- 3d
+|   |   |   `-- 00d690d50cb053cb7a3ca3c10fd91b5820febc
+|   |   |-- 40
+|   |   |   |-- 029480815858f70c30e6b33c9c45c69dedc913
+|   |   |   `-- 882cb609f45d1261426b616a0154f1c1951863
+|   |   |-- 41
+|   |   |   `-- f18c62d2cec1c51afae3dd9970dd0f65824a26
+|   |   |-- 43
+|   |   |   `-- adae990b731c4753e1c28e2e283999d312568d
+|   |   |-- 44
+|   |   |   `-- 2224aa3295932e04cea71a643dd9d0f3a6a4e2
+|   |   |-- 47
+|   |   |   `-- fb2de1c5219edb75ce0f5d8d833ec3160aa782
+|   |   |-- 49
+|   |   |   |-- 0fa4a9d8f7abd8e4f9f58c803b8bc04457e95a
+|   |   |   |-- 8887b537e633961823d11d8f21cb9631441a0a
+|   |   |   `-- e9691c7847c5087af94fed2a511f852bc103cd
+|   |   |-- 4b
+|   |   |   |-- 825dc642cb6eb9a060e54bf8d69288fbee4904
+|   |   |   |-- d41b566baea4eb3f8bf82843cfa5e7ee85b35d
+|   |   |   `-- f1b0d8ea0e92ed0bef3d9299281f17e2e5c242
+|   |   |-- 4c
+|   |   |   `-- 801cc5dc4436103e1fd8051154f4fa22da6009
+|   |   |-- 4e
+|   |   |   |-- 157cf881273b3c47115ec2cbb7ae91b245b46c
+|   |   |   `-- 672ce888e4d9ebef56e21377fb8765ba8a31d4
+|   |   |-- 52
+|   |   |   `-- ac1f3e7441b3ac02b80de929d7faeef0b6a817
+|   |   |-- 53
+|   |   |   `-- 89297a5e83acdd604f99d2e0b1e55030f83249
+|   |   |-- 55
+|   |   |   `-- 1a216dbfeb372c48365b0178429c85b7270f00
+|   |   |-- 57
+|   |   |   `-- da6f8d46e2e42d0fd7d8b1d69d39b3b5fda6d4
+|   |   |-- 59
+|   |   |   `-- c4ba6fc4ee81bc525f0e8319a32803c889dc2e
+|   |   |-- 61
+|   |   |   |-- 3e5209b0dcfc7972f7834192ce2c8673f66594
+|   |   |   |-- 8ca35341cc6e901ee0822e3d8c13376cc7cbde
+|   |   |   |-- be202c2b57be5e9a699c4413ec91b605308e04
+|   |   |   `-- f5e5ff907ea2974b1e31555b9bffa3cbaae60c
+|   |   |-- 67
+|   |   |   `-- ab079389fadab065bb4d592b276cbc98a0b250
+|   |   |-- 68
+|   |   |   `-- 3ccd5b27fd15b5572be17b9cc8d8e85a01a076
+|   |   |-- 6b
+|   |   |   `-- 92b6c40d4193aa91404c607b6fb41bd932ba9f
+|   |   |-- 6f
+|   |   |   `-- fe65f4fbd02b89a4e90e38d5f1ebeb6035dc05
+|   |   |-- 71
+|   |   |   `-- 56107e3aec28c4f7cea055e4cd67b6cc1e828c
+|   |   |-- 75
+|   |   |   `-- 31b5cb7f8b4a1c331362b662868f94d3ebe4a6
+|   |   |-- 76
+|   |   |   |-- 7719fc4fba59345ae29e29159c9aff270f5819
+|   |   |   `-- 800bc384074bab05831e8d1d7ff8bea6bec5a2
+|   |   |-- 77
+|   |   |   `-- 132fdea7ab0deed0ab8f92a1133db95ee30353
+|   |   |-- 78
+|   |   |   `-- bae1e3b9f7157535b849acaea181e1e1fa7ff6
+|   |   |-- 7a
+|   |   |   `-- 27708608373c10e1d41ea49ed4d7cee4eec275
+|   |   |-- 7b
+|   |   |   |-- 5ffab296544094d733b3536002d89d6c498997
+|   |   |   `-- 68d2cedc9950d7c8bff107e7c66c26580c8bed
+|   |   |-- 7d
+|   |   |   |-- 075bcbce857ca8aba001d7ffd438c5c2cb334c
+|   |   |   |-- 41cf918979ca828bf153baa675d1b137b0479e
+|   |   |   `-- 76385c1cf36554bee6282c0044d7626db8b73e
+|   |   |-- 84
+|   |   |   `-- 1dcf53f46770f053fc1ab9b962d4671b8fe728
+|   |   |-- 8a
+|   |   |   `-- 8c2390d7a8420551449727afa9d0a5602f59fb
+|   |   |-- 8d
+|   |   |   |-- 0b46263e11cdb87ace6d0563d6611009987dee
+|   |   |   `-- 0f5f0c2b21dd054e97bc52aa91ab1700308cc7
+|   |   |-- 8e
+|   |   |   |-- 6b8a186cd0ff3898626eeeba38e12dfd412843
+|   |   |   `-- a47b3b29278b62ab9abaf802dfecda76996aa3
+|   |   |-- 90
+|   |   |   `-- e9d9e88bd26837f7d429b4dc87d1e19b825784
+|   |   |-- 91
+|   |   |   `-- dc3e8529921cabc74fb1dacf5253260b9c8cca
+|   |   |-- 94
+|   |   |   `-- ca9144a90a44423af7e2220ff909365ae4d5c3
+|   |   |-- 95
+|   |   |   `-- d2f23379743750670731d3ba286ac7440d6a9f
+|   |   |-- 96
+|   |   |   `-- 7000fe4a3161de98b681e02abb9f979ae2337e
+|   |   |-- 97
+|   |   |   `-- 894e2d7c78155dc9d19e55a5da266bf9ee4650
+|   |   |-- 98
+|   |   |   `-- adfa95052154861641445f1d8501481d53b6d8
+|   |   |-- 99
+|   |   |   `-- d85196249020f855fa917880cad6a089af48c0
+|   |   |-- 9c
+|   |   |   `-- 71603a56134495cb3ace105a0928e9cc29a860
+|   |   |-- 9e
+|   |   |   |-- 26dfeeb6e641a33dae4961196235bdb965b21b
+|   |   |   `-- a26e005dc6f203384efa3520657d2339ee582d
+|   |   |-- a1
+|   |   |   `-- 737812a5cf24bd9d13e9bc4f519766954b2651
+|   |   |-- a3
+|   |   |   `-- 4c0d50c88646062502f99c33202205a78594f3
+|   |   |-- a6
+|   |   |   `-- 853ee088f2122307ee9b4190d39d702735eb28
+|   |   |-- a8
+|   |   |   |-- acaffa33a1fe475700d809ebf9b700e2a5b36f
+|   |   |   `-- c6997e7228736d34a48b9380bef497972c55cc
+|   |   |-- aa
+|   |   |   |-- 26dbd47b14d4650dfcc2f2b215a72beffd1eb9
+|   |   |   `-- 875b6374fab192a8d040898dc163a9bb524d7f
+|   |   |-- ab
+|   |   |   `-- 422b94a4fbe76275d31c0bf7ef334768b39cae
+|   |   |-- ae
+|   |   |   |-- 8e319271d330fa0e330a4e5f06f9e1582e8b47
+|   |   |   |-- be4cbd4ea1d59cc919989174b48b1c38e3cfbd
+|   |   |   `-- d963bf167efac38ed60029e89bbb210aed1448
+|   |   |-- b1
+|   |   |   `-- 792182ad33c7e4dc0cadd7e1e3a715a3cfe0fe
+|   |   |-- b2
+|   |   |   `-- e391ea7a7b4e609ed928eb3da747cf8ba1342c
+|   |   |-- b3
+|   |   |   `-- e9f3508064faff3b1b995dce45055d96a98dd4
+|   |   |-- b5
+|   |   |   `-- f0e9ac5df45893f1efbd1aec5cb16f1e04d484
+|   |   |-- b6
+|   |   |   |-- dd1facb44d715b93e64fc93a2a44aa8c741b70
+|   |   |   `-- e8fa79bbad29a277f9ce29899892ab192688e4
+|   |   |-- b7
+|   |   |   `-- 49ea63161276436c49ee63c5d38dfa7c8840d6
+|   |   |-- ba
+|   |   |   `-- 3191fd466b57ff1d2e77388f17aae130ea1b9b
+|   |   |-- bb
+|   |   |   |-- 1c6c19773eab24b57d0b33fbbb68c47f50fbbc
+|   |   |   `-- 611a85341d92cc11d771fd25ce8c91e3403999
+|   |   |-- bc
+|   |   |   |-- 0e0ab261be55e60502e8f0ab104faeb84c3888
+|   |   |   `-- adb832730baa14f0022d3c884f4c3eac869b47
+|   |   |-- be
+|   |   |   `-- 6c83b2d3fdec69750a74e47b8d16c37ef36fad
+|   |   |-- bf
+|   |   |   |-- c7accbd781a0faf6274c9b10dc40a3705151f1
+|   |   |   |-- e06884975304888106c66af9b4ad0aba1986a5
+|   |   |   |-- ed73ce4cbd8f75c5e10d5bf5406c87e3c047ec
+|   |   |   `-- fb357a7122523ec94045523758c4b825b448ef
+|   |   |-- c0
+|   |   |   `-- 4277d92737826d4efe951ec47cb7d21ffd9d25
+|   |   |-- c1
+|   |   |   |-- 5d7ec00382d3604310ddb8b53cbdb90d9e1942
+|   |   |   |-- a8e5b0c24685445178837e1328c87144a9a97e
+|   |   |   `-- ae28c1c7cdf1966ef0dded07e8a3dba773821a
+|   |   |-- c2
+|   |   |   `-- 3940fc97cd2069b1ec49c223bb6a4d77bda2e5
+|   |   |-- c4
+|   |   |   `-- 6b78998478037adc9aebbe937a932d4bf96892
+|   |   |-- c6
+|   |   |   `-- 7c44b3938885c34ef9e7a3ae59e8f67b4afba9
+|   |   |-- c7
+|   |   |   `-- ead804652ebfb1e07a5acb03880d553a7da011
+|   |   |-- c9
+|   |   |   |-- 9a0a4c6432bff85fab9460b1ba13b9373eb0a5
+|   |   |   `-- a44226149708aa5c098ac46f9addc86f6f4d22
+|   |   |-- cb
+|   |   |   `-- 173885c424e0a06274b37f04f7ff3c74d1a611
+|   |   |-- cf
+|   |   |   |-- 00df3c4c97403382846d1b8146be911bd821c9
+|   |   |   `-- 4bd73696160c302c69d1f0f82726d0b5ceef0f
+|   |   |-- d1
+|   |   |   |-- 837be354aecfdf8efab3f1131080f21f2ac71c
+|   |   |   `-- 8e049801b17fead63fc6c8715ccecc4f245bb3
+|   |   |-- d2
+|   |   |   `-- 6ecb91aadff164931ca201b46bb5d8a3e2eb42
+|   |   |-- d5
+|   |   |   |-- b5ee0be7b09d2380d1274e25718b33e5368296
+|   |   |   |-- d5f4a1116640dde1c7fa8bae34b012bc782d42
+|   |   |   `-- f2bff9cb89366c3c9210ed3f72a89129aeda83
+|   |   |-- d7
+|   |   |   `-- f4dc4b8c5f9ff0f7b7b06b778b9ff3535c7478
+|   |   |-- dc
+|   |   |   `-- 478460837b48b97a5a97a8acefd7be46c4bba6
+|   |   |-- e4
+|   |   |   `-- 04104710e4d553168cd5e5a0fbd232b76b754b
+|   |   |-- e6
+|   |   |   `-- 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|   |   |-- e9
+|   |   |   `-- 3586637072304e85b78bb35ae6d5d267b983a5
+|   |   |-- ea
+|   |   |   |-- f10ccaea2a92417266e5bca8876e032a263fb7
+|   |   |   `-- fe4dbcf076df849ef4c5f71083dbc61c186799
+|   |   |-- eb
+|   |   |   |-- 3ad7e8bf9012d140167a5dac89bc8ac57eae30
+|   |   |   `-- 7130b9e849d22c5f4ef5335628e9c5644a5876
+|   |   |-- ef
+|   |   |   `-- 292eddebefe1037e8b8f1e3f78914cf895648e
+|   |   |-- f0
+|   |   |   `-- 5f042415294e2f5d991f4e0b79196b09202140
+|   |   |-- f1
+|   |   |   `-- da4d5c22dbf9a93054cef231950080fea8f326
+|   |   |-- f3
+|   |   |   |-- d33771e8a52ed6f7d0d78323bda916820ec526
+|   |   |   `-- e65f3cd1f316a82dc843e66ea1c910d98507d3
+|   |   |-- f4
+|   |   |   `-- 3e73096d26e14c8106735342705c363cdfe3b1
+|   |   |-- f5
+|   |   |   |-- 6d7325eedd9e2f6f2f2634f1fc341623f688af
+|   |   |   `-- 8be4e78ab6d75b0fcf27b2c552e0efae69c655
+|   |   |-- f9
+|   |   |   |-- 3ff1227a399f6d7a433dfb33e888cc95b17f53
+|   |   |   `-- 5af668b9caf6b7455e748c35fb6d6c239bb195
+|   |   |-- fa
+|   |   |   `-- e8e3d8a9765a32e7942fe917d3c38cb15d8d0e
+|   |   |-- fb
+|   |   |   |-- 793ab43d2834114c211af1b028e9215b0a8675
+|   |   |   `-- 828b75fc81baae4d71af2dadfcf1b5b5e6190e
+|   |   |-- fc
+|   |   |   |-- 2cc96fbff5c4e76c88b89e6944b0fc32bb03ff
+|   |   |   |-- ab25aa5e6ff5fe9dac397730aa2112d50fce80
+|   |   |   `-- f521bfbe3dea1eb12bf2bb75affaa4dab4fb00
 |   |   |-- info
 |   |   `-- pack
-|   |       |-- pack-c899d41484c719523832531b66636ed570b1855a.idx
-|   |       |-- pack-c899d41484c719523832531b66636ed570b1855a.pack
-|   |       `-- pack-c899d41484c719523832531b66636ed570b1855a.rev
+|   |       |-- pack-9b1dd35219af5c555e5511042f5d1594d59ae1e0.idx
+|   |       |-- pack-9b1dd35219af5c555e5511042f5d1594d59ae1e0.pack
+|   |       `-- pack-9b1dd35219af5c555e5511042f5d1594d59ae1e0.rev
 |   |-- packed-refs
 |   `-- refs
 |       |-- heads
 |       |   `-- main
 |       |-- remotes
 |       |   `-- origin
-|       |       `-- HEAD
+|       |       |-- HEAD
+|       |       `-- main
 |       `-- tags
 |-- .github
-|   |-- FUNDING.yml
-|   |-- ISSUE_TEMPLATE
-|   |   |-- bug_report.md
-|   |   `-- feature_request.md
-|   |-- dependabot.yml
-|   |-- images
-|   |   |-- img1.png
-|   |   |-- img2.png
-|   |   |-- img3.png
-|   |   |-- img4.png
-|   |   |-- img_main.png
-|   |   `-- stats.svg
 |   `-- workflows
-|       `-- update-readme.yml
+|       `-- nextjs.yml
 |-- .gitignore
 |-- .next
 |   `-- dev
@@ -82,93 +366,182 @@
 |       |-- build-manifest.json
 |       |-- cache
 |       |   |-- .rscinfo
-|       |   |-- images
-|       |   |   |-- -1QuOQtjupONBhyn4AdZ8735EHlDOW5ePmhQVC9XUvc
-|       |   |   |   `-- 14400.1778694353362.lxm-aoVHL5F5Wh-gRcGBP1Gn0fhdRocWCvKQUZE1OgM.Vy8iMzE0Zi0xOWUyMThmMjY4OCI.webp
-|       |   |   |-- -pM-Gr3fca5EdsnCXJ5ilZOCGI__oFkmAAmcdjDlS90
-|       |   |   |   `-- 14400.1778694354225.KxtKftYYpnCShsvqM0g7ZiaB68yHLUHBA9aOHwzzYZs.Vy8iMjdiZjE2LTE5ZTIxOGYyNjcwIg.webp
-|       |   |   |-- 056Qq2cmF7QcaPhjhb2iNpQSgeSFwpgPCnn4W38qXfY
-|       |   |   |   `-- 14400.1778694353599.gXrjsKvYT8ofmCYwm75uhnPv6Q-t3GwgrDvgZyNydh8.Vy8iMmUxOC0xOWUyMThmMjY2ZCI.webp
-|       |   |   |-- 1NMEw4sIGwqX42VYwMvTsIMisln4gSxEAilKU19pERo
-|       |   |   |   `-- 14400.1778694353454.MbIGg7hT18-Mddvw10SFPac6oQtR7mzUqxF7LCrH9C4.Vy8iMWQ3YTAtMTllMjE4ZjI2ODYi.webp
-|       |   |   |-- 1vybzq5MBB6I1K9syShPF1XeDMqXwx1V0QLQzNtjRn4
-|       |   |   |   `-- 14400.1778694352790.RlDyaeji0Mfq1AJ_w6lQHmZqJetdsjbBMf0CjD80iyM.Vy8iY2MxNC0xOWUyMThmMjY4YyI.webp
-|       |   |   |-- 2hQIqmZLTAsQq1jLFjY9OUBboyhQy8txicsyA6AImcE
-|       |   |   |   `-- 14400.1778694352688.UZ7evNKEm4sOACScdsRybjbcCMgbxF-FCeCmj94qqtI.Vy8iNmUyZS0xOWUyMThmMjY4YyI.webp
-|       |   |   |-- 5pzj_JAIRhYhCJXd9-tDNt_SwLvT4qDfINMvWcF_jlE
-|       |   |   |   `-- 14400.1778694352578.GzKXbFGT20N2pG8iqQ2uyzpNIW1OffkHqKXWeJmirmY.Vy8iNWNiOWYtMTllMjE4ZjI2NmQi.webp
-|       |   |   |-- 8AKCHxNcezKDY6CyNz1XQwjqw1AWbhBGVEQHra5jXyo
-|       |   |   |   `-- 14400.1778694353267.VTLHaDBKk4NdwLK616qk9nCQBjH8de6PpSj460adbiI.Vy8iNGFhNC0xOWUyMThmMjY4OCI.webp
-|       |   |   |-- 8p1pVljwW7xpBdxU7uelNbOo-oBE2AdHazvODteLyow
-|       |   |   |   `-- 14400.1778694352891.htb2TvTyu43jLufO2AwnmPipf03rMpwfDyt9AvhgaTE.Vy8iNzU3OC0xOWUyMThmMjY5MCI.webp
-|       |   |   |-- AAbxUWc6sVuUO2pYn9kYVLlkxXNym_VgKVB9-1J53ec
-|       |   |   |   `-- 14400.1778694352895.kjy7kflRk1t9_Zhb8kQu9h2oKUkfj5b_XNE8iVx1j2w.Vy8iMTVmOGMtMTllMjE4ZjI2ODYi.webp
-|       |   |   |-- EPKqlzLFZcEvTf3yZhQqjsisG9uF9hosUEhe9RKPGws
-|       |   |   |   `-- 14400.1778694353269.eoaSa37l_XaiLWil2dofC1QTICo9om8c0e7zmiLvYAM.Vy8iMjdlNC0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- EpaJQ5Nc4SxSU9ylMcqgRx59JSP-CFxQySfYCa9IKJE
-|       |   |   |   `-- 14400.1778694352739.OYWoReE4lr8S1kDSmvkyza7zj3Gsok5hgN8xGqnpc6s.Vy8iMjgxYy0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- HsYqbx-rse1Q1d__CBaL49hlAYli3mo6PCDCzfpG-aI
-|       |   |   |   `-- 14400.1778694353629.1iL628fb659-bwN_vSRZ0oQKZUwfo8tt4tljUexIzmY.Vy8iMjRiNGYtMTllMjE4ZjI2OTAi.webp
-|       |   |   |-- MjJJ-7V7-IISXcOBUSA44tKDp534di8gOHaJUajo2qA
-|       |   |   |   `-- 14400.1778694353522.LMiNETGuMNFbiW4fyulbbj67P_VlbwhczvEH4S9kFw4.Vy8iY2ZiLTE5ZTIxOGYyNjZkIg.webp
-|       |   |   |-- NFqH3j_t1-wuzsNJO0bFDNwssavvIe_ottcNlp_A8Rs
-|       |   |   |   `-- 14400.1778694352898.pHxrXyMeYTmZEdsW-vA_XuB2M7NwU6-78n-fxkmw19c.Vy8iNzM1NC0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- QulxvrdzAfJzBQkyjbdLyx3toHrdwBlMXvkqrRFmyY4
-|       |   |   |   `-- 14400.1778694353603.1slFsOs7G5y4fRdOPmGtCwbOQ7Heoe5U_rV9dkR91xc.Vy8iMTM4YjMtMTllMjE4ZjI2ODYi.webp
-|       |   |   |-- SDzHzMB2KHTE4qALmFTCfx4VG9R3hHraZw2CZ656OWE
-|       |   |   |   `-- 14400.1778694353072.ezQWkUeF3nSAqfcVbj8_uDt4zGolnWqtT-fMu7eaYyg.Vy8iMjAyOS0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- UzZzL9JJ6LOqQowF-SLArm6Rc16AYqrVbAr0AKbq7F4
-|       |   |   |   `-- 14400.1778694354056.z8cGLM3yPJ6ReTWcQDl9YaKnJHITzYRedLaV7QiGeYg.Vy8iY2YxNDUtMTllMjE4ZjI2ODAi.webp
-|       |   |   |-- byVDy9poljRaq3ZJTtm3j4NIwojFGixFo2_i-No8Z8g
-|       |   |   |   `-- 14400.1778694352495._Wdwm6lF9JwpJSy14enuBDh12_F-T5NR_FQY6F7KlaQ.Vy8iMzNkYS0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- eWfePY9Avw1_iQP7i7UvAmDqE3Llg2M5DzjN8gbF4CY
-|       |   |   |   `-- 14400.1778694353064.1kgxoFRL4nn8BxcTa30BYIF7nHiv7w3E8J2WZoHSfBU.Vy8iMzlmMS0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- fD2x8WwcH1Bn-htgddJAdHyCu08t5aVoMrKhaOStZQ0
-|       |   |   |   `-- 14400.1778694353092.abDcI2BAmguA6NnQQwHY2j0DC1ytqevxmJXPRQbI5gM.Vy8iMTBjMmEtMTllMjE4ZjI2ODYi.webp
-|       |   |   |-- gBVW4ITRo9V5pkQoeTp2UMdBZM60kEeJKvQc5OSIFbA
-|       |   |   |   `-- 14400.1778694353515.SRdXLNjurbR2lgv-extRcyJ1DDAA9P_daoV4AAI_cNU.Vy8iMjhhZC0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- j4JaEgtyeqCB6YPLLcr4iTmgEkCj1TUM9gLKZiU_E54
-|       |   |   |   `-- 14400.1778694353093.nE_9W9XzXcNQwdjOj2zAJz2fk-R8tw8V2nvySl6VYfA.Vy8iMjc3Ny0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- mJqDSCQzWhGWw4ZpQcS2CC4Ac-XVrqsORet0uMXEUpc
-|       |   |   |   `-- 14400.1778694352725.QhXRoJlw1oP7lL3ULQUJ20vlJykP7OWUBqz0ufbXS6Y.Vy8iMzM2OS0xOWUyMThmMjY4YyI.webp
-|       |   |   |-- onwM2phqVJSFJsW90gGV4lb11dsSETJ3VHvVaACz93s
-|       |   |   |   `-- 14400.1778694353477.BL7dBxbR_xBbzxTeqaPcXWu9tV7XY2Xf8Lb5dnV0WEY.Vy8iNzY4OC0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- rUMxysoSqNlTIOMYqiq0433R1motEH31I7aIPUAz848
-|       |   |   |   `-- 14400.1778694353030.B6ye20CUJmm8pU-A8d73uf5mXj5k-fF73dIql26IQU0.Vy8iNGUyNS0xOWUyMThmMjY4YyI.webp
-|       |   |   |-- tJsOYrzEcFizFCpMfJNrZXbsfd347MFZZLkBr9Llyfc
-|       |   |   |   `-- 14400.1778694353039.ODEjn43eMzKgd_GOJkDxR8m_755LLTv5kqukeX55dms.Vy8iNDIyZS0xOWUyMThmMjY4NiI.webp
-|       |   |   |-- wAL0QpuMiySClkjh5oKbUyO0Y7hVh4b-G__7Zz76xpI
-|       |   |   |   `-- 14400.1778694353348.HEP9lCYirxQpp25p9Z9YXd-zz8GMd309S9_xztKjcus.Vy8iM2ZhODYtMTllMjE4ZjI2OGMi.webp
-|       |   |   |-- x7MbgfLHpjWvdhE_afaXSaXVZAwNptsJDRPHKC0IeIY
-|       |   |   |   `-- 14400.1778694352913.wvxKdzlt5N2w5TJ6BB0y8kxHTkMGXEhuwp8xeD-S6OA.Vy8iMTY0YjMtMTllMjE4ZjI2ODAi.webp
-|       |   |   |-- xFSebrbZHpoonCbWjxKGKRAOswdYGcRDV5pIbu2Qd0w
-|       |   |   |   `-- 14400.1778694354049.nBe1h2UNuN16d80FS76AZh5X6XMoW-m-nZUGpF96Bco.Vy8iYzJmMDUtMTllMjE4ZjI2Nzgi.webp
-|       |   |   `-- xIosHMnzjPOEQg951IjAoWSLTqHCVJuRsCqiS_T8elg
-|       |   |       `-- 14400.1778694352823.T65KNlhLF96HnGUAFmZmgvnkN43ug2d-HedWJua9drE.Vy8iMmU5MDMtMTllMjE4ZjI2ODgi.webp
+|       |   |-- chrome-devtools-workspace-uuid
 |       |   |-- next-devtools-config.json
 |       |   `-- turbopack
 |       |       `-- VERGEN_IDEMPOTENT_OUTPUT
-|       |           |-- 00000007.sst
-|       |           |-- 00000008.sst
-|       |           |-- 00000009.sst
-|       |           |-- 00000010.meta
-|       |           |-- 00000011.meta
-|       |           |-- 00000013.meta
+|       |           |-- 00000001.sst
+|       |           |-- 00000003.sst
+|       |           |-- 00000004.sst
+|       |           |-- 00000005.meta
+|       |           |-- 00000006.meta
+|       |           |-- 00000008.meta
+|       |           |-- 00000017.sst
 |       |           |-- 00000018.sst
 |       |           |-- 00000019.sst
-|       |           |-- 00000020.sst
+|       |           |-- 00000020.meta
 |       |           |-- 00000021.meta
-|       |           |-- 00000022.meta
-|       |           |-- 00000024.meta
-|       |           |-- 00000026.sst
+|       |           |-- 00000023.meta
+|       |           |-- 00000026.del
 |       |           |-- 00000027.sst
-|       |           |-- 00000028.sst
-|       |           |-- 00000029.meta
+|       |           |-- 00000029.sst
 |       |           |-- 00000030.meta
-|       |           |-- 00000032.meta
+|       |           |-- 00000031.meta
 |       |           |-- 00000033.sst
-|       |           |-- 00000034.meta
-|       |           |-- 00000035.del
+|       |           |-- 00000035.sst
+|       |           |-- 00000036.sst
+|       |           |-- 00000037.meta
+|       |           |-- 00000038.meta
+|       |           |-- 00000040.meta
+|       |           |-- 00000041.sst
+|       |           |-- 00000043.sst
+|       |           |-- 00000044.meta
+|       |           |-- 00000045.meta
+|       |           |-- 00000047.sst
+|       |           |-- 00000049.sst
+|       |           |-- 00000050.meta
+|       |           |-- 00000051.meta
+|       |           |-- 00000054.sst
+|       |           |-- 00000055.sst
+|       |           |-- 00000056.sst
+|       |           |-- 00000057.meta
+|       |           |-- 00000058.meta
+|       |           |-- 00000060.meta
+|       |           |-- 00000065.sst
+|       |           |-- 00000066.sst
+|       |           |-- 00000067.sst
+|       |           |-- 00000068.meta
+|       |           |-- 00000069.meta
+|       |           |-- 00000071.meta
+|       |           |-- 00000072.sst
+|       |           |-- 00000074.sst
+|       |           |-- 00000075.sst
+|       |           |-- 00000076.meta
+|       |           |-- 00000077.meta
+|       |           |-- 00000079.meta
+|       |           |-- 00000084.sst
+|       |           |-- 00000085.sst
+|       |           |-- 00000086.sst
+|       |           |-- 00000087.meta
+|       |           |-- 00000088.meta
+|       |           |-- 00000090.meta
+|       |           |-- 00000091.sst
+|       |           |-- 00000092.meta
+|       |           |-- 00000093.del
+|       |           |-- 00000094.sst
+|       |           |-- 00000095.sst
+|       |           |-- 00000096.sst
+|       |           |-- 00000097.sst
+|       |           |-- 00000098.meta
+|       |           |-- 00000099.meta
+|       |           |-- 00000100.meta
+|       |           |-- 00000101.meta
+|       |           |-- 00000102.sst
+|       |           |-- 00000103.sst
+|       |           |-- 00000104.sst
+|       |           |-- 00000105.sst
+|       |           |-- 00000106.meta
+|       |           |-- 00000107.meta
+|       |           |-- 00000108.meta
+|       |           |-- 00000109.meta
+|       |           |-- 00000110.sst
+|       |           |-- 00000111.sst
+|       |           |-- 00000112.sst
+|       |           |-- 00000113.meta
+|       |           |-- 00000114.meta
+|       |           |-- 00000115.meta
+|       |           |-- 00000116.sst
+|       |           |-- 00000117.sst
+|       |           |-- 00000118.sst
+|       |           |-- 00000119.meta
+|       |           |-- 00000120.meta
+|       |           |-- 00000121.meta
+|       |           |-- 00000122.sst
+|       |           |-- 00000123.sst
+|       |           |-- 00000124.sst
+|       |           |-- 00000125.meta
+|       |           |-- 00000126.meta
+|       |           |-- 00000127.meta
+|       |           |-- 00000128.sst
+|       |           |-- 00000129.sst
+|       |           |-- 00000130.sst
+|       |           |-- 00000131.meta
+|       |           |-- 00000132.meta
+|       |           |-- 00000133.meta
+|       |           |-- 00000134.sst
+|       |           |-- 00000135.sst
+|       |           |-- 00000136.sst
+|       |           |-- 00000137.meta
+|       |           |-- 00000138.meta
+|       |           |-- 00000139.meta
+|       |           |-- 00000140.sst
+|       |           |-- 00000141.sst
+|       |           |-- 00000142.sst
+|       |           |-- 00000143.meta
+|       |           |-- 00000144.meta
+|       |           |-- 00000145.meta
+|       |           |-- 00000146.sst
+|       |           |-- 00000147.sst
+|       |           |-- 00000148.sst
+|       |           |-- 00000149.meta
+|       |           |-- 00000150.meta
+|       |           |-- 00000151.meta
+|       |           |-- 00000152.sst
+|       |           |-- 00000153.sst
+|       |           |-- 00000154.sst
+|       |           |-- 00000155.meta
+|       |           |-- 00000156.meta
+|       |           |-- 00000157.meta
+|       |           |-- 00000158.sst
+|       |           |-- 00000159.sst
+|       |           |-- 00000160.sst
+|       |           |-- 00000161.meta
+|       |           |-- 00000162.meta
+|       |           |-- 00000163.meta
+|       |           |-- 00000164.sst
+|       |           |-- 00000165.sst
+|       |           |-- 00000166.sst
+|       |           |-- 00000167.meta
+|       |           |-- 00000168.meta
+|       |           |-- 00000169.meta
+|       |           |-- 00000170.sst
+|       |           |-- 00000171.sst
+|       |           |-- 00000172.sst
+|       |           |-- 00000173.meta
+|       |           |-- 00000174.meta
+|       |           |-- 00000175.meta
+|       |           |-- 00000176.sst
+|       |           |-- 00000177.sst
+|       |           |-- 00000178.sst
+|       |           |-- 00000179.meta
+|       |           |-- 00000180.meta
+|       |           |-- 00000181.meta
+|       |           |-- 00000182.sst
+|       |           |-- 00000183.sst
+|       |           |-- 00000184.sst
+|       |           |-- 00000185.sst
+|       |           |-- 00000186.meta
+|       |           |-- 00000187.meta
+|       |           |-- 00000188.meta
+|       |           |-- 00000189.meta
+|       |           |-- 00000190.sst
+|       |           |-- 00000191.sst
+|       |           |-- 00000192.sst
+|       |           |-- 00000193.meta
+|       |           |-- 00000194.meta
+|       |           |-- 00000195.meta
+|       |           |-- 00000196.sst
+|       |           |-- 00000197.sst
+|       |           |-- 00000198.sst
+|       |           |-- 00000199.meta
+|       |           |-- 00000200.meta
+|       |           |-- 00000201.meta
+|       |           |-- 00000202.sst
+|       |           |-- 00000203.sst
+|       |           |-- 00000204.sst
+|       |           |-- 00000205.meta
+|       |           |-- 00000206.meta
+|       |           |-- 00000207.meta
 |       |           |-- CURRENT
 |       |           `-- LOG
 |       |-- fallback-build-manifest.json
@@ -180,6 +553,16 @@
 |       |-- routes-manifest.json
 |       |-- server
 |       |   |-- app
+|       |   |   |-- _not-found
+|       |   |   |   |-- page
+|       |   |   |   |   |-- app-paths-manifest.json
+|       |   |   |   |   |-- build-manifest.json
+|       |   |   |   |   |-- next-font-manifest.json
+|       |   |   |   |   |-- react-loadable-manifest.json
+|       |   |   |   |   `-- server-reference-manifest.json
+|       |   |   |   |-- page.js
+|       |   |   |   |-- page.js.map
+|       |   |   |   `-- page_client-reference-manifest.js
 |       |   |   |-- page
 |       |   |   |   |-- app-paths-manifest.json
 |       |   |   |   |-- build-manifest.json
@@ -192,32 +575,52 @@
 |       |   |-- app-paths-manifest.json
 |       |   |-- chunks
 |       |   |   `-- ssr
+|       |   |       |-- [externals]__0.o~_~l._.js
+|       |   |       |-- [externals]__0.o~_~l._.js.map
 |       |   |       |-- [externals]__0n13xf4._.js
 |       |   |       |-- [externals]__0n13xf4._.js.map
+|       |   |       |-- [externals]_next_dist_shared_lib_no-fallback-error_external_0fgm~bn.js
+|       |   |       |-- [externals]_next_dist_shared_lib_no-fallback-error_external_0fgm~bn.js.map
 |       |   |       |-- [root-of-the-server]__07yq0gm._.js
 |       |   |       |-- [root-of-the-server]__07yq0gm._.js.map
 |       |   |       |-- [root-of-the-server]__0ayvy3g._.js
 |       |   |       |-- [root-of-the-server]__0ayvy3g._.js.map
+|       |   |       |-- [root-of-the-server]__0je5zm2._.js
+|       |   |       |-- [root-of-the-server]__0je5zm2._.js.map
 |       |   |       |-- [root-of-the-server]__0~v3p13._.js
 |       |   |       |-- [root-of-the-server]__0~v3p13._.js.map
+|       |   |       |-- [root-of-the-server]__12peuod._.js
+|       |   |       |-- [root-of-the-server]__12peuod._.js.map
 |       |   |       |-- [turbopack]_runtime.js
 |       |   |       |-- [turbopack]_runtime.js.map
 |       |   |       |-- _0.-q8d0._.js
 |       |   |       |-- _0.-q8d0._.js.map
+|       |   |       |-- _next-internal_server_app__not-found_page_actions_0eq97pa.js
+|       |   |       |-- _next-internal_server_app__not-found_page_actions_0eq97pa.js.map
 |       |   |       |-- _next-internal_server_app_page_actions_09-gtaw.js
 |       |   |       |-- _next-internal_server_app_page_actions_09-gtaw.js.map
 |       |   |       |-- node_modules_0-jlm2h._.js
 |       |   |       |-- node_modules_0-jlm2h._.js.map
+|       |   |       |-- node_modules_01ed9g5._.js
+|       |   |       |-- node_modules_01ed9g5._.js.map
 |       |   |       |-- node_modules_0j8syvr._.js
 |       |   |       |-- node_modules_0j8syvr._.js.map
 |       |   |       |-- node_modules_0t_0v93._.js
 |       |   |       |-- node_modules_0t_0v93._.js.map
 |       |   |       |-- node_modules_0zbb3k-._.js
 |       |   |       |-- node_modules_0zbb3k-._.js.map
+|       |   |       |-- node_modules_129w7gn._.js
+|       |   |       |-- node_modules_129w7gn._.js.map
+|       |   |       |-- node_modules_13c.vrs._.js
+|       |   |       |-- node_modules_13c.vrs._.js.map
 |       |   |       |-- node_modules_@react-three_fiber_dist_0tzu396._.js
 |       |   |       |-- node_modules_@react-three_fiber_dist_0tzu396._.js.map
+|       |   |       |-- node_modules_next_12i4inu._.js
+|       |   |       |-- node_modules_next_12i4inu._.js.map
 |       |   |       |-- node_modules_next_dist_07h1rup._.js
 |       |   |       |-- node_modules_next_dist_07h1rup._.js.map
+|       |   |       |-- node_modules_next_dist_13chu9e._.js
+|       |   |       |-- node_modules_next_dist_13chu9e._.js.map
 |       |   |       |-- node_modules_next_dist_client_0cwl_yg._.js
 |       |   |       |-- node_modules_next_dist_client_0cwl_yg._.js.map
 |       |   |       |-- node_modules_next_dist_client_components_06j6hww._.js
@@ -240,6 +643,8 @@
 |       |   |       |-- node_modules_next_dist_server_route-modules_app-page_0f6k0sl._.js.map
 |       |   |       |-- node_modules_next_image_0f7wqw0.js
 |       |   |       |-- node_modules_next_image_0f7wqw0.js.map
+|       |   |       |-- node_modules_react-icons_11sn740._.js
+|       |   |       |-- node_modules_react-icons_11sn740._.js.map
 |       |   |       |-- node_modules_react-icons_fa_index_mjs_00kabd9._.js
 |       |   |       |-- node_modules_react-icons_fa_index_mjs_00kabd9._.js.map
 |       |   |       |-- node_modules_react-icons_fa_index_mjs_0ohfi1_._.js
@@ -265,15 +670,46 @@
 |       |   |-- middleware-manifest.json
 |       |   |-- next-font-manifest.js
 |       |   |-- next-font-manifest.json
+|       |   |-- pages
+|       |   |   |-- _app
+|       |   |   |   |-- build-manifest.json
+|       |   |   |   |-- client-build-manifest.json
+|       |   |   |   |-- next-font-manifest.json
+|       |   |   |   |-- pages-manifest.json
+|       |   |   |   `-- react-loadable-manifest.json
+|       |   |   |-- _app.js
+|       |   |   |-- _app.js.map
+|       |   |   |-- _document
+|       |   |   |   |-- next-font-manifest.json
+|       |   |   |   |-- pages-manifest.json
+|       |   |   |   `-- react-loadable-manifest.json
+|       |   |   |-- _document.js
+|       |   |   |-- _document.js.map
+|       |   |   |-- _error
+|       |   |   |   |-- build-manifest.json
+|       |   |   |   |-- client-build-manifest.json
+|       |   |   |   |-- next-font-manifest.json
+|       |   |   |   |-- pages-manifest.json
+|       |   |   |   `-- react-loadable-manifest.json
+|       |   |   |-- _error.js
+|       |   |   `-- _error.js.map
 |       |   |-- pages-manifest.json
 |       |   |-- server-reference-manifest.js
 |       |   `-- server-reference-manifest.json
 |       |-- static
 |       |   |-- chunks
+|       |   |   |-- [next]_entry_page-loader_ts_0j~flwh._.js
+|       |   |   |-- [next]_entry_page-loader_ts_0j~flwh._.js.map
+|       |   |   |-- [next]_entry_page-loader_ts_0rqw6yo._.js
+|       |   |   |-- [next]_entry_page-loader_ts_0rqw6yo._.js.map
 |       |   |   |-- [next]_internal_font_google_inter_5972bc34_module_css_0w3-wzy._.single.css
 |       |   |   |-- [next]_internal_font_google_inter_5972bc34_module_css_0w3-wzy._.single.css.map
+|       |   |   |-- [root-of-the-server]__01mw43t._.js
+|       |   |   |-- [root-of-the-server]__01mw43t._.js.map
 |       |   |   |-- [root-of-the-server]__09fw-l_._.css
 |       |   |   |-- [root-of-the-server]__09fw-l_._.css.map
+|       |   |   |-- [root-of-the-server]__0c0okpg._.js
+|       |   |   |-- [root-of-the-server]__0c0okpg._.js.map
 |       |   |   |-- [turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js
 |       |   |   |-- [turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js.map
 |       |   |   |-- [turbopack]_browser_dev_hmr-client_hmr-client_ts_10mygs7._.js
@@ -288,24 +724,38 @@
 |       |   |   |-- app_globals_css_0w3-wzy._.single.css
 |       |   |   |-- app_globals_css_0w3-wzy._.single.css.map
 |       |   |   |-- app_layout_tsx_004glpo._.js
+|       |   |   |-- app_page_tsx_0xkowcn._.js
 |       |   |   |-- app_page_tsx_13_7.8i._.js
 |       |   |   |-- node_modules_00ziyzm._.js
 |       |   |   |-- node_modules_00ziyzm._.js.map
 |       |   |   |-- node_modules_0dlzy0j._.js
 |       |   |   |-- node_modules_0dlzy0j._.js.map
+|       |   |   |-- node_modules_0lx093h._.js
+|       |   |   |-- node_modules_0lx093h._.js.map
 |       |   |   |-- node_modules_@react-three_fiber_dist_0s_myrt._.js
 |       |   |   |-- node_modules_@react-three_fiber_dist_0s_myrt._.js.map
 |       |   |   |-- node_modules_@swc_helpers_cjs_0-4ujiy._.js
 |       |   |   |-- node_modules_@swc_helpers_cjs_0-4ujiy._.js.map
 |       |   |   |-- node_modules_next_0grx7yc._.js
 |       |   |   |-- node_modules_next_0grx7yc._.js.map
+|       |   |   |-- node_modules_next_app_0jt-zj..js
+|       |   |   |-- node_modules_next_app_0jt-zj..js.map
+|       |   |   |-- node_modules_next_dist_0rt-2cr._.js
+|       |   |   |-- node_modules_next_dist_0rt-2cr._.js.map
+|       |   |   |-- node_modules_next_dist_0u_w_5s._.js
+|       |   |   |-- node_modules_next_dist_0u_w_5s._.js.map
 |       |   |   |-- node_modules_next_dist_115brz8._.js
 |       |   |   |-- node_modules_next_dist_115brz8._.js.map
 |       |   |   |-- node_modules_next_dist_build_polyfills_polyfill-nomodule.js
 |       |   |   |-- node_modules_next_dist_build_polyfills_polyfill-nomodule.js.map
 |       |   |   |-- node_modules_next_dist_client_0fhqo1d._.js
 |       |   |   |-- node_modules_next_dist_client_0fhqo1d._.js.map
+|       |   |   |-- node_modules_next_dist_client_0pe1dg-._.js
+|       |   |   |-- node_modules_next_dist_client_0pe1dg-._.js.map
+|       |   |   |-- node_modules_next_dist_client_components_builtin_global-error_0xkowcn.js
 |       |   |   |-- node_modules_next_dist_client_components_builtin_global-error_13_7.8i.js
+|       |   |   |-- node_modules_next_dist_compiled_0o6l_m6._.js
+|       |   |   |-- node_modules_next_dist_compiled_0o6l_m6._.js.map
 |       |   |   |-- node_modules_next_dist_compiled_0rpq4pf._.js
 |       |   |   |-- node_modules_next_dist_compiled_0rpq4pf._.js.map
 |       |   |   |-- node_modules_next_dist_compiled_next-devtools_index_0553esy.js
@@ -314,6 +764,14 @@
 |       |   |   |-- node_modules_next_dist_compiled_react-dom_058-ah~._.js.map
 |       |   |   |-- node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js
 |       |   |   |-- node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js.map
+|       |   |   |-- node_modules_next_dist_shared_lib_0ek5eq7._.js
+|       |   |   |-- node_modules_next_dist_shared_lib_0ek5eq7._.js.map
+|       |   |   |-- node_modules_next_dist_shared_lib_0n1wg2c._.js
+|       |   |   |-- node_modules_next_dist_shared_lib_0n1wg2c._.js.map
+|       |   |   |-- node_modules_react-dom_0bruynb._.js
+|       |   |   |-- node_modules_react-dom_0bruynb._.js.map
+|       |   |   |-- node_modules_react-icons_0k0arw-._.js
+|       |   |   |-- node_modules_react-icons_0k0arw-._.js.map
 |       |   |   |-- node_modules_react-icons_fa_index_mjs_00t_5ut._.js
 |       |   |   |-- node_modules_react-icons_fa_index_mjs_00t_5ut._.js.map
 |       |   |   |-- node_modules_react-icons_lib_0mt5-rx._.js
@@ -326,7 +784,16 @@
 |       |   |   |-- node_modules_three_build_three_module_024z3_h.js.map
 |       |   |   |-- node_modules_three_build_three_module_12n2-ho.js
 |       |   |   |-- node_modules_three_build_three_module_12n2-ho.js.map
-|       |   |   `-- turbopack-_0p44nws._.js
+|       |   |   |-- pages
+|       |   |   |   |-- _app.js
+|       |   |   |   `-- _error.js
+|       |   |   |-- pages__app_0-bg2z-._.js.map
+|       |   |   |-- pages__app_07xvfw~._.js
+|       |   |   |-- pages__error_0.i_zsq._.js.map
+|       |   |   |-- pages__error_07xvfw~._.js
+|       |   |   |-- turbopack-_0p44nws._.js
+|       |   |   |-- turbopack-pages__app_0-bg2z-._.js
+|       |   |   `-- turbopack-pages__error_0.i_zsq._.js
 |       |   |-- development
 |       |   |   |-- _buildManifest.js
 |       |   |   |-- _clientMiddlewareManifest.js
@@ -382,6 +849,7 @@
 |-- constants
 |   `-- index.ts
 |-- eslint.config.mjs
+|-- find.md
 |-- lib
 |   |-- motion.ts
 |   `-- utils.ts
@@ -399,6 +867,7 @@
 |   |   |-- cssesc -> ../cssesc/bin/cssesc
 |   |   |-- eslint -> ../eslint/bin/eslint.js
 |   |   |-- jiti -> ../jiti/bin/jiti.js
+|   |   |-- js-yaml -> ../js-yaml/bin/js-yaml.js
 |   |   |-- jsesc -> ../jsesc/bin/jsesc
 |   |   |-- json5 -> ../json5/lib/cli.js
 |   |   |-- loose-envify -> ../loose-envify/cli.js
@@ -417,13 +886,6 @@
 |   |   |-- tsserver -> ../typescript/bin/tsserver
 |   |   `-- update-browserslist-db -> ../update-browserslist-db/cli.js
 |   |-- .package-lock.json
-|   |-- @aashutoshrathi
-|   |   `-- word-wrap
-|   |       |-- LICENSE
-|   |       |-- README.md
-|   |       |-- index.d.ts
-|   |       |-- index.js
-|   |       `-- package.json
 |   |-- @alloc
 |   |   `-- quick-lru
 |   |       |-- index.d.ts
@@ -583,32 +1045,6 @@
 |   |   |   |   `-- vendor
 |   |   |   |       |-- import-meta-resolve.js
 |   |   |   |       `-- import-meta-resolve.js.map
-|   |   |   |-- node_modules
-|   |   |   |   |-- .bin
-|   |   |   |   |   `-- json5 -> ../json5/lib/cli.js
-|   |   |   |   `-- json5
-|   |   |   |       |-- LICENSE.md
-|   |   |   |       |-- README.md
-|   |   |   |       |-- dist
-|   |   |   |       |   |-- index.js
-|   |   |   |       |   |-- index.min.js
-|   |   |   |       |   |-- index.min.mjs
-|   |   |   |       |   `-- index.mjs
-|   |   |   |       |-- lib
-|   |   |   |       |   |-- cli.js
-|   |   |   |       |   |-- index.d.ts
-|   |   |   |       |   |-- index.js
-|   |   |   |       |   |-- parse.d.ts
-|   |   |   |       |   |-- parse.js
-|   |   |   |       |   |-- register.js
-|   |   |   |       |   |-- require.js
-|   |   |   |       |   |-- stringify.d.ts
-|   |   |   |       |   |-- stringify.js
-|   |   |   |       |   |-- unicode.d.ts
-|   |   |   |       |   |-- unicode.js
-|   |   |   |       |   |-- util.d.ts
-|   |   |   |       |   `-- util.js
-|   |   |   |       `-- package.json
 |   |   |   |-- package.json
 |   |   |   `-- src
 |   |   |       |-- config
@@ -1673,6 +2109,55 @@
 |   |   |   |   `-- esm
 |   |   |   |       `-- types.d.ts
 |   |   |   `-- package.json
+|   |   |-- eslintrc
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- conf
+|   |   |   |   |-- config-schema.js
+|   |   |   |   `-- environments.js
+|   |   |   |-- dist
+|   |   |   |   |-- eslintrc-universal.cjs
+|   |   |   |   |-- eslintrc-universal.cjs.map
+|   |   |   |   |-- eslintrc.cjs
+|   |   |   |   |-- eslintrc.cjs.map
+|   |   |   |   `-- eslintrc.d.cts
+|   |   |   |-- lib
+|   |   |   |   |-- cascading-config-array-factory.js
+|   |   |   |   |-- config-array
+|   |   |   |   |   |-- config-array.js
+|   |   |   |   |   |-- config-dependency.js
+|   |   |   |   |   |-- extracted-config.js
+|   |   |   |   |   |-- ignore-pattern.js
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   `-- override-tester.js
+|   |   |   |   |-- config-array-factory.js
+|   |   |   |   |-- flat-compat.js
+|   |   |   |   |-- index-universal.js
+|   |   |   |   |-- index.js
+|   |   |   |   |-- shared
+|   |   |   |   |   |-- ajv.js
+|   |   |   |   |   |-- config-ops.js
+|   |   |   |   |   |-- config-validator.js
+|   |   |   |   |   |-- deep-merge-arrays.js
+|   |   |   |   |   |-- deprecation-warnings.js
+|   |   |   |   |   |-- naming.js
+|   |   |   |   |   |-- relative-module-resolver.js
+|   |   |   |   |   `-- types.js
+|   |   |   |   `-- types
+|   |   |   |       `-- index.d.ts
+|   |   |   |-- package.json
+|   |   |   `-- universal.js
+|   |   |-- js
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- package.json
+|   |   |   |-- src
+|   |   |   |   |-- configs
+|   |   |   |   |   |-- eslint-all.js
+|   |   |   |   |   `-- eslint-recommended.js
+|   |   |   |   `-- index.js
+|   |   |   `-- types
+|   |   |       `-- index.d.ts
 |   |   |-- object-schema
 |   |   |   |-- LICENSE
 |   |   |   |-- README.md
@@ -1711,6 +2196,19 @@
 |   |   |   |-- index.js.map
 |   |   |   |-- index.mjs
 |   |   |   |-- index.mjs.map
+|   |   |   |-- node_modules
+|   |   |   |   `-- eslint-visitor-keys
+|   |   |   |       |-- LICENSE
+|   |   |   |       |-- README.md
+|   |   |   |       |-- dist
+|   |   |   |       |   |-- eslint-visitor-keys.cjs
+|   |   |   |       |   |-- eslint-visitor-keys.d.cts
+|   |   |   |       |   |-- index.d.ts
+|   |   |   |       |   `-- visitor-keys.d.ts
+|   |   |   |       |-- lib
+|   |   |   |       |   |-- index.js
+|   |   |   |       |   `-- visitor-keys.js
+|   |   |   |       `-- package.json
 |   |   |   `-- package.json
 |   |   `-- regexpp
 |   |       |-- LICENSE
@@ -6935,17 +7433,24 @@
 |   |   |       |-- hfs.js
 |   |   |       |-- index.js
 |   |   |       `-- path.js
-|   |   `-- node
-|   |       |-- LICENSE
+|   |   |-- node
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- node-fsx.d.ts
+|   |   |   |   `-- node-hfs.d.ts
+|   |   |   |-- package.json
+|   |   |   `-- src
+|   |   |       |-- index.js
+|   |   |       `-- node-hfs.js
+|   |   `-- types
+|   |       |-- CHANGELOG.md
 |   |       |-- README.md
-|   |       |-- dist
-|   |       |   |-- index.d.ts
-|   |       |   |-- node-fsx.d.ts
-|   |       |   `-- node-hfs.d.ts
 |   |       |-- package.json
-|   |       `-- src
-|   |           |-- index.js
-|   |           `-- node-hfs.js
+|   |       |-- src
+|   |       |   `-- hfs-types.ts
+|   |       `-- tsconfig.json
 |   |-- @humanwhocodes
 |   |   |-- module-importer
 |   |   |   |-- CHANGELOG.md
@@ -6977,6 +7482,7 @@
 |   |   |   |-- README.md
 |   |   |   |-- color.cjs
 |   |   |   |-- index.cjs
+|   |   |   |-- index.d.ts
 |   |   |   `-- package.json
 |   |   |-- sharp-libvips-linux-x64
 |   |   |   |-- README.md
@@ -6988,51 +7494,11 @@
 |   |   |   |   `-- libvips-cpp.so.8.17.3
 |   |   |   |-- package.json
 |   |   |   `-- versions.json
-|   |   |-- sharp-libvips-linuxmusl-x64
-|   |   |   |-- README.md
-|   |   |   |-- lib
-|   |   |   |   |-- glib-2.0
-|   |   |   |   |   `-- include
-|   |   |   |   |       `-- glibconfig.h
-|   |   |   |   |-- index.js
-|   |   |   |   `-- libvips-cpp.so.8.17.3
-|   |   |   |-- package.json
-|   |   |   `-- versions.json
-|   |   |-- sharp-linux-x64
-|   |   |   |-- LICENSE
-|   |   |   |-- README.md
-|   |   |   |-- lib
-|   |   |   |   `-- sharp-linux-x64.node
-|   |   |   `-- package.json
-|   |   `-- sharp-linuxmusl-x64
+|   |   `-- sharp-linux-x64
 |   |       |-- LICENSE
 |   |       |-- README.md
 |   |       |-- lib
-|   |       |   `-- sharp-linuxmusl-x64.node
-|   |       `-- package.json
-|   |-- @isaacs
-|   |   `-- cliui
-|   |       |-- LICENSE.txt
-|   |       |-- README.md
-|   |       |-- build
-|   |       |   |-- index.cjs
-|   |       |   |-- index.d.cts
-|   |       |   `-- lib
-|   |       |       `-- index.js
-|   |       |-- index.mjs
-|   |       |-- node_modules
-|   |       |   |-- ansi-regex
-|   |       |   |   |-- index.d.ts
-|   |       |   |   |-- index.js
-|   |       |   |   |-- license
-|   |       |   |   |-- package.json
-|   |       |   |   `-- readme.md
-|   |       |   `-- strip-ansi
-|   |       |       |-- index.d.ts
-|   |       |       |-- index.js
-|   |       |       |-- license
-|   |       |       |-- package.json
-|   |       |       `-- readme.md
+|   |       |   `-- sharp-linux-x64.node
 |   |       `-- package.json
 |   |-- @jridgewell
 |   |   |-- gen-mapping
@@ -7389,86 +7855,10 @@
 |   |   |   |       |-- node-attributes.js
 |   |   |   |       |-- url.d.ts
 |   |   |   |       `-- url.js
-|   |   |   |-- node_modules
-|   |   |   |   |-- fast-glob
-|   |   |   |   |   |-- LICENSE
-|   |   |   |   |   |-- README.md
-|   |   |   |   |   |-- out
-|   |   |   |   |   |   |-- index.d.ts
-|   |   |   |   |   |   |-- index.js
-|   |   |   |   |   |   |-- managers
-|   |   |   |   |   |   |   |-- tasks.d.ts
-|   |   |   |   |   |   |   `-- tasks.js
-|   |   |   |   |   |   |-- providers
-|   |   |   |   |   |   |   |-- async.d.ts
-|   |   |   |   |   |   |   |-- async.js
-|   |   |   |   |   |   |   |-- filters
-|   |   |   |   |   |   |   |   |-- deep.d.ts
-|   |   |   |   |   |   |   |   |-- deep.js
-|   |   |   |   |   |   |   |   |-- entry.d.ts
-|   |   |   |   |   |   |   |   |-- entry.js
-|   |   |   |   |   |   |   |   |-- error.d.ts
-|   |   |   |   |   |   |   |   `-- error.js
-|   |   |   |   |   |   |   |-- matchers
-|   |   |   |   |   |   |   |   |-- matcher.d.ts
-|   |   |   |   |   |   |   |   |-- matcher.js
-|   |   |   |   |   |   |   |   |-- partial.d.ts
-|   |   |   |   |   |   |   |   `-- partial.js
-|   |   |   |   |   |   |   |-- provider.d.ts
-|   |   |   |   |   |   |   |-- provider.js
-|   |   |   |   |   |   |   |-- stream.d.ts
-|   |   |   |   |   |   |   |-- stream.js
-|   |   |   |   |   |   |   |-- sync.d.ts
-|   |   |   |   |   |   |   |-- sync.js
-|   |   |   |   |   |   |   `-- transformers
-|   |   |   |   |   |   |       |-- entry.d.ts
-|   |   |   |   |   |   |       `-- entry.js
-|   |   |   |   |   |   |-- readers
-|   |   |   |   |   |   |   |-- async.d.ts
-|   |   |   |   |   |   |   |-- async.js
-|   |   |   |   |   |   |   |-- reader.d.ts
-|   |   |   |   |   |   |   |-- reader.js
-|   |   |   |   |   |   |   |-- stream.d.ts
-|   |   |   |   |   |   |   |-- stream.js
-|   |   |   |   |   |   |   |-- sync.d.ts
-|   |   |   |   |   |   |   `-- sync.js
-|   |   |   |   |   |   |-- settings.d.ts
-|   |   |   |   |   |   |-- settings.js
-|   |   |   |   |   |   |-- types
-|   |   |   |   |   |   |   |-- index.d.ts
-|   |   |   |   |   |   |   `-- index.js
-|   |   |   |   |   |   `-- utils
-|   |   |   |   |   |       |-- array.d.ts
-|   |   |   |   |   |       |-- array.js
-|   |   |   |   |   |       |-- errno.d.ts
-|   |   |   |   |   |       |-- errno.js
-|   |   |   |   |   |       |-- fs.d.ts
-|   |   |   |   |   |       |-- fs.js
-|   |   |   |   |   |       |-- index.d.ts
-|   |   |   |   |   |       |-- index.js
-|   |   |   |   |   |       |-- path.d.ts
-|   |   |   |   |   |       |-- path.js
-|   |   |   |   |   |       |-- pattern.d.ts
-|   |   |   |   |   |       |-- pattern.js
-|   |   |   |   |   |       |-- stream.d.ts
-|   |   |   |   |   |       |-- stream.js
-|   |   |   |   |   |       |-- string.d.ts
-|   |   |   |   |   |       `-- string.js
-|   |   |   |   |   `-- package.json
-|   |   |   |   `-- glob-parent
-|   |   |   |       |-- CHANGELOG.md
-|   |   |   |       |-- LICENSE
-|   |   |   |       |-- README.md
-|   |   |   |       |-- index.js
-|   |   |   |       `-- package.json
 |   |   |   `-- package.json
-|   |   |-- swc-linux-x64-gnu
-|   |   |   |-- README.md
-|   |   |   |-- next-swc.linux-x64-gnu.node
-|   |   |   `-- package.json
-|   |   `-- swc-linux-x64-musl
+|   |   `-- swc-linux-x64-gnu
 |   |       |-- README.md
-|   |       |-- next-swc.linux-x64-musl.node
+|   |       |-- next-swc.linux-x64-gnu.node
 |   |       `-- package.json
 |   |-- @nodelib
 |   |   |-- fs.scandir
@@ -7556,27 +7946,6 @@
 |   |       |-- index.d.ts
 |   |       |-- index.js
 |   |       `-- package.json
-|   |-- @pkgjs
-|   |   `-- parseargs
-|   |       |-- .editorconfig
-|   |       |-- CHANGELOG.md
-|   |       |-- LICENSE
-|   |       |-- README.md
-|   |       |-- examples
-|   |       |   |-- is-default-value.js
-|   |       |   |-- limit-long-syntax.js
-|   |       |   |-- negate.js
-|   |       |   |-- no-repeated-options.js
-|   |       |   |-- ordered-options.mjs
-|   |       |   `-- simple-hard-coded.js
-|   |       |-- index.js
-|   |       |-- internal
-|   |       |   |-- errors.js
-|   |       |   |-- primordials.js
-|   |       |   |-- util.js
-|   |       |   `-- validators.js
-|   |       |-- package.json
-|   |       `-- utils.js
 |   |-- @react-three
 |   |   |-- drei
 |   |   |   |-- LICENSE
@@ -8675,11 +9044,6 @@
 |   |   |   |-- README.md
 |   |   |   |-- index.d.ts
 |   |   |   `-- package.json
-|   |   |-- esrecurse
-|   |   |   |-- LICENSE
-|   |   |   |-- README.md
-|   |   |   |-- index.d.ts
-|   |   |   `-- package.json
 |   |   |-- estree
 |   |   |   |-- LICENSE
 |   |   |   |-- README.md
@@ -8908,6 +9272,7 @@
 |   |   |   |       |   |-- ParallaxBarrierEffect.d.ts
 |   |   |   |       |   `-- StereoEffect.d.ts
 |   |   |   |       |-- environments
+|   |   |   |       |   |-- ColorEnvironment.d.ts
 |   |   |   |       |   |-- DebugEnvironment.d.ts
 |   |   |   |       |   `-- RoomEnvironment.d.ts
 |   |   |   |       |-- exporters
@@ -8931,6 +9296,8 @@
 |   |   |   |       |-- gpgpu
 |   |   |   |       |   `-- BitonicSort.d.ts
 |   |   |   |       |-- helpers
+|   |   |   |       |   |-- AnimationPathHelper.d.ts
+|   |   |   |       |   |-- LightProbeGridHelper.d.ts
 |   |   |   |       |   |-- LightProbeHelper.d.ts
 |   |   |   |       |   |-- LightProbeHelperGPU.d.ts
 |   |   |   |       |   |-- OctreeHelper.d.ts
@@ -8943,13 +9310,21 @@
 |   |   |   |       |   |-- VertexTangentsHelper.d.ts
 |   |   |   |       |   `-- ViewHelper.d.ts
 |   |   |   |       |-- inspector
+|   |   |   |       |   |-- Extension.d.ts
 |   |   |   |       |   |-- Inspector.d.ts
 |   |   |   |       |   |-- RendererInspector.d.ts
+|   |   |   |       |   |-- extensions
+|   |   |   |       |   |   `-- tsl-graph
+|   |   |   |       |   |       |-- TSLGraphEditor.d.ts
+|   |   |   |       |   |       `-- TSLGraphLoader.d.ts
 |   |   |   |       |   |-- tabs
 |   |   |   |       |   |   `-- Parameters.d.ts
 |   |   |   |       |   `-- ui
+|   |   |   |       |       |-- Item.d.ts
 |   |   |   |       |       |-- Tab.d.ts
 |   |   |   |       |       `-- Values.d.ts
+|   |   |   |       |-- interaction
+|   |   |   |       |   `-- InteractionManager.d.ts
 |   |   |   |       |-- interactive
 |   |   |   |       |   |-- HTMLMesh.d.ts
 |   |   |   |       |   |-- InteractiveGroup.d.ts
@@ -8962,6 +9337,8 @@
 |   |   |   |       |   |-- stats.module.d.ts
 |   |   |   |       |   `-- tween.module.d.ts
 |   |   |   |       |-- lighting
+|   |   |   |       |   |-- DynamicLighting.d.ts
+|   |   |   |       |   |-- LightProbeGrid.d.ts
 |   |   |   |       |   `-- TiledLighting.d.ts
 |   |   |   |       |-- lights
 |   |   |   |       |   |-- LightProbeGenerator.d.ts
@@ -9031,8 +9408,6 @@
 |   |   |   |       |-- materials
 |   |   |   |       |   |-- LDrawConditionalLineMaterial.d.ts
 |   |   |   |       |   |-- LDrawConditionalLineNodeMaterial.d.ts
-|   |   |   |       |   |-- MeshGouraudMaterial.d.ts
-|   |   |   |       |   |-- MeshPostProcessingMaterial.d.ts
 |   |   |   |       |   `-- WoodNodeMaterial.d.ts
 |   |   |   |       |-- math
 |   |   |   |       |   |-- Capsule.d.ts
@@ -9144,7 +9519,6 @@
 |   |   |   |       |   |-- FreiChenShader.d.ts
 |   |   |   |       |   |-- GTAOShader.d.ts
 |   |   |   |       |   |-- GammaCorrectionShader.d.ts
-|   |   |   |       |   |-- GodRaysShader.d.ts
 |   |   |   |       |   |-- HalftoneShader.d.ts
 |   |   |   |       |   |-- HorizontalBlurShader.d.ts
 |   |   |   |       |   |-- HorizontalTiltShiftShader.d.ts
@@ -9183,20 +9557,25 @@
 |   |   |   |       |   |-- TSLEncoder.d.ts
 |   |   |   |       |   `-- Transpiler.d.ts
 |   |   |   |       |-- tsl
+|   |   |   |       |   |-- WebGLNodesHandler.d.ts
 |   |   |   |       |   |-- display
 |   |   |   |       |   |   |-- AfterImageNode.d.ts
 |   |   |   |       |   |   |-- AnaglyphPassNode.d.ts
 |   |   |   |       |   |   |-- AnamorphicNode.d.ts
+|   |   |   |       |   |   |-- BilateralBlurNode.d.ts
 |   |   |   |       |   |   |-- BleachBypass.d.ts
 |   |   |   |       |   |   |-- BloomNode.d.ts
+|   |   |   |       |   |   |-- CRT.d.ts
 |   |   |   |       |   |   |-- ChromaticAberrationNode.d.ts
 |   |   |   |       |   |   |-- DenoiseNode.d.ts
 |   |   |   |       |   |   |-- DepthOfFieldNode.d.ts
 |   |   |   |       |   |   |-- DotScreenNode.d.ts
+|   |   |   |       |   |   |-- FSR1Node.d.ts
 |   |   |   |       |   |   |-- FXAANode.d.ts
 |   |   |   |       |   |   |-- FilmNode.d.ts
 |   |   |   |       |   |   |-- GTAONode.d.ts
 |   |   |   |       |   |   |-- GaussianBlurNode.d.ts
+|   |   |   |       |   |   |-- GodraysNode.d.ts
 |   |   |   |       |   |   |-- LensflareNode.d.ts
 |   |   |   |       |   |   |-- Lut3DNode.d.ts
 |   |   |   |       |   |   |-- MotionBlur.d.ts
@@ -9204,22 +9583,34 @@
 |   |   |   |       |   |   |-- ParallaxBarrierPassNode.d.ts
 |   |   |   |       |   |   |-- PixelationPassNode.d.ts
 |   |   |   |       |   |   |-- RGBShiftNode.d.ts
+|   |   |   |       |   |   |-- RetroPassNode.d.ts
 |   |   |   |       |   |   |-- SMAANode.d.ts
 |   |   |   |       |   |   |-- SSAAPassNode.d.ts
 |   |   |   |       |   |   |-- SSGINode.d.ts
 |   |   |   |       |   |   |-- SSRNode.d.ts
 |   |   |   |       |   |   |-- SSSNode.d.ts
 |   |   |   |       |   |   |-- Sepia.d.ts
+|   |   |   |       |   |   |-- Shape.d.ts
+|   |   |   |       |   |   |-- SharpenNode.d.ts
 |   |   |   |       |   |   |-- SobelOperatorNode.d.ts
 |   |   |   |       |   |   |-- StereoCompositePassNode.d.ts
 |   |   |   |       |   |   |-- StereoPassNode.d.ts
+|   |   |   |       |   |   |-- TAAUNode.d.ts
 |   |   |   |       |   |   |-- TRAANode.d.ts
 |   |   |   |       |   |   |-- TransitionNode.d.ts
 |   |   |   |       |   |   |-- boxBlur.d.ts
+|   |   |   |       |   |   |-- depthAwareBlend.d.ts
 |   |   |   |       |   |   |-- hashBlur.d.ts
 |   |   |   |       |   |   `-- radialBlur.d.ts
 |   |   |   |       |   |-- lighting
-|   |   |   |       |   |   `-- TiledLightsNode.d.ts
+|   |   |   |       |   |   |-- DynamicLightsNode.d.ts
+|   |   |   |       |   |   |-- TiledLightsNode.d.ts
+|   |   |   |       |   |   `-- data
+|   |   |   |       |   |       |-- AmbientLightDataNode.d.ts
+|   |   |   |       |   |       |-- DirectionalLightDataNode.d.ts
+|   |   |   |       |   |       |-- HemisphereLightDataNode.d.ts
+|   |   |   |       |   |       |-- PointLightDataNode.d.ts
+|   |   |   |       |   |       `-- SpotLightDataNode.d.ts
 |   |   |   |       |   |-- math
 |   |   |   |       |   |   `-- Bayer.d.ts
 |   |   |   |       |   |-- shadows
@@ -9230,9 +9621,11 @@
 |   |   |   |       |-- utils
 |   |   |   |       |   |-- BufferGeometryUtils.d.ts
 |   |   |   |       |   |-- CameraUtils.d.ts
+|   |   |   |       |   |-- ColorUtils.d.ts
 |   |   |   |       |   |-- GeometryCompressionUtils.d.ts
 |   |   |   |       |   |-- GeometryUtils.d.ts
 |   |   |   |       |   |-- LDrawUtils.d.ts
+|   |   |   |       |   |-- SceneOptimizer.d.ts
 |   |   |   |       |   |-- SceneUtils.d.ts
 |   |   |   |       |   |-- ShadowMapViewer.d.ts
 |   |   |   |       |   |-- ShadowMapViewerGPU.d.ts
@@ -9480,6 +9873,7 @@
 |   |   |       |   |-- Vector3.d.ts
 |   |   |       |   |-- Vector4.d.ts
 |   |   |       |   `-- interpolants
+|   |   |       |       |-- BezierInterpolant.d.ts
 |   |   |       |       |-- CubicInterpolant.d.ts
 |   |   |       |       |-- DiscreteInterpolant.d.ts
 |   |   |       |       |-- LinearInterpolant.d.ts
@@ -9515,7 +9909,7 @@
 |   |   |       |   |   |-- ReferenceNode.d.ts
 |   |   |       |   |   |-- ReflectVector.d.ts
 |   |   |       |   |   |-- RendererReferenceNode.d.ts
-|   |   |       |   |   |-- SceneNode.d.ts
+|   |   |       |   |   |-- SceneProperties.d.ts
 |   |   |       |   |   |-- SkinningNode.d.ts
 |   |   |       |   |   |-- StorageBufferNode.d.ts
 |   |   |       |   |   |-- StorageTextureNode.d.ts
@@ -9534,9 +9928,7 @@
 |   |   |       |   |   |-- CodeNode.d.ts
 |   |   |       |   |   |-- ExpressionNode.d.ts
 |   |   |       |   |   |-- FunctionCallNode.d.ts
-|   |   |       |   |   |-- FunctionNode.d.ts
-|   |   |       |   |   |-- ScriptableNode.d.ts
-|   |   |       |   |   `-- ScriptableValueNode.d.ts
+|   |   |       |   |   `-- FunctionNode.d.ts
 |   |   |       |   |-- core
 |   |   |       |   |   |-- ArrayNode.d.ts
 |   |   |       |   |   |-- AssignNode.d.ts
@@ -9555,6 +9947,7 @@
 |   |   |       |   |   |-- NodeBuilder.d.ts
 |   |   |       |   |   |-- NodeCache.d.ts
 |   |   |       |   |   |-- NodeCode.d.ts
+|   |   |       |   |   |-- NodeError.d.ts
 |   |   |       |   |   |-- NodeFrame.d.ts
 |   |   |       |   |   |-- NodeFunction.d.ts
 |   |   |       |   |   |-- NodeFunctionInput.d.ts
@@ -9567,6 +9960,7 @@
 |   |   |       |   |   |-- ParameterNode.d.ts
 |   |   |       |   |   |-- PropertyNode.d.ts
 |   |   |       |   |   |-- StackNode.d.ts
+|   |   |       |   |   |-- StackTrace.d.ts
 |   |   |       |   |   |-- StructNode.d.ts
 |   |   |       |   |   |-- StructType.d.ts
 |   |   |       |   |   |-- StructTypeNode.d.ts
@@ -9586,7 +9980,6 @@
 |   |   |       |   |   |-- FrontFacingNode.d.ts
 |   |   |       |   |   |-- NormalMapNode.d.ts
 |   |   |       |   |   |-- PassNode.d.ts
-|   |   |       |   |   |-- PosterizeNode.d.ts
 |   |   |       |   |   |-- RenderOutputNode.d.ts
 |   |   |       |   |   |-- ScreenNode.d.ts
 |   |   |       |   |   |-- ToneMappingFunctions.d.ts
@@ -9695,6 +10088,7 @@
 |   |   |       |       |-- Discard.d.ts
 |   |   |       |       |-- EquirectUV.d.ts
 |   |   |       |       |-- EventNode.d.ts
+|   |   |       |       |-- FlipNode.d.ts
 |   |   |       |       |-- FunctionOverloadingNode.d.ts
 |   |   |       |       |-- JoinNode.d.ts
 |   |   |       |       |-- LoopNode.d.ts
@@ -9706,12 +10100,12 @@
 |   |   |       |       |-- PostProcessingUtils.d.ts
 |   |   |       |       |-- RTTNode.d.ts
 |   |   |       |       |-- ReflectorNode.d.ts
-|   |   |       |       |-- RemapNode.d.ts
+|   |   |       |       |-- Remap.d.ts
 |   |   |       |       |-- RotateNode.d.ts
 |   |   |       |       |-- SampleNode.d.ts
 |   |   |       |       |-- SetNode.d.ts
 |   |   |       |       |-- SplitNode.d.ts
-|   |   |       |       |-- SpriteSheetUVNode.d.ts
+|   |   |       |       |-- SpriteSheetUV.d.ts
 |   |   |       |       |-- SpriteUtils.d.ts
 |   |   |       |       |-- StorageArrayElementNode.d.ts
 |   |   |       |       |-- Timer.d.ts
@@ -9747,6 +10141,7 @@
 |   |   |       |   |   |-- BindGroup.d.ts
 |   |   |       |   |   |-- Binding.d.ts
 |   |   |       |   |   |-- Bindings.d.ts
+|   |   |       |   |   |-- BlendMode.d.ts
 |   |   |       |   |   |-- Buffer.d.ts
 |   |   |       |   |   |-- BufferUtils.d.ts
 |   |   |       |   |   |-- BundleGroup.d.ts
@@ -9768,6 +10163,7 @@
 |   |   |       |   |   |-- PostProcessing.d.ts
 |   |   |       |   |   |-- ProgrammableStage.d.ts
 |   |   |       |   |   |-- QuadMesh.d.ts
+|   |   |       |   |   |-- ReadbackBuffer.d.ts
 |   |   |       |   |   |-- RenderBundle.d.ts
 |   |   |       |   |   |-- RenderBundles.d.ts
 |   |   |       |   |   |-- RenderContext.d.ts
@@ -9775,6 +10171,7 @@
 |   |   |       |   |   |-- RenderList.d.ts
 |   |   |       |   |   |-- RenderLists.d.ts
 |   |   |       |   |   |-- RenderObject.d.ts
+|   |   |       |   |   |-- RenderObjectPipeline.d.ts
 |   |   |       |   |   |-- RenderObjects.d.ts
 |   |   |       |   |   |-- RenderPipeline.d.ts
 |   |   |       |   |   |-- Renderer.d.ts
@@ -9798,11 +10195,11 @@
 |   |   |       |   |   `-- nodes
 |   |   |       |   |       |-- NodeBuilderState.d.ts
 |   |   |       |   |       |-- NodeLibrary.d.ts
+|   |   |       |   |       |-- NodeManager.d.ts
 |   |   |       |   |       |-- NodeSampledTexture.d.ts
 |   |   |       |   |       |-- NodeSampler.d.ts
 |   |   |       |   |       |-- NodeUniform.d.ts
-|   |   |       |   |       |-- NodeUniformsGroup.d.ts
-|   |   |       |   |       `-- Nodes.d.ts
+|   |   |       |   |       `-- NodeUniformsGroup.d.ts
 |   |   |       |   |-- shaders
 |   |   |       |   |   |-- ShaderChunk.d.ts
 |   |   |       |   |   |-- ShaderLib.d.ts
@@ -9814,8 +10211,7 @@
 |   |   |       |   |   |-- WebGLBufferRenderer.d.ts
 |   |   |       |   |   |-- WebGLCapabilities.d.ts
 |   |   |       |   |   |-- WebGLClipping.d.ts
-|   |   |       |   |   |-- WebGLCubeMaps.d.ts
-|   |   |       |   |   |-- WebGLCubeUVMaps.d.ts
+|   |   |       |   |   |-- WebGLEnvironments.d.ts
 |   |   |       |   |   |-- WebGLExtensions.d.ts
 |   |   |       |   |   |-- WebGLGeometries.d.ts
 |   |   |       |   |   |-- WebGLIndexedBufferRenderer.d.ts
@@ -9834,7 +10230,11 @@
 |   |   |       |   |   |-- WebGLUniformsGroups.d.ts
 |   |   |       |   |   `-- WebGLUtils.d.ts
 |   |   |       |   |-- webgl-fallback
-|   |   |       |   |   `-- WebGLBackend.d.ts
+|   |   |       |   |   |-- WebGLBackend.d.ts
+|   |   |       |   |   |-- nodes
+|   |   |       |   |   |   `-- GLSLNodeBuilder.d.ts
+|   |   |       |   |   `-- utils
+|   |   |       |   |       `-- WebGLCapabilities.d.ts
 |   |   |       |   |-- webgpu
 |   |   |       |   |   |-- WebGPUBackend.d.ts
 |   |   |       |   |   |-- WebGPURenderer.Nodes.d.ts
@@ -9868,6 +10268,7 @@
 |   |   |       |   |-- DepthTexture.d.ts
 |   |   |       |   |-- ExternalTexture.d.ts
 |   |   |       |   |-- FramebufferTexture.d.ts
+|   |   |       |   |-- HTMLTexture.d.ts
 |   |   |       |   |-- Source.d.ts
 |   |   |       |   |-- Texture.d.ts
 |   |   |       |   |-- VideoFrameTexture.d.ts
@@ -9879,6 +10280,507 @@
 |   |       |-- index.d.ts
 |   |       `-- package.json
 |   |-- @typescript-eslint
+|   |   |-- eslint-plugin
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- configs
+|   |   |   |   |   |-- eslint-recommended-raw.d.ts
+|   |   |   |   |   |-- eslint-recommended-raw.js
+|   |   |   |   |   |-- eslintrc
+|   |   |   |   |   |   |-- all.d.ts
+|   |   |   |   |   |   |-- all.js
+|   |   |   |   |   |   |-- base.d.ts
+|   |   |   |   |   |   |-- base.js
+|   |   |   |   |   |   |-- disable-type-checked.d.ts
+|   |   |   |   |   |   |-- disable-type-checked.js
+|   |   |   |   |   |   |-- eslint-recommended.d.ts
+|   |   |   |   |   |   |-- eslint-recommended.js
+|   |   |   |   |   |   |-- recommended-type-checked-only.d.ts
+|   |   |   |   |   |   |-- recommended-type-checked-only.js
+|   |   |   |   |   |   |-- recommended-type-checked.d.ts
+|   |   |   |   |   |   |-- recommended-type-checked.js
+|   |   |   |   |   |   |-- recommended.d.ts
+|   |   |   |   |   |   |-- recommended.js
+|   |   |   |   |   |   |-- strict-type-checked-only.d.ts
+|   |   |   |   |   |   |-- strict-type-checked-only.js
+|   |   |   |   |   |   |-- strict-type-checked.d.ts
+|   |   |   |   |   |   |-- strict-type-checked.js
+|   |   |   |   |   |   |-- strict.d.ts
+|   |   |   |   |   |   |-- strict.js
+|   |   |   |   |   |   |-- stylistic-type-checked-only.d.ts
+|   |   |   |   |   |   |-- stylistic-type-checked-only.js
+|   |   |   |   |   |   |-- stylistic-type-checked.d.ts
+|   |   |   |   |   |   |-- stylistic-type-checked.js
+|   |   |   |   |   |   |-- stylistic.d.ts
+|   |   |   |   |   |   `-- stylistic.js
+|   |   |   |   |   `-- flat
+|   |   |   |   |       |-- all.d.ts
+|   |   |   |   |       |-- all.js
+|   |   |   |   |       |-- base.d.ts
+|   |   |   |   |       |-- base.js
+|   |   |   |   |       |-- disable-type-checked.d.ts
+|   |   |   |   |       |-- disable-type-checked.js
+|   |   |   |   |       |-- eslint-recommended.d.ts
+|   |   |   |   |       |-- eslint-recommended.js
+|   |   |   |   |       |-- recommended-type-checked-only.d.ts
+|   |   |   |   |       |-- recommended-type-checked-only.js
+|   |   |   |   |       |-- recommended-type-checked.d.ts
+|   |   |   |   |       |-- recommended-type-checked.js
+|   |   |   |   |       |-- recommended.d.ts
+|   |   |   |   |       |-- recommended.js
+|   |   |   |   |       |-- strict-type-checked-only.d.ts
+|   |   |   |   |       |-- strict-type-checked-only.js
+|   |   |   |   |       |-- strict-type-checked.d.ts
+|   |   |   |   |       |-- strict-type-checked.js
+|   |   |   |   |       |-- strict.d.ts
+|   |   |   |   |       |-- strict.js
+|   |   |   |   |       |-- stylistic-type-checked-only.d.ts
+|   |   |   |   |       |-- stylistic-type-checked-only.js
+|   |   |   |   |       |-- stylistic-type-checked.d.ts
+|   |   |   |   |       |-- stylistic-type-checked.js
+|   |   |   |   |       |-- stylistic.d.ts
+|   |   |   |   |       `-- stylistic.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.js
+|   |   |   |   |-- raw-plugin.d.ts
+|   |   |   |   |-- raw-plugin.js
+|   |   |   |   |-- rules
+|   |   |   |   |   |-- adjacent-overload-signatures.d.ts
+|   |   |   |   |   |-- adjacent-overload-signatures.js
+|   |   |   |   |   |-- array-type.d.ts
+|   |   |   |   |   |-- array-type.js
+|   |   |   |   |   |-- await-thenable.d.ts
+|   |   |   |   |   |-- await-thenable.js
+|   |   |   |   |   |-- ban-ts-comment.d.ts
+|   |   |   |   |   |-- ban-ts-comment.js
+|   |   |   |   |   |-- ban-tslint-comment.d.ts
+|   |   |   |   |   |-- ban-tslint-comment.js
+|   |   |   |   |   |-- class-literal-property-style.d.ts
+|   |   |   |   |   |-- class-literal-property-style.js
+|   |   |   |   |   |-- class-methods-use-this.d.ts
+|   |   |   |   |   |-- class-methods-use-this.js
+|   |   |   |   |   |-- consistent-generic-constructors.d.ts
+|   |   |   |   |   |-- consistent-generic-constructors.js
+|   |   |   |   |   |-- consistent-indexed-object-style.d.ts
+|   |   |   |   |   |-- consistent-indexed-object-style.js
+|   |   |   |   |   |-- consistent-return.d.ts
+|   |   |   |   |   |-- consistent-return.js
+|   |   |   |   |   |-- consistent-type-assertions.d.ts
+|   |   |   |   |   |-- consistent-type-assertions.js
+|   |   |   |   |   |-- consistent-type-definitions.d.ts
+|   |   |   |   |   |-- consistent-type-definitions.js
+|   |   |   |   |   |-- consistent-type-exports.d.ts
+|   |   |   |   |   |-- consistent-type-exports.js
+|   |   |   |   |   |-- consistent-type-imports.d.ts
+|   |   |   |   |   |-- consistent-type-imports.js
+|   |   |   |   |   |-- default-param-last.d.ts
+|   |   |   |   |   |-- default-param-last.js
+|   |   |   |   |   |-- dot-notation.d.ts
+|   |   |   |   |   |-- dot-notation.js
+|   |   |   |   |   |-- enum-utils
+|   |   |   |   |   |   |-- shared.d.ts
+|   |   |   |   |   |   `-- shared.js
+|   |   |   |   |   |-- explicit-function-return-type.d.ts
+|   |   |   |   |   |-- explicit-function-return-type.js
+|   |   |   |   |   |-- explicit-member-accessibility.d.ts
+|   |   |   |   |   |-- explicit-member-accessibility.js
+|   |   |   |   |   |-- explicit-module-boundary-types.d.ts
+|   |   |   |   |   |-- explicit-module-boundary-types.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- init-declarations.d.ts
+|   |   |   |   |   |-- init-declarations.js
+|   |   |   |   |   |-- max-params.d.ts
+|   |   |   |   |   |-- max-params.js
+|   |   |   |   |   |-- member-ordering.d.ts
+|   |   |   |   |   |-- member-ordering.js
+|   |   |   |   |   |-- method-signature-style.d.ts
+|   |   |   |   |   |-- method-signature-style.js
+|   |   |   |   |   |-- naming-convention-utils
+|   |   |   |   |   |   |-- enums.d.ts
+|   |   |   |   |   |   |-- enums.js
+|   |   |   |   |   |   |-- format.d.ts
+|   |   |   |   |   |   |-- format.js
+|   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   |-- index.js
+|   |   |   |   |   |   |-- parse-options.d.ts
+|   |   |   |   |   |   |-- parse-options.js
+|   |   |   |   |   |   |-- schema.d.ts
+|   |   |   |   |   |   |-- schema.js
+|   |   |   |   |   |   |-- shared.d.ts
+|   |   |   |   |   |   |-- shared.js
+|   |   |   |   |   |   |-- types.d.ts
+|   |   |   |   |   |   |-- types.js
+|   |   |   |   |   |   |-- validator.d.ts
+|   |   |   |   |   |   `-- validator.js
+|   |   |   |   |   |-- naming-convention.d.ts
+|   |   |   |   |   |-- naming-convention.js
+|   |   |   |   |   |-- no-array-constructor.d.ts
+|   |   |   |   |   |-- no-array-constructor.js
+|   |   |   |   |   |-- no-array-delete.d.ts
+|   |   |   |   |   |-- no-array-delete.js
+|   |   |   |   |   |-- no-base-to-string.d.ts
+|   |   |   |   |   |-- no-base-to-string.js
+|   |   |   |   |   |-- no-confusing-non-null-assertion.d.ts
+|   |   |   |   |   |-- no-confusing-non-null-assertion.js
+|   |   |   |   |   |-- no-confusing-void-expression.d.ts
+|   |   |   |   |   |-- no-confusing-void-expression.js
+|   |   |   |   |   |-- no-deprecated.d.ts
+|   |   |   |   |   |-- no-deprecated.js
+|   |   |   |   |   |-- no-dupe-class-members.d.ts
+|   |   |   |   |   |-- no-dupe-class-members.js
+|   |   |   |   |   |-- no-duplicate-enum-values.d.ts
+|   |   |   |   |   |-- no-duplicate-enum-values.js
+|   |   |   |   |   |-- no-duplicate-type-constituents.d.ts
+|   |   |   |   |   |-- no-duplicate-type-constituents.js
+|   |   |   |   |   |-- no-dynamic-delete.d.ts
+|   |   |   |   |   |-- no-dynamic-delete.js
+|   |   |   |   |   |-- no-empty-function.d.ts
+|   |   |   |   |   |-- no-empty-function.js
+|   |   |   |   |   |-- no-empty-interface.d.ts
+|   |   |   |   |   |-- no-empty-interface.js
+|   |   |   |   |   |-- no-empty-object-type.d.ts
+|   |   |   |   |   |-- no-empty-object-type.js
+|   |   |   |   |   |-- no-explicit-any.d.ts
+|   |   |   |   |   |-- no-explicit-any.js
+|   |   |   |   |   |-- no-extra-non-null-assertion.d.ts
+|   |   |   |   |   |-- no-extra-non-null-assertion.js
+|   |   |   |   |   |-- no-extraneous-class.d.ts
+|   |   |   |   |   |-- no-extraneous-class.js
+|   |   |   |   |   |-- no-floating-promises.d.ts
+|   |   |   |   |   |-- no-floating-promises.js
+|   |   |   |   |   |-- no-for-in-array.d.ts
+|   |   |   |   |   |-- no-for-in-array.js
+|   |   |   |   |   |-- no-implied-eval.d.ts
+|   |   |   |   |   |-- no-implied-eval.js
+|   |   |   |   |   |-- no-import-type-side-effects.d.ts
+|   |   |   |   |   |-- no-import-type-side-effects.js
+|   |   |   |   |   |-- no-inferrable-types.d.ts
+|   |   |   |   |   |-- no-inferrable-types.js
+|   |   |   |   |   |-- no-invalid-this.d.ts
+|   |   |   |   |   |-- no-invalid-this.js
+|   |   |   |   |   |-- no-invalid-void-type.d.ts
+|   |   |   |   |   |-- no-invalid-void-type.js
+|   |   |   |   |   |-- no-loop-func.d.ts
+|   |   |   |   |   |-- no-loop-func.js
+|   |   |   |   |   |-- no-loss-of-precision.d.ts
+|   |   |   |   |   |-- no-loss-of-precision.js
+|   |   |   |   |   |-- no-magic-numbers.d.ts
+|   |   |   |   |   |-- no-magic-numbers.js
+|   |   |   |   |   |-- no-meaningless-void-operator.d.ts
+|   |   |   |   |   |-- no-meaningless-void-operator.js
+|   |   |   |   |   |-- no-misused-new.d.ts
+|   |   |   |   |   |-- no-misused-new.js
+|   |   |   |   |   |-- no-misused-promises.d.ts
+|   |   |   |   |   |-- no-misused-promises.js
+|   |   |   |   |   |-- no-misused-spread.d.ts
+|   |   |   |   |   |-- no-misused-spread.js
+|   |   |   |   |   |-- no-mixed-enums.d.ts
+|   |   |   |   |   |-- no-mixed-enums.js
+|   |   |   |   |   |-- no-namespace.d.ts
+|   |   |   |   |   |-- no-namespace.js
+|   |   |   |   |   |-- no-non-null-asserted-nullish-coalescing.d.ts
+|   |   |   |   |   |-- no-non-null-asserted-nullish-coalescing.js
+|   |   |   |   |   |-- no-non-null-asserted-optional-chain.d.ts
+|   |   |   |   |   |-- no-non-null-asserted-optional-chain.js
+|   |   |   |   |   |-- no-non-null-assertion.d.ts
+|   |   |   |   |   |-- no-non-null-assertion.js
+|   |   |   |   |   |-- no-redeclare.d.ts
+|   |   |   |   |   |-- no-redeclare.js
+|   |   |   |   |   |-- no-redundant-type-constituents.d.ts
+|   |   |   |   |   |-- no-redundant-type-constituents.js
+|   |   |   |   |   |-- no-require-imports.d.ts
+|   |   |   |   |   |-- no-require-imports.js
+|   |   |   |   |   |-- no-restricted-imports.d.ts
+|   |   |   |   |   |-- no-restricted-imports.js
+|   |   |   |   |   |-- no-restricted-types.d.ts
+|   |   |   |   |   |-- no-restricted-types.js
+|   |   |   |   |   |-- no-shadow.d.ts
+|   |   |   |   |   |-- no-shadow.js
+|   |   |   |   |   |-- no-this-alias.d.ts
+|   |   |   |   |   |-- no-this-alias.js
+|   |   |   |   |   |-- no-type-alias.d.ts
+|   |   |   |   |   |-- no-type-alias.js
+|   |   |   |   |   |-- no-unnecessary-boolean-literal-compare.d.ts
+|   |   |   |   |   |-- no-unnecessary-boolean-literal-compare.js
+|   |   |   |   |   |-- no-unnecessary-condition.d.ts
+|   |   |   |   |   |-- no-unnecessary-condition.js
+|   |   |   |   |   |-- no-unnecessary-parameter-property-assignment.d.ts
+|   |   |   |   |   |-- no-unnecessary-parameter-property-assignment.js
+|   |   |   |   |   |-- no-unnecessary-qualifier.d.ts
+|   |   |   |   |   |-- no-unnecessary-qualifier.js
+|   |   |   |   |   |-- no-unnecessary-template-expression.d.ts
+|   |   |   |   |   |-- no-unnecessary-template-expression.js
+|   |   |   |   |   |-- no-unnecessary-type-arguments.d.ts
+|   |   |   |   |   |-- no-unnecessary-type-arguments.js
+|   |   |   |   |   |-- no-unnecessary-type-assertion.d.ts
+|   |   |   |   |   |-- no-unnecessary-type-assertion.js
+|   |   |   |   |   |-- no-unnecessary-type-constraint.d.ts
+|   |   |   |   |   |-- no-unnecessary-type-constraint.js
+|   |   |   |   |   |-- no-unnecessary-type-conversion.d.ts
+|   |   |   |   |   |-- no-unnecessary-type-conversion.js
+|   |   |   |   |   |-- no-unnecessary-type-parameters.d.ts
+|   |   |   |   |   |-- no-unnecessary-type-parameters.js
+|   |   |   |   |   |-- no-unsafe-argument.d.ts
+|   |   |   |   |   |-- no-unsafe-argument.js
+|   |   |   |   |   |-- no-unsafe-assignment.d.ts
+|   |   |   |   |   |-- no-unsafe-assignment.js
+|   |   |   |   |   |-- no-unsafe-call.d.ts
+|   |   |   |   |   |-- no-unsafe-call.js
+|   |   |   |   |   |-- no-unsafe-declaration-merging.d.ts
+|   |   |   |   |   |-- no-unsafe-declaration-merging.js
+|   |   |   |   |   |-- no-unsafe-enum-comparison.d.ts
+|   |   |   |   |   |-- no-unsafe-enum-comparison.js
+|   |   |   |   |   |-- no-unsafe-function-type.d.ts
+|   |   |   |   |   |-- no-unsafe-function-type.js
+|   |   |   |   |   |-- no-unsafe-member-access.d.ts
+|   |   |   |   |   |-- no-unsafe-member-access.js
+|   |   |   |   |   |-- no-unsafe-return.d.ts
+|   |   |   |   |   |-- no-unsafe-return.js
+|   |   |   |   |   |-- no-unsafe-type-assertion.d.ts
+|   |   |   |   |   |-- no-unsafe-type-assertion.js
+|   |   |   |   |   |-- no-unsafe-unary-minus.d.ts
+|   |   |   |   |   |-- no-unsafe-unary-minus.js
+|   |   |   |   |   |-- no-unused-expressions.d.ts
+|   |   |   |   |   |-- no-unused-expressions.js
+|   |   |   |   |   |-- no-unused-private-class-members.d.ts
+|   |   |   |   |   |-- no-unused-private-class-members.js
+|   |   |   |   |   |-- no-unused-vars.d.ts
+|   |   |   |   |   |-- no-unused-vars.js
+|   |   |   |   |   |-- no-use-before-define.d.ts
+|   |   |   |   |   |-- no-use-before-define.js
+|   |   |   |   |   |-- no-useless-constructor.d.ts
+|   |   |   |   |   |-- no-useless-constructor.js
+|   |   |   |   |   |-- no-useless-default-assignment.d.ts
+|   |   |   |   |   |-- no-useless-default-assignment.js
+|   |   |   |   |   |-- no-useless-empty-export.d.ts
+|   |   |   |   |   |-- no-useless-empty-export.js
+|   |   |   |   |   |-- no-var-requires.d.ts
+|   |   |   |   |   |-- no-var-requires.js
+|   |   |   |   |   |-- no-wrapper-object-types.d.ts
+|   |   |   |   |   |-- no-wrapper-object-types.js
+|   |   |   |   |   |-- non-nullable-type-assertion-style.d.ts
+|   |   |   |   |   |-- non-nullable-type-assertion-style.js
+|   |   |   |   |   |-- only-throw-error.d.ts
+|   |   |   |   |   |-- only-throw-error.js
+|   |   |   |   |   |-- parameter-properties.d.ts
+|   |   |   |   |   |-- parameter-properties.js
+|   |   |   |   |   |-- prefer-as-const.d.ts
+|   |   |   |   |   |-- prefer-as-const.js
+|   |   |   |   |   |-- prefer-destructuring.d.ts
+|   |   |   |   |   |-- prefer-destructuring.js
+|   |   |   |   |   |-- prefer-enum-initializers.d.ts
+|   |   |   |   |   |-- prefer-enum-initializers.js
+|   |   |   |   |   |-- prefer-find.d.ts
+|   |   |   |   |   |-- prefer-find.js
+|   |   |   |   |   |-- prefer-for-of.d.ts
+|   |   |   |   |   |-- prefer-for-of.js
+|   |   |   |   |   |-- prefer-function-type.d.ts
+|   |   |   |   |   |-- prefer-function-type.js
+|   |   |   |   |   |-- prefer-includes.d.ts
+|   |   |   |   |   |-- prefer-includes.js
+|   |   |   |   |   |-- prefer-literal-enum-member.d.ts
+|   |   |   |   |   |-- prefer-literal-enum-member.js
+|   |   |   |   |   |-- prefer-namespace-keyword.d.ts
+|   |   |   |   |   |-- prefer-namespace-keyword.js
+|   |   |   |   |   |-- prefer-nullish-coalescing.d.ts
+|   |   |   |   |   |-- prefer-nullish-coalescing.js
+|   |   |   |   |   |-- prefer-optional-chain-utils
+|   |   |   |   |   |   |-- PreferOptionalChainOptions.d.ts
+|   |   |   |   |   |   |-- PreferOptionalChainOptions.js
+|   |   |   |   |   |   |-- analyzeChain.d.ts
+|   |   |   |   |   |   |-- analyzeChain.js
+|   |   |   |   |   |   |-- checkNullishAndReport.d.ts
+|   |   |   |   |   |   |-- checkNullishAndReport.js
+|   |   |   |   |   |   |-- compareNodes.d.ts
+|   |   |   |   |   |   |-- compareNodes.js
+|   |   |   |   |   |   |-- gatherLogicalOperands.d.ts
+|   |   |   |   |   |   `-- gatherLogicalOperands.js
+|   |   |   |   |   |-- prefer-optional-chain.d.ts
+|   |   |   |   |   |-- prefer-optional-chain.js
+|   |   |   |   |   |-- prefer-promise-reject-errors.d.ts
+|   |   |   |   |   |-- prefer-promise-reject-errors.js
+|   |   |   |   |   |-- prefer-readonly-parameter-types.d.ts
+|   |   |   |   |   |-- prefer-readonly-parameter-types.js
+|   |   |   |   |   |-- prefer-readonly.d.ts
+|   |   |   |   |   |-- prefer-readonly.js
+|   |   |   |   |   |-- prefer-reduce-type-parameter.d.ts
+|   |   |   |   |   |-- prefer-reduce-type-parameter.js
+|   |   |   |   |   |-- prefer-regexp-exec.d.ts
+|   |   |   |   |   |-- prefer-regexp-exec.js
+|   |   |   |   |   |-- prefer-return-this-type.d.ts
+|   |   |   |   |   |-- prefer-return-this-type.js
+|   |   |   |   |   |-- prefer-string-starts-ends-with.d.ts
+|   |   |   |   |   |-- prefer-string-starts-ends-with.js
+|   |   |   |   |   |-- prefer-ts-expect-error.d.ts
+|   |   |   |   |   |-- prefer-ts-expect-error.js
+|   |   |   |   |   |-- promise-function-async.d.ts
+|   |   |   |   |   |-- promise-function-async.js
+|   |   |   |   |   |-- related-getter-setter-pairs.d.ts
+|   |   |   |   |   |-- related-getter-setter-pairs.js
+|   |   |   |   |   |-- require-array-sort-compare.d.ts
+|   |   |   |   |   |-- require-array-sort-compare.js
+|   |   |   |   |   |-- require-await.d.ts
+|   |   |   |   |   |-- require-await.js
+|   |   |   |   |   |-- restrict-plus-operands.d.ts
+|   |   |   |   |   |-- restrict-plus-operands.js
+|   |   |   |   |   |-- restrict-template-expressions.d.ts
+|   |   |   |   |   |-- restrict-template-expressions.js
+|   |   |   |   |   |-- return-await.d.ts
+|   |   |   |   |   |-- return-await.js
+|   |   |   |   |   |-- sort-type-constituents.d.ts
+|   |   |   |   |   |-- sort-type-constituents.js
+|   |   |   |   |   |-- strict-boolean-expressions.d.ts
+|   |   |   |   |   |-- strict-boolean-expressions.js
+|   |   |   |   |   |-- strict-void-return.d.ts
+|   |   |   |   |   |-- strict-void-return.js
+|   |   |   |   |   |-- switch-exhaustiveness-check.d.ts
+|   |   |   |   |   |-- switch-exhaustiveness-check.js
+|   |   |   |   |   |-- triple-slash-reference.d.ts
+|   |   |   |   |   |-- triple-slash-reference.js
+|   |   |   |   |   |-- typedef.d.ts
+|   |   |   |   |   |-- typedef.js
+|   |   |   |   |   |-- unbound-method.d.ts
+|   |   |   |   |   |-- unbound-method.js
+|   |   |   |   |   |-- unified-signatures.d.ts
+|   |   |   |   |   |-- unified-signatures.js
+|   |   |   |   |   |-- use-unknown-in-catch-callback-variable.d.ts
+|   |   |   |   |   `-- use-unknown-in-catch-callback-variable.js
+|   |   |   |   `-- util
+|   |   |   |       |-- assertionFunctionUtils.d.ts
+|   |   |   |       |-- assertionFunctionUtils.js
+|   |   |   |       |-- astUtils.d.ts
+|   |   |   |       |-- astUtils.js
+|   |   |   |       |-- baseTypeUtils.d.ts
+|   |   |   |       |-- baseTypeUtils.js
+|   |   |   |       |-- class-scope-analyzer
+|   |   |   |       |   |-- classScopeAnalyzer.d.ts
+|   |   |   |       |   |-- classScopeAnalyzer.js
+|   |   |   |       |   |-- extractComputedName.d.ts
+|   |   |   |       |   |-- extractComputedName.js
+|   |   |   |       |   |-- types.d.ts
+|   |   |   |       |   `-- types.js
+|   |   |   |       |-- collectUnusedVariables.d.ts
+|   |   |   |       |-- collectUnusedVariables.js
+|   |   |   |       |-- createRule.d.ts
+|   |   |   |       |-- createRule.js
+|   |   |   |       |-- escapeRegExp.d.ts
+|   |   |   |       |-- escapeRegExp.js
+|   |   |   |       |-- explicitReturnTypeUtils.d.ts
+|   |   |   |       |-- explicitReturnTypeUtils.js
+|   |   |   |       |-- getBaseTypesOfClassMember.d.ts
+|   |   |   |       |-- getBaseTypesOfClassMember.js
+|   |   |   |       |-- getConstraintInfo.d.ts
+|   |   |   |       |-- getConstraintInfo.js
+|   |   |   |       |-- getESLintCoreRule.d.ts
+|   |   |   |       |-- getESLintCoreRule.js
+|   |   |   |       |-- getFixOrSuggest.d.ts
+|   |   |   |       |-- getFixOrSuggest.js
+|   |   |   |       |-- getForStatementHeadLoc.d.ts
+|   |   |   |       |-- getForStatementHeadLoc.js
+|   |   |   |       |-- getFunctionHeadLoc.d.ts
+|   |   |   |       |-- getFunctionHeadLoc.js
+|   |   |   |       |-- getMemberHeadLoc.d.ts
+|   |   |   |       |-- getMemberHeadLoc.js
+|   |   |   |       |-- getOperatorPrecedence.d.ts
+|   |   |   |       |-- getOperatorPrecedence.js
+|   |   |   |       |-- getParentFunctionNode.d.ts
+|   |   |   |       |-- getParentFunctionNode.js
+|   |   |   |       |-- getStaticStringValue.d.ts
+|   |   |   |       |-- getStaticStringValue.js
+|   |   |   |       |-- getStringLength.d.ts
+|   |   |   |       |-- getStringLength.js
+|   |   |   |       |-- getTextWithParentheses.d.ts
+|   |   |   |       |-- getTextWithParentheses.js
+|   |   |   |       |-- getThisExpression.d.ts
+|   |   |   |       |-- getThisExpression.js
+|   |   |   |       |-- getValueOfLiteralType.d.ts
+|   |   |   |       |-- getValueOfLiteralType.js
+|   |   |   |       |-- getWrappedCode.d.ts
+|   |   |   |       |-- getWrappedCode.js
+|   |   |   |       |-- getWrappingFixer.d.ts
+|   |   |   |       |-- getWrappingFixer.js
+|   |   |   |       |-- hasOverloadSignatures.d.ts
+|   |   |   |       |-- hasOverloadSignatures.js
+|   |   |   |       |-- index.d.ts
+|   |   |   |       |-- index.js
+|   |   |   |       |-- isArrayMethodCallWithPredicate.d.ts
+|   |   |   |       |-- isArrayMethodCallWithPredicate.js
+|   |   |   |       |-- isAssignee.d.ts
+|   |   |   |       |-- isAssignee.js
+|   |   |   |       |-- isHigherPrecedenceThanAwait.d.ts
+|   |   |   |       |-- isHigherPrecedenceThanAwait.js
+|   |   |   |       |-- isNodeEqual.d.ts
+|   |   |   |       |-- isNodeEqual.js
+|   |   |   |       |-- isNullLiteral.d.ts
+|   |   |   |       |-- isNullLiteral.js
+|   |   |   |       |-- isPromiseAggregatorMethod.d.ts
+|   |   |   |       |-- isPromiseAggregatorMethod.js
+|   |   |   |       |-- isStartOfExpressionStatement.d.ts
+|   |   |   |       |-- isStartOfExpressionStatement.js
+|   |   |   |       |-- isTypeImport.d.ts
+|   |   |   |       |-- isTypeImport.js
+|   |   |   |       |-- isUndefinedIdentifier.d.ts
+|   |   |   |       |-- isUndefinedIdentifier.js
+|   |   |   |       |-- misc.d.ts
+|   |   |   |       |-- misc.js
+|   |   |   |       |-- needsPrecedingSemiColon.d.ts
+|   |   |   |       |-- needsPrecedingSemiColon.js
+|   |   |   |       |-- needsToBeAwaited.d.ts
+|   |   |   |       |-- needsToBeAwaited.js
+|   |   |   |       |-- objectIterators.d.ts
+|   |   |   |       |-- objectIterators.js
+|   |   |   |       |-- promiseUtils.d.ts
+|   |   |   |       |-- promiseUtils.js
+|   |   |   |       |-- rangeToLoc.d.ts
+|   |   |   |       |-- rangeToLoc.js
+|   |   |   |       |-- referenceContainsTypePredicate.d.ts
+|   |   |   |       |-- referenceContainsTypePredicate.js
+|   |   |   |       |-- referenceContainsTypeQuery.d.ts
+|   |   |   |       |-- referenceContainsTypeQuery.js
+|   |   |   |       |-- scopeUtils.d.ts
+|   |   |   |       |-- scopeUtils.js
+|   |   |   |       |-- skipChainExpression.d.ts
+|   |   |   |       |-- skipChainExpression.js
+|   |   |   |       |-- truthinessUtils.d.ts
+|   |   |   |       |-- truthinessUtils.js
+|   |   |   |       |-- types.d.ts
+|   |   |   |       |-- types.js
+|   |   |   |       |-- walkStatements.d.ts
+|   |   |   |       `-- walkStatements.js
+|   |   |   |-- index.d.ts
+|   |   |   |-- node_modules
+|   |   |   |   `-- ignore
+|   |   |   |       |-- LICENSE-MIT
+|   |   |   |       |-- README.md
+|   |   |   |       |-- index.d.ts
+|   |   |   |       |-- index.js
+|   |   |   |       |-- legacy.js
+|   |   |   |       `-- package.json
+|   |   |   |-- package.json
+|   |   |   |-- raw-plugin.d.ts
+|   |   |   `-- rules.d.ts
+|   |   |-- parser
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.js
+|   |   |   |   |-- parser.d.ts
+|   |   |   |   `-- parser.js
+|   |   |   `-- package.json
+|   |   |-- project-service
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- createProjectService.d.ts
+|   |   |   |   |-- createProjectService.js
+|   |   |   |   |-- getParsedConfigFileFromTSServer.d.ts
+|   |   |   |   |-- getParsedConfigFileFromTSServer.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   `-- index.js
+|   |   |   `-- package.json
 |   |   |-- scope-manager
 |   |   |   |-- LICENSE
 |   |   |   |-- README.md
@@ -10087,6 +10989,22 @@
 |   |   |   |   |   |-- es2024.sharedmemory.js
 |   |   |   |   |   |-- es2024.string.d.ts
 |   |   |   |   |   |-- es2024.string.js
+|   |   |   |   |   |-- es2025.collection.d.ts
+|   |   |   |   |   |-- es2025.collection.js
+|   |   |   |   |   |-- es2025.d.ts
+|   |   |   |   |   |-- es2025.float16.d.ts
+|   |   |   |   |   |-- es2025.float16.js
+|   |   |   |   |   |-- es2025.full.d.ts
+|   |   |   |   |   |-- es2025.full.js
+|   |   |   |   |   |-- es2025.intl.d.ts
+|   |   |   |   |   |-- es2025.intl.js
+|   |   |   |   |   |-- es2025.iterator.d.ts
+|   |   |   |   |   |-- es2025.iterator.js
+|   |   |   |   |   |-- es2025.js
+|   |   |   |   |   |-- es2025.promise.d.ts
+|   |   |   |   |   |-- es2025.promise.js
+|   |   |   |   |   |-- es2025.regexp.d.ts
+|   |   |   |   |   |-- es2025.regexp.js
 |   |   |   |   |   |-- es5.d.ts
 |   |   |   |   |   |-- es5.js
 |   |   |   |   |   |-- es6.d.ts
@@ -10102,6 +11020,8 @@
 |   |   |   |   |   |-- esnext.collection.d.ts
 |   |   |   |   |   |-- esnext.collection.js
 |   |   |   |   |   |-- esnext.d.ts
+|   |   |   |   |   |-- esnext.date.d.ts
+|   |   |   |   |   |-- esnext.date.js
 |   |   |   |   |   |-- esnext.decorators.d.ts
 |   |   |   |   |   |-- esnext.decorators.js
 |   |   |   |   |   |-- esnext.disposable.d.ts
@@ -10129,6 +11049,10 @@
 |   |   |   |   |   |-- esnext.string.js
 |   |   |   |   |   |-- esnext.symbol.d.ts
 |   |   |   |   |   |-- esnext.symbol.js
+|   |   |   |   |   |-- esnext.temporal.d.ts
+|   |   |   |   |   |-- esnext.temporal.js
+|   |   |   |   |   |-- esnext.typedarrays.d.ts
+|   |   |   |   |   |-- esnext.typedarrays.js
 |   |   |   |   |   |-- esnext.weakref.d.ts
 |   |   |   |   |   |-- esnext.weakref.js
 |   |   |   |   |   |-- index.d.ts
@@ -10211,7 +11135,6 @@
 |   |   |   |   |   |-- WithScope.js
 |   |   |   |   |   |-- index.d.ts
 |   |   |   |   |   `-- index.js
-|   |   |   |   |-- tsconfig.build.tsbuildinfo
 |   |   |   |   `-- variable
 |   |   |   |       |-- ESLintScopeVariable.d.ts
 |   |   |   |       |-- ESLintScopeVariable.js
@@ -10223,6 +11146,67 @@
 |   |   |   |       |-- VariableBase.js
 |   |   |   |       |-- index.d.ts
 |   |   |   |       `-- index.js
+|   |   |   `-- package.json
+|   |   |-- tsconfig-utils
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- compilerOptions.d.ts
+|   |   |   |   |-- compilerOptions.js
+|   |   |   |   |-- getParsedConfigFile.d.ts
+|   |   |   |   |-- getParsedConfigFile.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   `-- index.js
+|   |   |   `-- package.json
+|   |   |-- type-utils
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- TypeOrValueSpecifier.d.ts
+|   |   |   |   |-- TypeOrValueSpecifier.js
+|   |   |   |   |-- builtinSymbolLikes.d.ts
+|   |   |   |   |-- builtinSymbolLikes.js
+|   |   |   |   |-- containsAllTypesByName.d.ts
+|   |   |   |   |-- containsAllTypesByName.js
+|   |   |   |   |-- discriminateAnyType.d.ts
+|   |   |   |   |-- discriminateAnyType.js
+|   |   |   |   |-- getConstrainedTypeAtLocation.d.ts
+|   |   |   |   |-- getConstrainedTypeAtLocation.js
+|   |   |   |   |-- getContextualType.d.ts
+|   |   |   |   |-- getContextualType.js
+|   |   |   |   |-- getDeclaration.d.ts
+|   |   |   |   |-- getDeclaration.js
+|   |   |   |   |-- getSourceFileOfNode.d.ts
+|   |   |   |   |-- getSourceFileOfNode.js
+|   |   |   |   |-- getTypeName.d.ts
+|   |   |   |   |-- getTypeName.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.js
+|   |   |   |   |-- isSymbolFromDefaultLibrary.d.ts
+|   |   |   |   |-- isSymbolFromDefaultLibrary.js
+|   |   |   |   |-- isTypeBrandedLiteralLike.d.ts
+|   |   |   |   |-- isTypeBrandedLiteralLike.js
+|   |   |   |   |-- isTypeReadonly.d.ts
+|   |   |   |   |-- isTypeReadonly.js
+|   |   |   |   |-- isUnsafeAssignment.d.ts
+|   |   |   |   |-- isUnsafeAssignment.js
+|   |   |   |   |-- predicates.d.ts
+|   |   |   |   |-- predicates.js
+|   |   |   |   |-- propertyTypes.d.ts
+|   |   |   |   |-- propertyTypes.js
+|   |   |   |   |-- requiresQuoting.d.ts
+|   |   |   |   |-- requiresQuoting.js
+|   |   |   |   |-- typeFlagUtils.d.ts
+|   |   |   |   |-- typeFlagUtils.js
+|   |   |   |   `-- typeOrValueSpecifiers
+|   |   |   |       |-- specifierNameMatches.d.ts
+|   |   |   |       |-- specifierNameMatches.js
+|   |   |   |       |-- typeDeclaredInFile.d.ts
+|   |   |   |       |-- typeDeclaredInFile.js
+|   |   |   |       |-- typeDeclaredInLib.d.ts
+|   |   |   |       |-- typeDeclaredInLib.js
+|   |   |   |       |-- typeDeclaredInPackageDeclarationFile.d.ts
+|   |   |   |       `-- typeDeclaredInPackageDeclarationFile.js
 |   |   |   `-- package.json
 |   |   |-- types
 |   |   |   |-- LICENSE
@@ -10238,8 +11222,344 @@
 |   |   |   |   |-- parser-options.d.ts
 |   |   |   |   |-- parser-options.js
 |   |   |   |   |-- ts-estree.d.ts
+|   |   |   |   `-- ts-estree.js
+|   |   |   `-- package.json
+|   |   |-- typescript-estree
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- ast-converter.d.ts
+|   |   |   |   |-- ast-converter.js
+|   |   |   |   |-- check-modifiers.d.ts
+|   |   |   |   |-- check-modifiers.js
+|   |   |   |   |-- check-syntax-errors.d.ts
+|   |   |   |   |-- check-syntax-errors.js
+|   |   |   |   |-- clear-caches.d.ts
+|   |   |   |   |-- clear-caches.js
+|   |   |   |   |-- convert-comments.d.ts
+|   |   |   |   |-- convert-comments.js
+|   |   |   |   |-- convert.d.ts
+|   |   |   |   |-- convert.js
+|   |   |   |   |-- create-program
+|   |   |   |   |   |-- WatchCompilerHostOfConfigFile.d.ts
+|   |   |   |   |   |-- WatchCompilerHostOfConfigFile.js
+|   |   |   |   |   |-- createIsolatedProgram.d.ts
+|   |   |   |   |   |-- createIsolatedProgram.js
+|   |   |   |   |   |-- createProjectProgram.d.ts
+|   |   |   |   |   |-- createProjectProgram.js
+|   |   |   |   |   |-- createProjectProgramError.d.ts
+|   |   |   |   |   |-- createProjectProgramError.js
+|   |   |   |   |   |-- createSourceFile.d.ts
+|   |   |   |   |   |-- createSourceFile.js
+|   |   |   |   |   |-- describeFilePath.d.ts
+|   |   |   |   |   |-- describeFilePath.js
+|   |   |   |   |   |-- getScriptKind.d.ts
+|   |   |   |   |   |-- getScriptKind.js
+|   |   |   |   |   |-- getWatchProgramsForProjects.d.ts
+|   |   |   |   |   |-- getWatchProgramsForProjects.js
+|   |   |   |   |   |-- shared.d.ts
+|   |   |   |   |   |-- shared.js
+|   |   |   |   |   |-- useProvidedPrograms.d.ts
+|   |   |   |   |   |-- useProvidedPrograms.js
+|   |   |   |   |   |-- validateDefaultProjectForFilesGlob.d.ts
+|   |   |   |   |   `-- validateDefaultProjectForFilesGlob.js
+|   |   |   |   |-- createParserServices.d.ts
+|   |   |   |   |-- createParserServices.js
+|   |   |   |   |-- getModifiers.d.ts
+|   |   |   |   |-- getModifiers.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.js
+|   |   |   |   |-- jsx
+|   |   |   |   |   |-- xhtml-entities.d.ts
+|   |   |   |   |   `-- xhtml-entities.js
+|   |   |   |   |-- node-utils.d.ts
+|   |   |   |   |-- node-utils.js
+|   |   |   |   |-- parseSettings
+|   |   |   |   |   |-- ExpiringCache.d.ts
+|   |   |   |   |   |-- ExpiringCache.js
+|   |   |   |   |   |-- candidateTSConfigRootDirs.d.ts
+|   |   |   |   |   |-- candidateTSConfigRootDirs.js
+|   |   |   |   |   |-- createParseSettings.d.ts
+|   |   |   |   |   |-- createParseSettings.js
+|   |   |   |   |   |-- getProjectConfigFiles.d.ts
+|   |   |   |   |   |-- getProjectConfigFiles.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- inferSingleRun.d.ts
+|   |   |   |   |   |-- inferSingleRun.js
+|   |   |   |   |   |-- resolveProjectList.d.ts
+|   |   |   |   |   |-- resolveProjectList.js
+|   |   |   |   |   |-- warnAboutTSVersion.d.ts
+|   |   |   |   |   `-- warnAboutTSVersion.js
+|   |   |   |   |-- parser-options.d.ts
+|   |   |   |   |-- parser-options.js
+|   |   |   |   |-- parser.d.ts
+|   |   |   |   |-- parser.js
+|   |   |   |   |-- semantic-or-syntactic-errors.d.ts
+|   |   |   |   |-- semantic-or-syntactic-errors.js
+|   |   |   |   |-- simple-traverse.d.ts
+|   |   |   |   |-- simple-traverse.js
+|   |   |   |   |-- source-files.d.ts
+|   |   |   |   |-- source-files.js
+|   |   |   |   |-- ts-estree
+|   |   |   |   |   |-- estree-to-ts-node-types.d.ts
+|   |   |   |   |   |-- estree-to-ts-node-types.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- ts-nodes.d.ts
+|   |   |   |   |   `-- ts-nodes.js
+|   |   |   |   |-- use-at-your-own-risk.d.ts
+|   |   |   |   |-- use-at-your-own-risk.js
+|   |   |   |   |-- useProgramFromProjectService.d.ts
+|   |   |   |   |-- useProgramFromProjectService.js
+|   |   |   |   |-- version-check.d.ts
+|   |   |   |   |-- version-check.js
+|   |   |   |   |-- version.d.ts
+|   |   |   |   |-- version.js
+|   |   |   |   |-- withoutProjectParserOptions.d.ts
+|   |   |   |   `-- withoutProjectParserOptions.js
+|   |   |   |-- node_modules
+|   |   |   |   |-- .bin
+|   |   |   |   |   `-- semver -> ../semver/bin/semver.js
+|   |   |   |   |-- balanced-match
+|   |   |   |   |   |-- LICENSE.md
+|   |   |   |   |   |-- README.md
+|   |   |   |   |   |-- dist
+|   |   |   |   |   |   |-- commonjs
+|   |   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   |   |-- index.d.ts.map
+|   |   |   |   |   |   |   |-- index.js
+|   |   |   |   |   |   |   |-- index.js.map
+|   |   |   |   |   |   |   `-- package.json
+|   |   |   |   |   |   `-- esm
+|   |   |   |   |   |       |-- index.d.ts
+|   |   |   |   |   |       |-- index.d.ts.map
+|   |   |   |   |   |       |-- index.js
+|   |   |   |   |   |       |-- index.js.map
+|   |   |   |   |   |       `-- package.json
+|   |   |   |   |   `-- package.json
+|   |   |   |   |-- brace-expansion
+|   |   |   |   |   |-- LICENSE
+|   |   |   |   |   |-- README.md
+|   |   |   |   |   |-- dist
+|   |   |   |   |   |   |-- commonjs
+|   |   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   |   |-- index.d.ts.map
+|   |   |   |   |   |   |   |-- index.js
+|   |   |   |   |   |   |   |-- index.js.map
+|   |   |   |   |   |   |   `-- package.json
+|   |   |   |   |   |   `-- esm
+|   |   |   |   |   |       |-- index.d.ts
+|   |   |   |   |   |       |-- index.d.ts.map
+|   |   |   |   |   |       |-- index.js
+|   |   |   |   |   |       |-- index.js.map
+|   |   |   |   |   |       `-- package.json
+|   |   |   |   |   `-- package.json
+|   |   |   |   |-- minimatch
+|   |   |   |   |   |-- LICENSE.md
+|   |   |   |   |   |-- README.md
+|   |   |   |   |   |-- dist
+|   |   |   |   |   |   |-- commonjs
+|   |   |   |   |   |   |   |-- assert-valid-pattern.d.ts
+|   |   |   |   |   |   |   |-- assert-valid-pattern.d.ts.map
+|   |   |   |   |   |   |   |-- assert-valid-pattern.js
+|   |   |   |   |   |   |   |-- assert-valid-pattern.js.map
+|   |   |   |   |   |   |   |-- ast.d.ts
+|   |   |   |   |   |   |   |-- ast.d.ts.map
+|   |   |   |   |   |   |   |-- ast.js
+|   |   |   |   |   |   |   |-- ast.js.map
+|   |   |   |   |   |   |   |-- brace-expressions.d.ts
+|   |   |   |   |   |   |   |-- brace-expressions.d.ts.map
+|   |   |   |   |   |   |   |-- brace-expressions.js
+|   |   |   |   |   |   |   |-- brace-expressions.js.map
+|   |   |   |   |   |   |   |-- escape.d.ts
+|   |   |   |   |   |   |   |-- escape.d.ts.map
+|   |   |   |   |   |   |   |-- escape.js
+|   |   |   |   |   |   |   |-- escape.js.map
+|   |   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   |   |-- index.d.ts.map
+|   |   |   |   |   |   |   |-- index.js
+|   |   |   |   |   |   |   |-- index.js.map
+|   |   |   |   |   |   |   |-- package.json
+|   |   |   |   |   |   |   |-- unescape.d.ts
+|   |   |   |   |   |   |   |-- unescape.d.ts.map
+|   |   |   |   |   |   |   |-- unescape.js
+|   |   |   |   |   |   |   `-- unescape.js.map
+|   |   |   |   |   |   `-- esm
+|   |   |   |   |   |       |-- assert-valid-pattern.d.ts
+|   |   |   |   |   |       |-- assert-valid-pattern.d.ts.map
+|   |   |   |   |   |       |-- assert-valid-pattern.js
+|   |   |   |   |   |       |-- assert-valid-pattern.js.map
+|   |   |   |   |   |       |-- ast.d.ts
+|   |   |   |   |   |       |-- ast.d.ts.map
+|   |   |   |   |   |       |-- ast.js
+|   |   |   |   |   |       |-- ast.js.map
+|   |   |   |   |   |       |-- brace-expressions.d.ts
+|   |   |   |   |   |       |-- brace-expressions.d.ts.map
+|   |   |   |   |   |       |-- brace-expressions.js
+|   |   |   |   |   |       |-- brace-expressions.js.map
+|   |   |   |   |   |       |-- escape.d.ts
+|   |   |   |   |   |       |-- escape.d.ts.map
+|   |   |   |   |   |       |-- escape.js
+|   |   |   |   |   |       |-- escape.js.map
+|   |   |   |   |   |       |-- index.d.ts
+|   |   |   |   |   |       |-- index.d.ts.map
+|   |   |   |   |   |       |-- index.js
+|   |   |   |   |   |       |-- index.js.map
+|   |   |   |   |   |       |-- package.json
+|   |   |   |   |   |       |-- unescape.d.ts
+|   |   |   |   |   |       |-- unescape.d.ts.map
+|   |   |   |   |   |       |-- unescape.js
+|   |   |   |   |   |       `-- unescape.js.map
+|   |   |   |   |   `-- package.json
+|   |   |   |   `-- semver
+|   |   |   |       |-- LICENSE
+|   |   |   |       |-- README.md
+|   |   |   |       |-- bin
+|   |   |   |       |   `-- semver.js
+|   |   |   |       |-- classes
+|   |   |   |       |   |-- comparator.js
+|   |   |   |       |   |-- index.js
+|   |   |   |       |   |-- range.js
+|   |   |   |       |   `-- semver.js
+|   |   |   |       |-- functions
+|   |   |   |       |   |-- clean.js
+|   |   |   |       |   |-- cmp.js
+|   |   |   |       |   |-- coerce.js
+|   |   |   |       |   |-- compare-build.js
+|   |   |   |       |   |-- compare-loose.js
+|   |   |   |       |   |-- compare.js
+|   |   |   |       |   |-- diff.js
+|   |   |   |       |   |-- eq.js
+|   |   |   |       |   |-- gt.js
+|   |   |   |       |   |-- gte.js
+|   |   |   |       |   |-- inc.js
+|   |   |   |       |   |-- lt.js
+|   |   |   |       |   |-- lte.js
+|   |   |   |       |   |-- major.js
+|   |   |   |       |   |-- minor.js
+|   |   |   |       |   |-- neq.js
+|   |   |   |       |   |-- parse.js
+|   |   |   |       |   |-- patch.js
+|   |   |   |       |   |-- prerelease.js
+|   |   |   |       |   |-- rcompare.js
+|   |   |   |       |   |-- rsort.js
+|   |   |   |       |   |-- satisfies.js
+|   |   |   |       |   |-- sort.js
+|   |   |   |       |   |-- truncate.js
+|   |   |   |       |   `-- valid.js
+|   |   |   |       |-- index.js
+|   |   |   |       |-- internal
+|   |   |   |       |   |-- constants.js
+|   |   |   |       |   |-- debug.js
+|   |   |   |       |   |-- identifiers.js
+|   |   |   |       |   |-- lrucache.js
+|   |   |   |       |   |-- parse-options.js
+|   |   |   |       |   `-- re.js
+|   |   |   |       |-- package.json
+|   |   |   |       |-- preload.js
+|   |   |   |       |-- range.bnf
+|   |   |   |       `-- ranges
+|   |   |   |           |-- gtr.js
+|   |   |   |           |-- intersects.js
+|   |   |   |           |-- ltr.js
+|   |   |   |           |-- max-satisfying.js
+|   |   |   |           |-- min-satisfying.js
+|   |   |   |           |-- min-version.js
+|   |   |   |           |-- outside.js
+|   |   |   |           |-- simplify.js
+|   |   |   |           |-- subset.js
+|   |   |   |           |-- to-comparators.js
+|   |   |   |           `-- valid.js
+|   |   |   `-- package.json
+|   |   |-- utils
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   |-- dist
+|   |   |   |   |-- ast-utils
+|   |   |   |   |   |-- eslint-utils
+|   |   |   |   |   |   |-- PatternMatcher.d.ts
+|   |   |   |   |   |   |-- PatternMatcher.js
+|   |   |   |   |   |   |-- ReferenceTracker.d.ts
+|   |   |   |   |   |   |-- ReferenceTracker.js
+|   |   |   |   |   |   |-- astUtilities.d.ts
+|   |   |   |   |   |   |-- astUtilities.js
+|   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   |-- index.js
+|   |   |   |   |   |   |-- predicates.d.ts
+|   |   |   |   |   |   |-- predicates.js
+|   |   |   |   |   |   |-- scopeAnalysis.d.ts
+|   |   |   |   |   |   `-- scopeAnalysis.js
+|   |   |   |   |   |-- helpers.d.ts
+|   |   |   |   |   |-- helpers.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- misc.d.ts
+|   |   |   |   |   |-- misc.js
+|   |   |   |   |   |-- predicates.d.ts
+|   |   |   |   |   `-- predicates.js
+|   |   |   |   |-- eslint-utils
+|   |   |   |   |   |-- InferTypesFromRule.d.ts
+|   |   |   |   |   |-- InferTypesFromRule.js
+|   |   |   |   |   |-- RuleCreator.d.ts
+|   |   |   |   |   |-- RuleCreator.js
+|   |   |   |   |   |-- applyDefault.d.ts
+|   |   |   |   |   |-- applyDefault.js
+|   |   |   |   |   |-- deepMerge.d.ts
+|   |   |   |   |   |-- deepMerge.js
+|   |   |   |   |   |-- getParserServices.d.ts
+|   |   |   |   |   |-- getParserServices.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- nullThrows.d.ts
+|   |   |   |   |   |-- nullThrows.js
+|   |   |   |   |   |-- parserSeemsToBeTSESLint.d.ts
+|   |   |   |   |   `-- parserSeemsToBeTSESLint.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.js
+|   |   |   |   |-- json-schema.d.ts
+|   |   |   |   |-- json-schema.js
+|   |   |   |   |-- ts-eslint
+|   |   |   |   |   |-- AST.d.ts
+|   |   |   |   |   |-- AST.js
+|   |   |   |   |   |-- Config.d.ts
+|   |   |   |   |   |-- Config.js
+|   |   |   |   |   |-- ESLint.d.ts
+|   |   |   |   |   |-- ESLint.js
+|   |   |   |   |   |-- Linter.d.ts
+|   |   |   |   |   |-- Linter.js
+|   |   |   |   |   |-- Parser.d.ts
+|   |   |   |   |   |-- Parser.js
+|   |   |   |   |   |-- ParserOptions.d.ts
+|   |   |   |   |   |-- ParserOptions.js
+|   |   |   |   |   |-- Processor.d.ts
+|   |   |   |   |   |-- Processor.js
+|   |   |   |   |   |-- Rule.d.ts
+|   |   |   |   |   |-- Rule.js
+|   |   |   |   |   |-- RuleTester.d.ts
+|   |   |   |   |   |-- RuleTester.js
+|   |   |   |   |   |-- Scope.d.ts
+|   |   |   |   |   |-- Scope.js
+|   |   |   |   |   |-- SourceCode.d.ts
+|   |   |   |   |   |-- SourceCode.js
+|   |   |   |   |   |-- eslint
+|   |   |   |   |   |   |-- ESLintShared.d.ts
+|   |   |   |   |   |   |-- ESLintShared.js
+|   |   |   |   |   |   |-- FlatESLint.d.ts
+|   |   |   |   |   |   |-- FlatESLint.js
+|   |   |   |   |   |   |-- LegacyESLint.d.ts
+|   |   |   |   |   |   `-- LegacyESLint.js
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   `-- index.js
+|   |   |   |   |-- ts-estree.d.ts
 |   |   |   |   |-- ts-estree.js
-|   |   |   |   `-- tsconfig.build.tsbuildinfo
+|   |   |   |   `-- ts-utils
+|   |   |   |       |-- NoInfer.d.ts
+|   |   |   |       |-- NoInfer.js
+|   |   |   |       |-- index.d.ts
+|   |   |   |       |-- index.js
+|   |   |   |       |-- isArray.d.ts
+|   |   |   |       `-- isArray.js
 |   |   |   `-- package.json
 |   |   `-- visitor-keys
 |   |       |-- LICENSE
@@ -10249,7 +11569,6 @@
 |   |       |   |-- get-keys.js
 |   |       |   |-- index.d.ts
 |   |       |   |-- index.js
-|   |       |   |-- tsconfig.build.tsbuildinfo
 |   |       |   |-- visitor-keys.d.ts
 |   |       |   `-- visitor-keys.js
 |   |       |-- node_modules
@@ -10267,14 +11586,10 @@
 |   |       |       `-- package.json
 |   |       `-- package.json
 |   |-- @unrs
-|   |   |-- resolver-binding-linux-x64-gnu
-|   |   |   |-- README.md
-|   |   |   |-- package.json
-|   |   |   `-- resolver.linux-x64-gnu.node
-|   |   `-- resolver-binding-linux-x64-musl
+|   |   `-- resolver-binding-linux-x64-gnu
 |   |       |-- README.md
 |   |       |-- package.json
-|   |       `-- resolver.linux-x64-musl.node
+|   |       `-- resolver.linux-x64-gnu.node
 |   |-- @use-gesture
 |   |   |-- core
 |   |   |   |-- CHANGELOG.md
@@ -10424,13 +11739,6 @@
 |   |           |-- useRecognizers.ts
 |   |           |-- useScroll.ts
 |   |           `-- useWheel.ts
-|   |-- @webgpu
-|   |   `-- types
-|   |       |-- LICENSE
-|   |       |-- README.md
-|   |       |-- dist
-|   |       |   `-- index.d.ts
-|   |       `-- package.json
 |   |-- acorn
 |   |   |-- CHANGELOG.md
 |   |   |-- LICENSE
@@ -10551,12 +11859,6 @@
 |   |       |-- prepare-tests
 |   |       |-- publish-built-version
 |   |       `-- travis-gh-pages
-|   |-- ansi-regex
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- package.json
-|   |   `-- readme.md
 |   |-- ansi-styles
 |   |   |-- index.d.ts
 |   |   |-- index.js
@@ -10610,6 +11912,15 @@
 |   |   |-- README.md
 |   |   |-- index.d.ts
 |   |   |-- index.js
+|   |   `-- package.json
+|   |-- argparse
+|   |   |-- CHANGELOG.md
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- argparse.js
+|   |   |-- lib
+|   |   |   |-- sub.js
+|   |   |   `-- textwrap.js
 |   |   `-- package.json
 |   |-- aria-query
 |   |   |-- LICENSE
@@ -11278,37 +12589,7 @@
 |   |-- brace-expansion
 |   |   |-- LICENSE
 |   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- commonjs
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   `-- package.json
-|   |   |   `-- esm
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       `-- package.json
-|   |   |-- node_modules
-|   |   |   `-- balanced-match
-|   |   |       |-- LICENSE.md
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- commonjs
-|   |   |       |   |   |-- index.d.ts
-|   |   |       |   |   |-- index.d.ts.map
-|   |   |       |   |   |-- index.js
-|   |   |       |   |   |-- index.js.map
-|   |   |       |   |   `-- package.json
-|   |   |       |   `-- esm
-|   |   |       |       |-- index.d.ts
-|   |   |       |       |-- index.d.ts.map
-|   |   |       |       |-- index.js
-|   |   |       |       |-- index.js.map
-|   |   |       |       `-- package.json
-|   |   |       `-- package.json
+|   |   |-- index.js
 |   |   `-- package.json
 |   |-- braces
 |   |   |-- LICENSE
@@ -11394,6 +12675,12 @@
 |   |   |-- test
 |   |   |   `-- index.js
 |   |   `-- tsconfig.json
+|   |-- callsites
+|   |   |-- index.d.ts
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- camelcase-css
 |   |   |-- README.md
 |   |   |-- index-es5.js
@@ -12255,6 +13542,15 @@
 |   |   |       |-- index.js
 |   |   |       `-- region.js
 |   |   `-- package.json
+|   |-- chalk
+|   |   |-- index.d.ts
+|   |   |-- license
+|   |   |-- package.json
+|   |   |-- readme.md
+|   |   `-- source
+|   |       |-- index.js
+|   |       |-- templates.js
+|   |       `-- util.js
 |   |-- chokidar
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -12577,10 +13873,6 @@
 |   |   |   |-- index.js
 |   |   |   `-- set.js
 |   |   `-- tsconfig.json
-|   |-- eastasianwidth
-|   |   |-- README.md
-|   |   |-- eastasianwidth.js
-|   |   `-- package.json
 |   |-- electron-to-chromium
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -12612,8 +13904,6 @@
 |   |   |-- text.d.ts
 |   |   `-- text.js
 |   |-- es-abstract
-|   |   |-- .claude
-|   |   |   `-- settings.local.json
 |   |   |-- .editorconfig
 |   |   |-- .nycrc
 |   |   |-- 2015
@@ -15242,6 +16532,12 @@
 |   |   |   |-- index.js
 |   |   |   |-- polyfill.js
 |   |   |   `-- shim.js
+|   |   |-- Iterator.prototype.includes
+|   |   |   |-- auto.js
+|   |   |   |-- implementation.js
+|   |   |   |-- index.js
+|   |   |   |-- polyfill.js
+|   |   |   `-- shim.js
 |   |   |-- Iterator.prototype.map
 |   |   |   |-- auto.js
 |   |   |   |-- implementation.js
@@ -15312,6 +16608,7 @@
 |   |       |-- Iterator.prototype.find.js
 |   |       |-- Iterator.prototype.flatMap.js
 |   |       |-- Iterator.prototype.forEach.js
+|   |       |-- Iterator.prototype.includes.js
 |   |       |-- Iterator.prototype.js
 |   |       |-- Iterator.prototype.map.js
 |   |       |-- Iterator.prototype.reduce.js
@@ -15425,6 +16722,7 @@
 |   |   |-- bin
 |   |   |   `-- eslint.js
 |   |   |-- conf
+|   |   |   |-- default-cli-options.js
 |   |   |   |-- ecma-version.js
 |   |   |   |-- globals.js
 |   |   |   |-- replacements.json
@@ -15432,6 +16730,8 @@
 |   |   |-- lib
 |   |   |   |-- api.js
 |   |   |   |-- cli-engine
+|   |   |   |   |-- cli-engine.js
+|   |   |   |   |-- file-enumerator.js
 |   |   |   |   |-- formatters
 |   |   |   |   |   |-- formatters-meta.json
 |   |   |   |   |   |-- html.js
@@ -15439,7 +16739,9 @@
 |   |   |   |   |   |-- json.js
 |   |   |   |   |   `-- stylish.js
 |   |   |   |   |-- hash.js
-|   |   |   |   `-- lint-result-cache.js
+|   |   |   |   |-- index.js
+|   |   |   |   |-- lint-result-cache.js
+|   |   |   |   `-- load-rules.js
 |   |   |   |-- cli.js
 |   |   |   |-- config
 |   |   |   |   |-- config-loader.js
@@ -15452,6 +16754,7 @@
 |   |   |   |   |-- eslint-helpers.js
 |   |   |   |   |-- eslint.js
 |   |   |   |   |-- index.js
+|   |   |   |   |-- legacy-eslint.js
 |   |   |   |   `-- worker.js
 |   |   |   |-- languages
 |   |   |   |   `-- js
@@ -15491,6 +16794,7 @@
 |   |   |   |   |-- interpolate.js
 |   |   |   |   |-- linter.js
 |   |   |   |   |-- rule-fixer.js
+|   |   |   |   |-- rules.js
 |   |   |   |   |-- source-code-fixer.js
 |   |   |   |   |-- source-code-traverser.js
 |   |   |   |   |-- source-code-visitor.js
@@ -15820,7 +17124,6 @@
 |   |   |   |   |-- directives.js
 |   |   |   |   |-- flags.js
 |   |   |   |   |-- logging.js
-|   |   |   |   |-- message-counts.js
 |   |   |   |   |-- naming.js
 |   |   |   |   |-- option-utils.js
 |   |   |   |   |-- relative-module-resolver.js
@@ -15841,6 +17144,7 @@
 |   |   |   |-- universal.js
 |   |   |   `-- unsupported-api.js
 |   |   |-- messages
+|   |   |   |-- all-files-ignored.js
 |   |   |   |-- all-matched-files-ignored.js
 |   |   |   |-- config-file-missing.js
 |   |   |   |-- config-plugin-missing.js
@@ -15856,22 +17160,9 @@
 |   |   |   |-- plugin-conflict.js
 |   |   |   |-- plugin-invalid.js
 |   |   |   |-- plugin-missing.js
-|   |   |   |-- rule-unsupported-language.js
+|   |   |   |-- print-config-with-directory-path.js
 |   |   |   |-- shared.js
 |   |   |   `-- whitespace-found.js
-|   |   |-- node_modules
-|   |   |   `-- eslint-visitor-keys
-|   |   |       |-- LICENSE
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- eslint-visitor-keys.cjs
-|   |   |       |   |-- eslint-visitor-keys.d.cts
-|   |   |       |   |-- index.d.ts
-|   |   |       |   `-- visitor-keys.d.ts
-|   |   |       |-- lib
-|   |   |       |   |-- index.js
-|   |   |       |   `-- visitor-keys.js
-|   |   |       `-- package.json
 |   |   `-- package.json
 |   |-- eslint-config-next
 |   |   |-- dist
@@ -15884,1949 +17175,13 @@
 |   |   |   |-- typescript.d.ts
 |   |   |   `-- typescript.js
 |   |   |-- node_modules
-|   |   |   |-- .bin
-|   |   |   |   `-- resolve -> ../resolve/bin/resolve
-|   |   |   |-- brace-expansion
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- index.js
-|   |   |   |   `-- package.json
-|   |   |   |-- eslint-import-resolver-typescript
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- lib
-|   |   |   |   |   |-- index.cjs
-|   |   |   |   |   |-- index.d.ts
-|   |   |   |   |   |-- index.es2020.mjs
-|   |   |   |   |   |-- index.js
-|   |   |   |   |   `-- index.js.map
-|   |   |   |   `-- package.json
-|   |   |   |-- eslint-plugin-import
-|   |   |   |   |-- CHANGELOG.md
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- SECURITY.md
-|   |   |   |   |-- config
-|   |   |   |   |   |-- electron.js
-|   |   |   |   |   |-- errors.js
-|   |   |   |   |   |-- flat
-|   |   |   |   |   |   |-- errors.js
-|   |   |   |   |   |   |-- react.js
-|   |   |   |   |   |   |-- recommended.js
-|   |   |   |   |   |   `-- warnings.js
-|   |   |   |   |   |-- react-native.js
-|   |   |   |   |   |-- react.js
-|   |   |   |   |   |-- recommended.js
-|   |   |   |   |   |-- stage-0.js
-|   |   |   |   |   |-- typescript.js
-|   |   |   |   |   `-- warnings.js
-|   |   |   |   |-- docs
-|   |   |   |   |   `-- rules
-|   |   |   |   |       |-- consistent-type-specifier-style.md
-|   |   |   |   |       |-- default.md
-|   |   |   |   |       |-- dynamic-import-chunkname.md
-|   |   |   |   |       |-- enforce-node-protocol-usage.md
-|   |   |   |   |       |-- export.md
-|   |   |   |   |       |-- exports-last.md
-|   |   |   |   |       |-- extensions.md
-|   |   |   |   |       |-- first.md
-|   |   |   |   |       |-- group-exports.md
-|   |   |   |   |       |-- imports-first.md
-|   |   |   |   |       |-- max-dependencies.md
-|   |   |   |   |       |-- named.md
-|   |   |   |   |       |-- namespace.md
-|   |   |   |   |       |-- newline-after-import.md
-|   |   |   |   |       |-- no-absolute-path.md
-|   |   |   |   |       |-- no-amd.md
-|   |   |   |   |       |-- no-anonymous-default-export.md
-|   |   |   |   |       |-- no-commonjs.md
-|   |   |   |   |       |-- no-cycle.md
-|   |   |   |   |       |-- no-default-export.md
-|   |   |   |   |       |-- no-deprecated.md
-|   |   |   |   |       |-- no-duplicates.md
-|   |   |   |   |       |-- no-dynamic-require.md
-|   |   |   |   |       |-- no-empty-named-blocks.md
-|   |   |   |   |       |-- no-extraneous-dependencies.md
-|   |   |   |   |       |-- no-import-module-exports.md
-|   |   |   |   |       |-- no-internal-modules.md
-|   |   |   |   |       |-- no-mutable-exports.md
-|   |   |   |   |       |-- no-named-as-default-member.md
-|   |   |   |   |       |-- no-named-as-default.md
-|   |   |   |   |       |-- no-named-default.md
-|   |   |   |   |       |-- no-named-export.md
-|   |   |   |   |       |-- no-namespace.md
-|   |   |   |   |       |-- no-nodejs-modules.md
-|   |   |   |   |       |-- no-relative-packages.md
-|   |   |   |   |       |-- no-relative-parent-imports.md
-|   |   |   |   |       |-- no-restricted-paths.md
-|   |   |   |   |       |-- no-self-import.md
-|   |   |   |   |       |-- no-unassigned-import.md
-|   |   |   |   |       |-- no-unresolved.md
-|   |   |   |   |       |-- no-unused-modules.md
-|   |   |   |   |       |-- no-useless-path-segments.md
-|   |   |   |   |       |-- no-webpack-loader-syntax.md
-|   |   |   |   |       |-- order.md
-|   |   |   |   |       |-- prefer-default-export.md
-|   |   |   |   |       `-- unambiguous.md
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- lib
-|   |   |   |   |   |-- core
-|   |   |   |   |   |   |-- importType.js
-|   |   |   |   |   |   |-- packagePath.js
-|   |   |   |   |   |   |-- sourceType.js
-|   |   |   |   |   |   `-- staticRequire.js
-|   |   |   |   |   |-- docsUrl.js
-|   |   |   |   |   |-- exportMap
-|   |   |   |   |   |   |-- builder.js
-|   |   |   |   |   |   |-- captureDependency.js
-|   |   |   |   |   |   |-- childContext.js
-|   |   |   |   |   |   |-- doc.js
-|   |   |   |   |   |   |-- index.js
-|   |   |   |   |   |   |-- namespace.js
-|   |   |   |   |   |   |-- patternCapture.js
-|   |   |   |   |   |   |-- remotePath.js
-|   |   |   |   |   |   |-- specifier.js
-|   |   |   |   |   |   |-- typescript.js
-|   |   |   |   |   |   `-- visitor.js
-|   |   |   |   |   |-- importDeclaration.js
-|   |   |   |   |   |-- index.js
-|   |   |   |   |   |-- rules
-|   |   |   |   |   |   |-- consistent-type-specifier-style.js
-|   |   |   |   |   |   |-- default.js
-|   |   |   |   |   |   |-- dynamic-import-chunkname.js
-|   |   |   |   |   |   |-- enforce-node-protocol-usage.js
-|   |   |   |   |   |   |-- export.js
-|   |   |   |   |   |   |-- exports-last.js
-|   |   |   |   |   |   |-- extensions.js
-|   |   |   |   |   |   |-- first.js
-|   |   |   |   |   |   |-- group-exports.js
-|   |   |   |   |   |   |-- imports-first.js
-|   |   |   |   |   |   |-- max-dependencies.js
-|   |   |   |   |   |   |-- named.js
-|   |   |   |   |   |   |-- namespace.js
-|   |   |   |   |   |   |-- newline-after-import.js
-|   |   |   |   |   |   |-- no-absolute-path.js
-|   |   |   |   |   |   |-- no-amd.js
-|   |   |   |   |   |   |-- no-anonymous-default-export.js
-|   |   |   |   |   |   |-- no-commonjs.js
-|   |   |   |   |   |   |-- no-cycle.js
-|   |   |   |   |   |   |-- no-default-export.js
-|   |   |   |   |   |   |-- no-deprecated.js
-|   |   |   |   |   |   |-- no-duplicates.js
-|   |   |   |   |   |   |-- no-dynamic-require.js
-|   |   |   |   |   |   |-- no-empty-named-blocks.js
-|   |   |   |   |   |   |-- no-extraneous-dependencies.js
-|   |   |   |   |   |   |-- no-import-module-exports.js
-|   |   |   |   |   |   |-- no-internal-modules.js
-|   |   |   |   |   |   |-- no-mutable-exports.js
-|   |   |   |   |   |   |-- no-named-as-default-member.js
-|   |   |   |   |   |   |-- no-named-as-default.js
-|   |   |   |   |   |   |-- no-named-default.js
-|   |   |   |   |   |   |-- no-named-export.js
-|   |   |   |   |   |   |-- no-namespace.js
-|   |   |   |   |   |   |-- no-nodejs-modules.js
-|   |   |   |   |   |   |-- no-relative-packages.js
-|   |   |   |   |   |   |-- no-relative-parent-imports.js
-|   |   |   |   |   |   |-- no-restricted-paths.js
-|   |   |   |   |   |   |-- no-self-import.js
-|   |   |   |   |   |   |-- no-unassigned-import.js
-|   |   |   |   |   |   |-- no-unresolved.js
-|   |   |   |   |   |   |-- no-unused-modules.js
-|   |   |   |   |   |   |-- no-useless-path-segments.js
-|   |   |   |   |   |   |-- no-webpack-loader-syntax.js
-|   |   |   |   |   |   |-- order.js
-|   |   |   |   |   |   |-- prefer-default-export.js
-|   |   |   |   |   |   `-- unambiguous.js
-|   |   |   |   |   `-- scc.js
-|   |   |   |   |-- memo-parser
-|   |   |   |   |   |-- LICENSE
-|   |   |   |   |   |-- README.md
-|   |   |   |   |   `-- index.js
-|   |   |   |   |-- node_modules
-|   |   |   |   |   `-- debug
-|   |   |   |   |       |-- CHANGELOG.md
-|   |   |   |   |       |-- LICENSE
-|   |   |   |   |       |-- README.md
-|   |   |   |   |       |-- node.js
-|   |   |   |   |       |-- package.json
-|   |   |   |   |       `-- src
-|   |   |   |   |           |-- browser.js
-|   |   |   |   |           |-- common.js
-|   |   |   |   |           |-- index.js
-|   |   |   |   |           `-- node.js
-|   |   |   |   `-- package.json
-|   |   |   |-- eslint-plugin-jsx-a11y
-|   |   |   |   |-- .babelrc
-|   |   |   |   |-- .eslintrc
-|   |   |   |   |-- CHANGELOG.md
-|   |   |   |   |-- LICENSE.md
-|   |   |   |   |-- README.md
-|   |   |   |   |-- __mocks__
-|   |   |   |   |   |-- IdentifierMock.js
-|   |   |   |   |   |-- JSXAttributeMock.js
-|   |   |   |   |   |-- JSXElementMock.js
-|   |   |   |   |   |-- JSXExpressionContainerMock.js
-|   |   |   |   |   |-- JSXSpreadAttributeMock.js
-|   |   |   |   |   |-- JSXTextMock.js
-|   |   |   |   |   |-- LiteralMock.js
-|   |   |   |   |   `-- genInteractives.js
-|   |   |   |   |-- __tests__
-|   |   |   |   |   |-- __util__
-|   |   |   |   |   |   |-- axeMapping.js
-|   |   |   |   |   |   |-- helpers
-|   |   |   |   |   |   |   |-- getESLintCoreRule.js
-|   |   |   |   |   |   |   `-- parsers.js
-|   |   |   |   |   |   |-- parserOptionsMapper.js
-|   |   |   |   |   |   `-- ruleOptionsMapperFactory.js
-|   |   |   |   |   |-- index-test.js
-|   |   |   |   |   `-- src
-|   |   |   |   |       |-- rules
-|   |   |   |   |       |   |-- accessible-emoji-test.js
-|   |   |   |   |       |   |-- alt-text-test.js
-|   |   |   |   |       |   |-- anchor-ambiguous-text-test.js
-|   |   |   |   |       |   |-- anchor-has-content-test.js
-|   |   |   |   |       |   |-- anchor-is-valid-test.js
-|   |   |   |   |       |   |-- aria-activedescendant-has-tabindex-test.js
-|   |   |   |   |       |   |-- aria-props-test.js
-|   |   |   |   |       |   |-- aria-proptypes-test.js
-|   |   |   |   |       |   |-- aria-role-test.js
-|   |   |   |   |       |   |-- aria-unsupported-elements-test.js
-|   |   |   |   |       |   |-- autocomplete-valid-test.js
-|   |   |   |   |       |   |-- click-events-have-key-events-test.js
-|   |   |   |   |       |   |-- control-has-associated-label-test.js
-|   |   |   |   |       |   |-- heading-has-content-test.js
-|   |   |   |   |       |   |-- html-has-lang-test.js
-|   |   |   |   |       |   |-- iframe-has-title-test.js
-|   |   |   |   |       |   |-- img-redundant-alt-test.js
-|   |   |   |   |       |   |-- interactive-supports-focus-test.js
-|   |   |   |   |       |   |-- label-has-associated-control-test.js
-|   |   |   |   |       |   |-- label-has-for-test.js
-|   |   |   |   |       |   |-- lang-test.js
-|   |   |   |   |       |   |-- media-has-caption-test.js
-|   |   |   |   |       |   |-- mouse-events-have-key-events-test.js
-|   |   |   |   |       |   |-- no-access-key-test.js
-|   |   |   |   |       |   |-- no-aria-hidden-on-focusable-test.js
-|   |   |   |   |       |   |-- no-autofocus-test.js
-|   |   |   |   |       |   |-- no-distracting-elements-test.js
-|   |   |   |   |       |   |-- no-interactive-element-to-noninteractive-role-test.js
-|   |   |   |   |       |   |-- no-noninteractive-element-interactions-test.js
-|   |   |   |   |       |   |-- no-noninteractive-element-to-interactive-role-test.js
-|   |   |   |   |       |   |-- no-noninteractive-tabindex-test.js
-|   |   |   |   |       |   |-- no-onchange-test.js
-|   |   |   |   |       |   |-- no-redundant-roles-test.js
-|   |   |   |   |       |   |-- no-static-element-interactions-test.js
-|   |   |   |   |       |   |-- prefer-tag-over-role-test.js
-|   |   |   |   |       |   |-- role-has-required-aria-props-test.js
-|   |   |   |   |       |   |-- role-supports-aria-props-test.js
-|   |   |   |   |       |   |-- scope-test.js
-|   |   |   |   |       |   `-- tabindex-no-positive-test.js
-|   |   |   |   |       `-- util
-|   |   |   |   |           |-- attributesComparator-test.js
-|   |   |   |   |           |-- getAccessibleChildText-test.js
-|   |   |   |   |           |-- getComputedRole-test.js
-|   |   |   |   |           |-- getElementType-test.js
-|   |   |   |   |           |-- getExplicitRole-test.js
-|   |   |   |   |           |-- getImplicitRole-test.js
-|   |   |   |   |           |-- getSuggestion-test.js
-|   |   |   |   |           |-- getTabIndex-test.js
-|   |   |   |   |           |-- hasAccessibleChild-test.js
-|   |   |   |   |           |-- implicitRoles
-|   |   |   |   |           |   |-- input-test.js
-|   |   |   |   |           |   |-- menu-test.js
-|   |   |   |   |           |   `-- menuitem-test.js
-|   |   |   |   |           |-- isAbstractRole-test.js
-|   |   |   |   |           |-- isContentEditable-test.js
-|   |   |   |   |           |-- isDOMElement-test.js
-|   |   |   |   |           |-- isDisabledElement-test.js
-|   |   |   |   |           |-- isFocusable-test.js
-|   |   |   |   |           |-- isInteractiveElement-test.js
-|   |   |   |   |           |-- isInteractiveRole-test.js
-|   |   |   |   |           |-- isNonInteractiveElement-test.js
-|   |   |   |   |           |-- isNonInteractiveRole-test.js
-|   |   |   |   |           |-- isNonLiteralProperty-test.js
-|   |   |   |   |           |-- isSemanticRoleElement-test.js
-|   |   |   |   |           |-- mayContainChildComponent-test.js
-|   |   |   |   |           |-- mayHaveAccessibleLabel-test.js
-|   |   |   |   |           |-- parserOptionsMapper-test.js
-|   |   |   |   |           `-- schemas-test.js
-|   |   |   |   |-- docs
-|   |   |   |   |   `-- rules
-|   |   |   |   |       |-- accessible-emoji.md
-|   |   |   |   |       |-- alt-text.md
-|   |   |   |   |       |-- anchor-ambiguous-text.md
-|   |   |   |   |       |-- anchor-has-content.md
-|   |   |   |   |       |-- anchor-is-valid.md
-|   |   |   |   |       |-- aria-activedescendant-has-tabindex.md
-|   |   |   |   |       |-- aria-props.md
-|   |   |   |   |       |-- aria-proptypes.md
-|   |   |   |   |       |-- aria-role.md
-|   |   |   |   |       |-- aria-unsupported-elements.md
-|   |   |   |   |       |-- autocomplete-valid.md
-|   |   |   |   |       |-- click-events-have-key-events.md
-|   |   |   |   |       |-- control-has-associated-label.md
-|   |   |   |   |       |-- heading-has-content.md
-|   |   |   |   |       |-- html-has-lang.md
-|   |   |   |   |       |-- iframe-has-title.md
-|   |   |   |   |       |-- img-redundant-alt.md
-|   |   |   |   |       |-- interactive-supports-focus.md
-|   |   |   |   |       |-- label-has-associated-control.md
-|   |   |   |   |       |-- label-has-for.md
-|   |   |   |   |       |-- lang.md
-|   |   |   |   |       |-- media-has-caption.md
-|   |   |   |   |       |-- mouse-events-have-key-events.md
-|   |   |   |   |       |-- no-access-key.md
-|   |   |   |   |       |-- no-aria-hidden-on-focusable.md
-|   |   |   |   |       |-- no-autofocus.md
-|   |   |   |   |       |-- no-distracting-elements.md
-|   |   |   |   |       |-- no-interactive-element-to-noninteractive-role.md
-|   |   |   |   |       |-- no-noninteractive-element-interactions.md
-|   |   |   |   |       |-- no-noninteractive-element-to-interactive-role.md
-|   |   |   |   |       |-- no-noninteractive-tabindex.md
-|   |   |   |   |       |-- no-onchange.md
-|   |   |   |   |       |-- no-redundant-roles.md
-|   |   |   |   |       |-- no-static-element-interactions.md
-|   |   |   |   |       |-- prefer-tag-over-role.md
-|   |   |   |   |       |-- role-has-required-aria-props.md
-|   |   |   |   |       |-- role-supports-aria-props.md
-|   |   |   |   |       |-- scope.md
-|   |   |   |   |       `-- tabindex-no-positive.md
-|   |   |   |   |-- lib
-|   |   |   |   |   |-- configs
-|   |   |   |   |   |   |-- flat-config-base.js
-|   |   |   |   |   |   `-- legacy-config-base.js
-|   |   |   |   |   |-- index.js
-|   |   |   |   |   |-- rules
-|   |   |   |   |   |   |-- accessible-emoji.js
-|   |   |   |   |   |   |-- alt-text.js
-|   |   |   |   |   |   |-- anchor-ambiguous-text.js
-|   |   |   |   |   |   |-- anchor-has-content.js
-|   |   |   |   |   |   |-- anchor-is-valid.js
-|   |   |   |   |   |   |-- aria-activedescendant-has-tabindex.js
-|   |   |   |   |   |   |-- aria-props.js
-|   |   |   |   |   |   |-- aria-proptypes.js
-|   |   |   |   |   |   |-- aria-role.js
-|   |   |   |   |   |   |-- aria-unsupported-elements.js
-|   |   |   |   |   |   |-- autocomplete-valid.js
-|   |   |   |   |   |   |-- click-events-have-key-events.js
-|   |   |   |   |   |   |-- control-has-associated-label.js
-|   |   |   |   |   |   |-- heading-has-content.js
-|   |   |   |   |   |   |-- html-has-lang.js
-|   |   |   |   |   |   |-- iframe-has-title.js
-|   |   |   |   |   |   |-- img-redundant-alt.js
-|   |   |   |   |   |   |-- interactive-supports-focus.js
-|   |   |   |   |   |   |-- label-has-associated-control.js
-|   |   |   |   |   |   |-- label-has-for.js
-|   |   |   |   |   |   |-- lang.js
-|   |   |   |   |   |   |-- media-has-caption.js
-|   |   |   |   |   |   |-- mouse-events-have-key-events.js
-|   |   |   |   |   |   |-- no-access-key.js
-|   |   |   |   |   |   |-- no-aria-hidden-on-focusable.js
-|   |   |   |   |   |   |-- no-autofocus.js
-|   |   |   |   |   |   |-- no-distracting-elements.js
-|   |   |   |   |   |   |-- no-interactive-element-to-noninteractive-role.js
-|   |   |   |   |   |   |-- no-noninteractive-element-interactions.js
-|   |   |   |   |   |   |-- no-noninteractive-element-to-interactive-role.js
-|   |   |   |   |   |   |-- no-noninteractive-tabindex.js
-|   |   |   |   |   |   |-- no-onchange.js
-|   |   |   |   |   |   |-- no-redundant-roles.js
-|   |   |   |   |   |   |-- no-static-element-interactions.js
-|   |   |   |   |   |   |-- prefer-tag-over-role.js
-|   |   |   |   |   |   |-- role-has-required-aria-props.js
-|   |   |   |   |   |   |-- role-supports-aria-props.js
-|   |   |   |   |   |   |-- scope.js
-|   |   |   |   |   |   `-- tabindex-no-positive.js
-|   |   |   |   |   `-- util
-|   |   |   |   |       |-- attributesComparator.js
-|   |   |   |   |       |-- getAccessibleChildText.js
-|   |   |   |   |       |-- getComputedRole.js
-|   |   |   |   |       |-- getElementType.js
-|   |   |   |   |       |-- getExplicitRole.js
-|   |   |   |   |       |-- getImplicitRole.js
-|   |   |   |   |       |-- getSuggestion.js
-|   |   |   |   |       |-- getTabIndex.js
-|   |   |   |   |       |-- hasAccessibleChild.js
-|   |   |   |   |       |-- implicitRoles
-|   |   |   |   |       |   |-- a.js
-|   |   |   |   |       |   |-- area.js
-|   |   |   |   |       |   |-- article.js
-|   |   |   |   |       |   |-- aside.js
-|   |   |   |   |       |   |-- body.js
-|   |   |   |   |       |   |-- button.js
-|   |   |   |   |       |   |-- datalist.js
-|   |   |   |   |       |   |-- details.js
-|   |   |   |   |       |   |-- dialog.js
-|   |   |   |   |       |   |-- form.js
-|   |   |   |   |       |   |-- h1.js
-|   |   |   |   |       |   |-- h2.js
-|   |   |   |   |       |   |-- h3.js
-|   |   |   |   |       |   |-- h4.js
-|   |   |   |   |       |   |-- h5.js
-|   |   |   |   |       |   |-- h6.js
-|   |   |   |   |       |   |-- hr.js
-|   |   |   |   |       |   |-- img.js
-|   |   |   |   |       |   |-- index.js
-|   |   |   |   |       |   |-- input.js
-|   |   |   |   |       |   |-- li.js
-|   |   |   |   |       |   |-- link.js
-|   |   |   |   |       |   |-- menu.js
-|   |   |   |   |       |   |-- menuitem.js
-|   |   |   |   |       |   |-- meter.js
-|   |   |   |   |       |   |-- nav.js
-|   |   |   |   |       |   |-- ol.js
-|   |   |   |   |       |   |-- option.js
-|   |   |   |   |       |   |-- output.js
-|   |   |   |   |       |   |-- progress.js
-|   |   |   |   |       |   |-- section.js
-|   |   |   |   |       |   |-- select.js
-|   |   |   |   |       |   |-- tbody.js
-|   |   |   |   |       |   |-- textarea.js
-|   |   |   |   |       |   |-- tfoot.js
-|   |   |   |   |       |   |-- thead.js
-|   |   |   |   |       |   `-- ul.js
-|   |   |   |   |       |-- isAbstractRole.js
-|   |   |   |   |       |-- isContentEditable.js
-|   |   |   |   |       |-- isDOMElement.js
-|   |   |   |   |       |-- isDisabledElement.js
-|   |   |   |   |       |-- isFocusable.js
-|   |   |   |   |       |-- isHiddenFromScreenReader.js
-|   |   |   |   |       |-- isInteractiveElement.js
-|   |   |   |   |       |-- isInteractiveRole.js
-|   |   |   |   |       |-- isNonInteractiveElement.js
-|   |   |   |   |       |-- isNonInteractiveRole.js
-|   |   |   |   |       |-- isNonLiteralProperty.js
-|   |   |   |   |       |-- isPresentationRole.js
-|   |   |   |   |       |-- isSemanticRoleElement.js
-|   |   |   |   |       |-- mayContainChildComponent.js
-|   |   |   |   |       |-- mayHaveAccessibleLabel.js
-|   |   |   |   |       `-- schemas.js
-|   |   |   |   `-- package.json
-|   |   |   |-- eslint-plugin-react
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- configs
-|   |   |   |   |   |-- all.js
-|   |   |   |   |   |-- jsx-runtime.js
-|   |   |   |   |   `-- recommended.js
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- lib
-|   |   |   |   |   |-- rules
-|   |   |   |   |   |   |-- boolean-prop-naming.d.ts
-|   |   |   |   |   |   |-- boolean-prop-naming.d.ts.map
-|   |   |   |   |   |   |-- boolean-prop-naming.js
-|   |   |   |   |   |   |-- button-has-type.d.ts
-|   |   |   |   |   |   |-- button-has-type.d.ts.map
-|   |   |   |   |   |   |-- button-has-type.js
-|   |   |   |   |   |   |-- checked-requires-onchange-or-readonly.d.ts
-|   |   |   |   |   |   |-- checked-requires-onchange-or-readonly.d.ts.map
-|   |   |   |   |   |   |-- checked-requires-onchange-or-readonly.js
-|   |   |   |   |   |   |-- default-props-match-prop-types.d.ts
-|   |   |   |   |   |   |-- default-props-match-prop-types.d.ts.map
-|   |   |   |   |   |   |-- default-props-match-prop-types.js
-|   |   |   |   |   |   |-- destructuring-assignment.d.ts
-|   |   |   |   |   |   |-- destructuring-assignment.d.ts.map
-|   |   |   |   |   |   |-- destructuring-assignment.js
-|   |   |   |   |   |   |-- display-name.d.ts
-|   |   |   |   |   |   |-- display-name.d.ts.map
-|   |   |   |   |   |   |-- display-name.js
-|   |   |   |   |   |   |-- forbid-component-props.d.ts
-|   |   |   |   |   |   |-- forbid-component-props.d.ts.map
-|   |   |   |   |   |   |-- forbid-component-props.js
-|   |   |   |   |   |   |-- forbid-dom-props.d.ts
-|   |   |   |   |   |   |-- forbid-dom-props.d.ts.map
-|   |   |   |   |   |   |-- forbid-dom-props.js
-|   |   |   |   |   |   |-- forbid-elements.d.ts
-|   |   |   |   |   |   |-- forbid-elements.d.ts.map
-|   |   |   |   |   |   |-- forbid-elements.js
-|   |   |   |   |   |   |-- forbid-foreign-prop-types.d.ts
-|   |   |   |   |   |   |-- forbid-foreign-prop-types.d.ts.map
-|   |   |   |   |   |   |-- forbid-foreign-prop-types.js
-|   |   |   |   |   |   |-- forbid-prop-types.d.ts
-|   |   |   |   |   |   |-- forbid-prop-types.d.ts.map
-|   |   |   |   |   |   |-- forbid-prop-types.js
-|   |   |   |   |   |   |-- forward-ref-uses-ref.d.ts
-|   |   |   |   |   |   |-- forward-ref-uses-ref.d.ts.map
-|   |   |   |   |   |   |-- forward-ref-uses-ref.js
-|   |   |   |   |   |   |-- function-component-definition.d.ts
-|   |   |   |   |   |   |-- function-component-definition.d.ts.map
-|   |   |   |   |   |   |-- function-component-definition.js
-|   |   |   |   |   |   |-- hook-use-state.d.ts
-|   |   |   |   |   |   |-- hook-use-state.d.ts.map
-|   |   |   |   |   |   |-- hook-use-state.js
-|   |   |   |   |   |   |-- iframe-missing-sandbox.d.ts
-|   |   |   |   |   |   |-- iframe-missing-sandbox.d.ts.map
-|   |   |   |   |   |   |-- iframe-missing-sandbox.js
-|   |   |   |   |   |   |-- index.d.ts
-|   |   |   |   |   |   |-- index.d.ts.map
-|   |   |   |   |   |   |-- index.js
-|   |   |   |   |   |   |-- jsx-boolean-value.d.ts
-|   |   |   |   |   |   |-- jsx-boolean-value.d.ts.map
-|   |   |   |   |   |   |-- jsx-boolean-value.js
-|   |   |   |   |   |   |-- jsx-child-element-spacing.d.ts
-|   |   |   |   |   |   |-- jsx-child-element-spacing.d.ts.map
-|   |   |   |   |   |   |-- jsx-child-element-spacing.js
-|   |   |   |   |   |   |-- jsx-closing-bracket-location.d.ts
-|   |   |   |   |   |   |-- jsx-closing-bracket-location.d.ts.map
-|   |   |   |   |   |   |-- jsx-closing-bracket-location.js
-|   |   |   |   |   |   |-- jsx-closing-tag-location.d.ts
-|   |   |   |   |   |   |-- jsx-closing-tag-location.d.ts.map
-|   |   |   |   |   |   |-- jsx-closing-tag-location.js
-|   |   |   |   |   |   |-- jsx-curly-brace-presence.d.ts
-|   |   |   |   |   |   |-- jsx-curly-brace-presence.d.ts.map
-|   |   |   |   |   |   |-- jsx-curly-brace-presence.js
-|   |   |   |   |   |   |-- jsx-curly-newline.d.ts
-|   |   |   |   |   |   |-- jsx-curly-newline.d.ts.map
-|   |   |   |   |   |   |-- jsx-curly-newline.js
-|   |   |   |   |   |   |-- jsx-curly-spacing.d.ts
-|   |   |   |   |   |   |-- jsx-curly-spacing.d.ts.map
-|   |   |   |   |   |   |-- jsx-curly-spacing.js
-|   |   |   |   |   |   |-- jsx-equals-spacing.d.ts
-|   |   |   |   |   |   |-- jsx-equals-spacing.d.ts.map
-|   |   |   |   |   |   |-- jsx-equals-spacing.js
-|   |   |   |   |   |   |-- jsx-filename-extension.d.ts
-|   |   |   |   |   |   |-- jsx-filename-extension.d.ts.map
-|   |   |   |   |   |   |-- jsx-filename-extension.js
-|   |   |   |   |   |   |-- jsx-first-prop-new-line.d.ts
-|   |   |   |   |   |   |-- jsx-first-prop-new-line.d.ts.map
-|   |   |   |   |   |   |-- jsx-first-prop-new-line.js
-|   |   |   |   |   |   |-- jsx-fragments.d.ts
-|   |   |   |   |   |   |-- jsx-fragments.d.ts.map
-|   |   |   |   |   |   |-- jsx-fragments.js
-|   |   |   |   |   |   |-- jsx-handler-names.d.ts
-|   |   |   |   |   |   |-- jsx-handler-names.d.ts.map
-|   |   |   |   |   |   |-- jsx-handler-names.js
-|   |   |   |   |   |   |-- jsx-indent-props.d.ts
-|   |   |   |   |   |   |-- jsx-indent-props.d.ts.map
-|   |   |   |   |   |   |-- jsx-indent-props.js
-|   |   |   |   |   |   |-- jsx-indent.d.ts
-|   |   |   |   |   |   |-- jsx-indent.d.ts.map
-|   |   |   |   |   |   |-- jsx-indent.js
-|   |   |   |   |   |   |-- jsx-key.d.ts
-|   |   |   |   |   |   |-- jsx-key.d.ts.map
-|   |   |   |   |   |   |-- jsx-key.js
-|   |   |   |   |   |   |-- jsx-max-depth.d.ts
-|   |   |   |   |   |   |-- jsx-max-depth.d.ts.map
-|   |   |   |   |   |   |-- jsx-max-depth.js
-|   |   |   |   |   |   |-- jsx-max-props-per-line.d.ts
-|   |   |   |   |   |   |-- jsx-max-props-per-line.d.ts.map
-|   |   |   |   |   |   |-- jsx-max-props-per-line.js
-|   |   |   |   |   |   |-- jsx-newline.d.ts
-|   |   |   |   |   |   |-- jsx-newline.d.ts.map
-|   |   |   |   |   |   |-- jsx-newline.js
-|   |   |   |   |   |   |-- jsx-no-bind.d.ts
-|   |   |   |   |   |   |-- jsx-no-bind.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-bind.js
-|   |   |   |   |   |   |-- jsx-no-comment-textnodes.d.ts
-|   |   |   |   |   |   |-- jsx-no-comment-textnodes.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-comment-textnodes.js
-|   |   |   |   |   |   |-- jsx-no-constructed-context-values.d.ts
-|   |   |   |   |   |   |-- jsx-no-constructed-context-values.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-constructed-context-values.js
-|   |   |   |   |   |   |-- jsx-no-duplicate-props.d.ts
-|   |   |   |   |   |   |-- jsx-no-duplicate-props.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-duplicate-props.js
-|   |   |   |   |   |   |-- jsx-no-leaked-render.d.ts
-|   |   |   |   |   |   |-- jsx-no-leaked-render.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-leaked-render.js
-|   |   |   |   |   |   |-- jsx-no-literals.d.ts
-|   |   |   |   |   |   |-- jsx-no-literals.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-literals.js
-|   |   |   |   |   |   |-- jsx-no-script-url.d.ts
-|   |   |   |   |   |   |-- jsx-no-script-url.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-script-url.js
-|   |   |   |   |   |   |-- jsx-no-target-blank.d.ts
-|   |   |   |   |   |   |-- jsx-no-target-blank.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-target-blank.js
-|   |   |   |   |   |   |-- jsx-no-undef.d.ts
-|   |   |   |   |   |   |-- jsx-no-undef.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-undef.js
-|   |   |   |   |   |   |-- jsx-no-useless-fragment.d.ts
-|   |   |   |   |   |   |-- jsx-no-useless-fragment.d.ts.map
-|   |   |   |   |   |   |-- jsx-no-useless-fragment.js
-|   |   |   |   |   |   |-- jsx-one-expression-per-line.d.ts
-|   |   |   |   |   |   |-- jsx-one-expression-per-line.d.ts.map
-|   |   |   |   |   |   |-- jsx-one-expression-per-line.js
-|   |   |   |   |   |   |-- jsx-pascal-case.d.ts
-|   |   |   |   |   |   |-- jsx-pascal-case.d.ts.map
-|   |   |   |   |   |   |-- jsx-pascal-case.js
-|   |   |   |   |   |   |-- jsx-props-no-multi-spaces.d.ts
-|   |   |   |   |   |   |-- jsx-props-no-multi-spaces.d.ts.map
-|   |   |   |   |   |   |-- jsx-props-no-multi-spaces.js
-|   |   |   |   |   |   |-- jsx-props-no-spread-multi.d.ts
-|   |   |   |   |   |   |-- jsx-props-no-spread-multi.d.ts.map
-|   |   |   |   |   |   |-- jsx-props-no-spread-multi.js
-|   |   |   |   |   |   |-- jsx-props-no-spreading.d.ts
-|   |   |   |   |   |   |-- jsx-props-no-spreading.d.ts.map
-|   |   |   |   |   |   |-- jsx-props-no-spreading.js
-|   |   |   |   |   |   |-- jsx-sort-default-props.d.ts
-|   |   |   |   |   |   |-- jsx-sort-default-props.d.ts.map
-|   |   |   |   |   |   |-- jsx-sort-default-props.js
-|   |   |   |   |   |   |-- jsx-sort-props.d.ts
-|   |   |   |   |   |   |-- jsx-sort-props.d.ts.map
-|   |   |   |   |   |   |-- jsx-sort-props.js
-|   |   |   |   |   |   |-- jsx-space-before-closing.d.ts
-|   |   |   |   |   |   |-- jsx-space-before-closing.d.ts.map
-|   |   |   |   |   |   |-- jsx-space-before-closing.js
-|   |   |   |   |   |   |-- jsx-tag-spacing.d.ts
-|   |   |   |   |   |   |-- jsx-tag-spacing.d.ts.map
-|   |   |   |   |   |   |-- jsx-tag-spacing.js
-|   |   |   |   |   |   |-- jsx-uses-react.d.ts
-|   |   |   |   |   |   |-- jsx-uses-react.d.ts.map
-|   |   |   |   |   |   |-- jsx-uses-react.js
-|   |   |   |   |   |   |-- jsx-uses-vars.d.ts
-|   |   |   |   |   |   |-- jsx-uses-vars.d.ts.map
-|   |   |   |   |   |   |-- jsx-uses-vars.js
-|   |   |   |   |   |   |-- jsx-wrap-multilines.d.ts
-|   |   |   |   |   |   |-- jsx-wrap-multilines.d.ts.map
-|   |   |   |   |   |   |-- jsx-wrap-multilines.js
-|   |   |   |   |   |   |-- no-access-state-in-setstate.d.ts
-|   |   |   |   |   |   |-- no-access-state-in-setstate.d.ts.map
-|   |   |   |   |   |   |-- no-access-state-in-setstate.js
-|   |   |   |   |   |   |-- no-adjacent-inline-elements.d.ts
-|   |   |   |   |   |   |-- no-adjacent-inline-elements.d.ts.map
-|   |   |   |   |   |   |-- no-adjacent-inline-elements.js
-|   |   |   |   |   |   |-- no-array-index-key.d.ts
-|   |   |   |   |   |   |-- no-array-index-key.d.ts.map
-|   |   |   |   |   |   |-- no-array-index-key.js
-|   |   |   |   |   |   |-- no-arrow-function-lifecycle.d.ts
-|   |   |   |   |   |   |-- no-arrow-function-lifecycle.d.ts.map
-|   |   |   |   |   |   |-- no-arrow-function-lifecycle.js
-|   |   |   |   |   |   |-- no-children-prop.d.ts
-|   |   |   |   |   |   |-- no-children-prop.d.ts.map
-|   |   |   |   |   |   |-- no-children-prop.js
-|   |   |   |   |   |   |-- no-danger-with-children.d.ts
-|   |   |   |   |   |   |-- no-danger-with-children.d.ts.map
-|   |   |   |   |   |   |-- no-danger-with-children.js
-|   |   |   |   |   |   |-- no-danger.d.ts
-|   |   |   |   |   |   |-- no-danger.d.ts.map
-|   |   |   |   |   |   |-- no-danger.js
-|   |   |   |   |   |   |-- no-deprecated.d.ts
-|   |   |   |   |   |   |-- no-deprecated.d.ts.map
-|   |   |   |   |   |   |-- no-deprecated.js
-|   |   |   |   |   |   |-- no-did-mount-set-state.d.ts
-|   |   |   |   |   |   |-- no-did-mount-set-state.d.ts.map
-|   |   |   |   |   |   |-- no-did-mount-set-state.js
-|   |   |   |   |   |   |-- no-did-update-set-state.d.ts
-|   |   |   |   |   |   |-- no-did-update-set-state.d.ts.map
-|   |   |   |   |   |   |-- no-did-update-set-state.js
-|   |   |   |   |   |   |-- no-direct-mutation-state.d.ts
-|   |   |   |   |   |   |-- no-direct-mutation-state.d.ts.map
-|   |   |   |   |   |   |-- no-direct-mutation-state.js
-|   |   |   |   |   |   |-- no-find-dom-node.d.ts
-|   |   |   |   |   |   |-- no-find-dom-node.d.ts.map
-|   |   |   |   |   |   |-- no-find-dom-node.js
-|   |   |   |   |   |   |-- no-invalid-html-attribute.d.ts
-|   |   |   |   |   |   |-- no-invalid-html-attribute.d.ts.map
-|   |   |   |   |   |   |-- no-invalid-html-attribute.js
-|   |   |   |   |   |   |-- no-is-mounted.d.ts
-|   |   |   |   |   |   |-- no-is-mounted.d.ts.map
-|   |   |   |   |   |   |-- no-is-mounted.js
-|   |   |   |   |   |   |-- no-multi-comp.d.ts
-|   |   |   |   |   |   |-- no-multi-comp.d.ts.map
-|   |   |   |   |   |   |-- no-multi-comp.js
-|   |   |   |   |   |   |-- no-namespace.d.ts
-|   |   |   |   |   |   |-- no-namespace.d.ts.map
-|   |   |   |   |   |   |-- no-namespace.js
-|   |   |   |   |   |   |-- no-object-type-as-default-prop.d.ts
-|   |   |   |   |   |   |-- no-object-type-as-default-prop.d.ts.map
-|   |   |   |   |   |   |-- no-object-type-as-default-prop.js
-|   |   |   |   |   |   |-- no-redundant-should-component-update.d.ts
-|   |   |   |   |   |   |-- no-redundant-should-component-update.d.ts.map
-|   |   |   |   |   |   |-- no-redundant-should-component-update.js
-|   |   |   |   |   |   |-- no-render-return-value.d.ts
-|   |   |   |   |   |   |-- no-render-return-value.d.ts.map
-|   |   |   |   |   |   |-- no-render-return-value.js
-|   |   |   |   |   |   |-- no-set-state.d.ts
-|   |   |   |   |   |   |-- no-set-state.d.ts.map
-|   |   |   |   |   |   |-- no-set-state.js
-|   |   |   |   |   |   |-- no-string-refs.d.ts
-|   |   |   |   |   |   |-- no-string-refs.d.ts.map
-|   |   |   |   |   |   |-- no-string-refs.js
-|   |   |   |   |   |   |-- no-this-in-sfc.d.ts
-|   |   |   |   |   |   |-- no-this-in-sfc.d.ts.map
-|   |   |   |   |   |   |-- no-this-in-sfc.js
-|   |   |   |   |   |   |-- no-typos.d.ts
-|   |   |   |   |   |   |-- no-typos.d.ts.map
-|   |   |   |   |   |   |-- no-typos.js
-|   |   |   |   |   |   |-- no-unescaped-entities.d.ts
-|   |   |   |   |   |   |-- no-unescaped-entities.d.ts.map
-|   |   |   |   |   |   |-- no-unescaped-entities.js
-|   |   |   |   |   |   |-- no-unknown-property.d.ts
-|   |   |   |   |   |   |-- no-unknown-property.d.ts.map
-|   |   |   |   |   |   |-- no-unknown-property.js
-|   |   |   |   |   |   |-- no-unsafe.d.ts
-|   |   |   |   |   |   |-- no-unsafe.d.ts.map
-|   |   |   |   |   |   |-- no-unsafe.js
-|   |   |   |   |   |   |-- no-unstable-nested-components.d.ts
-|   |   |   |   |   |   |-- no-unstable-nested-components.d.ts.map
-|   |   |   |   |   |   |-- no-unstable-nested-components.js
-|   |   |   |   |   |   |-- no-unused-class-component-methods.d.ts
-|   |   |   |   |   |   |-- no-unused-class-component-methods.d.ts.map
-|   |   |   |   |   |   |-- no-unused-class-component-methods.js
-|   |   |   |   |   |   |-- no-unused-prop-types.d.ts
-|   |   |   |   |   |   |-- no-unused-prop-types.d.ts.map
-|   |   |   |   |   |   |-- no-unused-prop-types.js
-|   |   |   |   |   |   |-- no-unused-state.d.ts
-|   |   |   |   |   |   |-- no-unused-state.d.ts.map
-|   |   |   |   |   |   |-- no-unused-state.js
-|   |   |   |   |   |   |-- no-will-update-set-state.d.ts
-|   |   |   |   |   |   |-- no-will-update-set-state.d.ts.map
-|   |   |   |   |   |   |-- no-will-update-set-state.js
-|   |   |   |   |   |   |-- prefer-es6-class.d.ts
-|   |   |   |   |   |   |-- prefer-es6-class.d.ts.map
-|   |   |   |   |   |   |-- prefer-es6-class.js
-|   |   |   |   |   |   |-- prefer-exact-props.d.ts
-|   |   |   |   |   |   |-- prefer-exact-props.d.ts.map
-|   |   |   |   |   |   |-- prefer-exact-props.js
-|   |   |   |   |   |   |-- prefer-read-only-props.d.ts
-|   |   |   |   |   |   |-- prefer-read-only-props.d.ts.map
-|   |   |   |   |   |   |-- prefer-read-only-props.js
-|   |   |   |   |   |   |-- prefer-stateless-function.d.ts
-|   |   |   |   |   |   |-- prefer-stateless-function.d.ts.map
-|   |   |   |   |   |   |-- prefer-stateless-function.js
-|   |   |   |   |   |   |-- prop-types.d.ts
-|   |   |   |   |   |   |-- prop-types.d.ts.map
-|   |   |   |   |   |   |-- prop-types.js
-|   |   |   |   |   |   |-- react-in-jsx-scope.d.ts
-|   |   |   |   |   |   |-- react-in-jsx-scope.d.ts.map
-|   |   |   |   |   |   |-- react-in-jsx-scope.js
-|   |   |   |   |   |   |-- require-default-props.d.ts
-|   |   |   |   |   |   |-- require-default-props.d.ts.map
-|   |   |   |   |   |   |-- require-default-props.js
-|   |   |   |   |   |   |-- require-optimization.d.ts
-|   |   |   |   |   |   |-- require-optimization.d.ts.map
-|   |   |   |   |   |   |-- require-optimization.js
-|   |   |   |   |   |   |-- require-render-return.d.ts
-|   |   |   |   |   |   |-- require-render-return.d.ts.map
-|   |   |   |   |   |   |-- require-render-return.js
-|   |   |   |   |   |   |-- self-closing-comp.d.ts
-|   |   |   |   |   |   |-- self-closing-comp.d.ts.map
-|   |   |   |   |   |   |-- self-closing-comp.js
-|   |   |   |   |   |   |-- sort-comp.d.ts
-|   |   |   |   |   |   |-- sort-comp.d.ts.map
-|   |   |   |   |   |   |-- sort-comp.js
-|   |   |   |   |   |   |-- sort-default-props.d.ts
-|   |   |   |   |   |   |-- sort-default-props.d.ts.map
-|   |   |   |   |   |   |-- sort-default-props.js
-|   |   |   |   |   |   |-- sort-prop-types.d.ts
-|   |   |   |   |   |   |-- sort-prop-types.d.ts.map
-|   |   |   |   |   |   |-- sort-prop-types.js
-|   |   |   |   |   |   |-- state-in-constructor.d.ts
-|   |   |   |   |   |   |-- state-in-constructor.d.ts.map
-|   |   |   |   |   |   |-- state-in-constructor.js
-|   |   |   |   |   |   |-- static-property-placement.d.ts
-|   |   |   |   |   |   |-- static-property-placement.d.ts.map
-|   |   |   |   |   |   |-- static-property-placement.js
-|   |   |   |   |   |   |-- style-prop-object.d.ts
-|   |   |   |   |   |   |-- style-prop-object.d.ts.map
-|   |   |   |   |   |   |-- style-prop-object.js
-|   |   |   |   |   |   |-- void-dom-elements-no-children.d.ts
-|   |   |   |   |   |   |-- void-dom-elements-no-children.d.ts.map
-|   |   |   |   |   |   `-- void-dom-elements-no-children.js
-|   |   |   |   |   |-- types.d.ts
-|   |   |   |   |   `-- util
-|   |   |   |   |       |-- Components.d.ts
-|   |   |   |   |       |-- Components.d.ts.map
-|   |   |   |   |       |-- Components.js
-|   |   |   |   |       |-- annotations.d.ts
-|   |   |   |   |       |-- annotations.d.ts.map
-|   |   |   |   |       |-- annotations.js
-|   |   |   |   |       |-- ast.d.ts
-|   |   |   |   |       |-- ast.d.ts.map
-|   |   |   |   |       |-- ast.js
-|   |   |   |   |       |-- componentUtil.d.ts
-|   |   |   |   |       |-- componentUtil.d.ts.map
-|   |   |   |   |       |-- componentUtil.js
-|   |   |   |   |       |-- defaultProps.d.ts
-|   |   |   |   |       |-- defaultProps.d.ts.map
-|   |   |   |   |       |-- defaultProps.js
-|   |   |   |   |       |-- docsUrl.d.ts
-|   |   |   |   |       |-- docsUrl.d.ts.map
-|   |   |   |   |       |-- docsUrl.js
-|   |   |   |   |       |-- error.d.ts
-|   |   |   |   |       |-- error.d.ts.map
-|   |   |   |   |       |-- error.js
-|   |   |   |   |       |-- eslint.d.ts
-|   |   |   |   |       |-- eslint.d.ts.map
-|   |   |   |   |       |-- eslint.js
-|   |   |   |   |       |-- getTokenBeforeClosingBracket.d.ts
-|   |   |   |   |       |-- getTokenBeforeClosingBracket.d.ts.map
-|   |   |   |   |       |-- getTokenBeforeClosingBracket.js
-|   |   |   |   |       |-- isCreateContext.d.ts
-|   |   |   |   |       |-- isCreateContext.d.ts.map
-|   |   |   |   |       |-- isCreateContext.js
-|   |   |   |   |       |-- isCreateElement.d.ts
-|   |   |   |   |       |-- isCreateElement.d.ts.map
-|   |   |   |   |       |-- isCreateElement.js
-|   |   |   |   |       |-- isDestructuredFromPragmaImport.d.ts
-|   |   |   |   |       |-- isDestructuredFromPragmaImport.d.ts.map
-|   |   |   |   |       |-- isDestructuredFromPragmaImport.js
-|   |   |   |   |       |-- isFirstLetterCapitalized.d.ts
-|   |   |   |   |       |-- isFirstLetterCapitalized.d.ts.map
-|   |   |   |   |       |-- isFirstLetterCapitalized.js
-|   |   |   |   |       |-- jsx.d.ts
-|   |   |   |   |       |-- jsx.d.ts.map
-|   |   |   |   |       |-- jsx.js
-|   |   |   |   |       |-- lifecycleMethods.d.ts
-|   |   |   |   |       |-- lifecycleMethods.d.ts.map
-|   |   |   |   |       |-- lifecycleMethods.js
-|   |   |   |   |       |-- linkComponents.d.ts
-|   |   |   |   |       |-- linkComponents.d.ts.map
-|   |   |   |   |       |-- linkComponents.js
-|   |   |   |   |       |-- log.d.ts
-|   |   |   |   |       |-- log.d.ts.map
-|   |   |   |   |       |-- log.js
-|   |   |   |   |       |-- makeNoMethodSetStateRule.d.ts
-|   |   |   |   |       |-- makeNoMethodSetStateRule.d.ts.map
-|   |   |   |   |       |-- makeNoMethodSetStateRule.js
-|   |   |   |   |       |-- message.d.ts
-|   |   |   |   |       |-- message.d.ts.map
-|   |   |   |   |       |-- message.js
-|   |   |   |   |       |-- pragma.d.ts
-|   |   |   |   |       |-- pragma.d.ts.map
-|   |   |   |   |       |-- pragma.js
-|   |   |   |   |       |-- propTypes.d.ts
-|   |   |   |   |       |-- propTypes.d.ts.map
-|   |   |   |   |       |-- propTypes.js
-|   |   |   |   |       |-- propTypesSort.d.ts
-|   |   |   |   |       |-- propTypesSort.d.ts.map
-|   |   |   |   |       |-- propTypesSort.js
-|   |   |   |   |       |-- propWrapper.d.ts
-|   |   |   |   |       |-- propWrapper.d.ts.map
-|   |   |   |   |       |-- propWrapper.js
-|   |   |   |   |       |-- props.d.ts
-|   |   |   |   |       |-- props.d.ts.map
-|   |   |   |   |       |-- props.js
-|   |   |   |   |       |-- report.d.ts
-|   |   |   |   |       |-- report.d.ts.map
-|   |   |   |   |       |-- report.js
-|   |   |   |   |       |-- usedPropTypes.d.ts
-|   |   |   |   |       |-- usedPropTypes.d.ts.map
-|   |   |   |   |       |-- usedPropTypes.js
-|   |   |   |   |       |-- variable.d.ts
-|   |   |   |   |       |-- variable.d.ts.map
-|   |   |   |   |       |-- variable.js
-|   |   |   |   |       |-- version.d.ts
-|   |   |   |   |       |-- version.d.ts.map
-|   |   |   |   |       `-- version.js
-|   |   |   |   `-- package.json
-|   |   |   |-- eslint-plugin-react-hooks
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- cjs
-|   |   |   |   |   |-- eslint-plugin-react-hooks.d.ts
-|   |   |   |   |   |-- eslint-plugin-react-hooks.development.js
-|   |   |   |   |   `-- eslint-plugin-react-hooks.production.js
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   `-- package.json
-|   |   |   |-- globals
-|   |   |   |   |-- globals.json
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- license
-|   |   |   |   |-- package.json
-|   |   |   |   `-- readme.md
-|   |   |   |-- ignore
-|   |   |   |   |-- LICENSE-MIT
-|   |   |   |   |-- README.md
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- legacy.js
-|   |   |   |   `-- package.json
-|   |   |   |-- minimatch
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- minimatch.js
-|   |   |   |   `-- package.json
-|   |   |   |-- resolve
-|   |   |   |   |-- .claude
-|   |   |   |   |   `-- settings.local.json
-|   |   |   |   |-- .editorconfig
-|   |   |   |   |-- .github
-|   |   |   |   |   |-- FUNDING.yml
-|   |   |   |   |   |-- INCIDENT_RESPONSE_PROCESS.md
-|   |   |   |   |   `-- THREAT_MODEL.md
-|   |   |   |   |-- .gitmodules
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- SECURITY.md
-|   |   |   |   |-- async.js
-|   |   |   |   |-- bin
-|   |   |   |   |   `-- resolve
-|   |   |   |   |-- eslint.config.mjs
-|   |   |   |   |-- example
-|   |   |   |   |   |-- async.js
-|   |   |   |   |   `-- sync.js
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.mjs
-|   |   |   |   |-- lib
-|   |   |   |   |   |-- async.js
-|   |   |   |   |   |-- caller.js
-|   |   |   |   |   |-- exports-resolve.js
-|   |   |   |   |   |-- get-exports-category.js
-|   |   |   |   |   |-- homedir.js
-|   |   |   |   |   |-- node-modules-paths.js
-|   |   |   |   |   |-- normalize-options.js
-|   |   |   |   |   |-- parse-package-specifier.js
-|   |   |   |   |   |-- select-most-restrictive.js
-|   |   |   |   |   `-- sync.js
-|   |   |   |   |-- package.json
-|   |   |   |   |-- readme.markdown
-|   |   |   |   |-- sync.js
-|   |   |   |   `-- test
-|   |   |   |       |-- dotdot
-|   |   |   |       |   |-- abc
-|   |   |   |       |   |   `-- index.js
-|   |   |   |       |   `-- index.js
-|   |   |   |       |-- dotdot.js
-|   |   |   |       |-- exports.js
-|   |   |   |       |-- exports_sync.js
-|   |   |   |       |-- faulty_basedir.js
-|   |   |   |       |-- filter.js
-|   |   |   |       |-- filter_sync.js
-|   |   |   |       |-- home_paths.js
-|   |   |   |       |-- home_paths_sync.js
-|   |   |   |       |-- mock.js
-|   |   |   |       |-- mock_sync.js
-|   |   |   |       |-- module_dir
-|   |   |   |       |   |-- xmodules
-|   |   |   |       |   |   `-- aaa
-|   |   |   |       |   |       `-- index.js
-|   |   |   |       |   |-- ymodules
-|   |   |   |       |   |   `-- aaa
-|   |   |   |       |   |       `-- index.js
-|   |   |   |       |   `-- zmodules
-|   |   |   |       |       `-- bbb
-|   |   |   |       |           |-- main.js
-|   |   |   |       |           `-- package.json
-|   |   |   |       |-- module_dir.js
-|   |   |   |       |-- node-modules-paths.js
-|   |   |   |       |-- node_path
-|   |   |   |       |   |-- x
-|   |   |   |       |   |   |-- aaa
-|   |   |   |       |   |   |   `-- index.js
-|   |   |   |       |   |   `-- ccc
-|   |   |   |       |   |       `-- index.js
-|   |   |   |       |   `-- y
-|   |   |   |       |       |-- bbb
-|   |   |   |       |       |   `-- index.js
-|   |   |   |       |       `-- ccc
-|   |   |   |       |           `-- index.js
-|   |   |   |       |-- node_path.js
-|   |   |   |       |-- nonstring.js
-|   |   |   |       |-- pathfilter
-|   |   |   |       |   `-- deep_ref
-|   |   |   |       |       `-- main.js
-|   |   |   |       |-- pathfilter.js
-|   |   |   |       |-- pathfilter_sync.js
-|   |   |   |       |-- precedence
-|   |   |   |       |   |-- aaa
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- main.js
-|   |   |   |       |   |-- aaa.js
-|   |   |   |       |   |-- bbb
-|   |   |   |       |   |   `-- main.js
-|   |   |   |       |   `-- bbb.js
-|   |   |   |       |-- precedence.js
-|   |   |   |       |-- resolver
-|   |   |   |       |   |-- baz
-|   |   |   |       |   |   |-- doom.js
-|   |   |   |       |   |   |-- package.json
-|   |   |   |       |   |   `-- quux.js
-|   |   |   |       |   |-- browser_field
-|   |   |   |       |   |   |-- a.js
-|   |   |   |       |   |   |-- b.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- cup.coffee
-|   |   |   |       |   |-- dot_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- dot_slash_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- empty_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- false_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- foo.js
-|   |   |   |       |   |-- incorrect_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- invalid_main
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- missing_index
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- missing_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- mug.coffee
-|   |   |   |       |   |-- mug.js
-|   |   |   |       |   |-- multirepo
-|   |   |   |       |   |   |-- lerna.json
-|   |   |   |       |   |   |-- package.json
-|   |   |   |       |   |   `-- packages
-|   |   |   |       |   |       |-- package-a
-|   |   |   |       |   |       |   |-- index.js
-|   |   |   |       |   |       |   `-- package.json
-|   |   |   |       |   |       `-- package-b
-|   |   |   |       |   |           |-- index.js
-|   |   |   |       |   |           `-- package.json
-|   |   |   |       |   |-- nested_symlinks
-|   |   |   |       |   |   `-- mylib
-|   |   |   |       |   |       |-- async.js
-|   |   |   |       |   |       |-- package.json
-|   |   |   |       |   |       `-- sync.js
-|   |   |   |       |   |-- null_main
-|   |   |   |       |   |   |-- index.js
-|   |   |   |       |   |   `-- package.json
-|   |   |   |       |   |-- other_path
-|   |   |   |       |   |   |-- lib
-|   |   |   |       |   |   |   `-- other-lib.js
-|   |   |   |       |   |   `-- root.js
-|   |   |   |       |   |-- quux
-|   |   |   |       |   |   `-- foo
-|   |   |   |       |   |       `-- index.js
-|   |   |   |       |   |-- same_names
-|   |   |   |       |   |   |-- foo
-|   |   |   |       |   |   |   `-- index.js
-|   |   |   |       |   |   `-- foo.js
-|   |   |   |       |   |-- symlinked
-|   |   |   |       |   |   |-- _
-|   |   |   |       |   |   |   |-- node_modules
-|   |   |   |       |   |   |   |   `-- foo.js
-|   |   |   |       |   |   |   `-- symlink_target
-|   |   |   |       |   |   |       `-- .gitkeep
-|   |   |   |       |   |   `-- package
-|   |   |   |       |   |       |-- bar.js
-|   |   |   |       |   |       `-- package.json
-|   |   |   |       |   `-- without_basedir
-|   |   |   |       |       `-- main.js
-|   |   |   |       |-- resolver.js
-|   |   |   |       |-- resolver_sync.js
-|   |   |   |       |-- shadowed_core
-|   |   |   |       |   `-- node_modules
-|   |   |   |       |       `-- util
-|   |   |   |       |           `-- index.js
-|   |   |   |       |-- shadowed_core.js
-|   |   |   |       |-- subdirs.js
-|   |   |   |       `-- symlinks.js
-|   |   |   `-- typescript-eslint
-|   |   |       |-- LICENSE
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- compatibility-types.d.ts
-|   |   |       |   |-- compatibility-types.js
-|   |   |       |   |-- config-helper.d.ts
-|   |   |       |   |-- config-helper.js
-|   |   |       |   |-- getTSConfigRootDirFromStack.d.ts
-|   |   |       |   |-- getTSConfigRootDirFromStack.js
-|   |   |       |   |-- index.d.ts
-|   |   |       |   |-- index.js
-|   |   |       |   `-- tsconfig.build.tsbuildinfo
-|   |   |       |-- node_modules
-|   |   |       |   |-- .bin
-|   |   |       |   |   `-- semver -> ../semver/bin/semver.js
-|   |   |       |   |-- @typescript-eslint
-|   |   |       |   |   |-- eslint-plugin
-|   |   |       |   |   |   |-- LICENSE
-|   |   |       |   |   |   |-- README.md
-|   |   |       |   |   |   |-- dist
-|   |   |       |   |   |   |   |-- configs
-|   |   |       |   |   |   |   |   |-- eslint-recommended-raw.d.ts
-|   |   |       |   |   |   |   |   |-- eslint-recommended-raw.js
-|   |   |       |   |   |   |   |   |-- eslintrc
-|   |   |       |   |   |   |   |   |   |-- all.d.ts
-|   |   |       |   |   |   |   |   |   |-- all.js
-|   |   |       |   |   |   |   |   |   |-- base.d.ts
-|   |   |       |   |   |   |   |   |   |-- base.js
-|   |   |       |   |   |   |   |   |   |-- disable-type-checked.d.ts
-|   |   |       |   |   |   |   |   |   |-- disable-type-checked.js
-|   |   |       |   |   |   |   |   |   |-- eslint-recommended.d.ts
-|   |   |       |   |   |   |   |   |   |-- eslint-recommended.js
-|   |   |       |   |   |   |   |   |   |-- recommended-type-checked-only.d.ts
-|   |   |       |   |   |   |   |   |   |-- recommended-type-checked-only.js
-|   |   |       |   |   |   |   |   |   |-- recommended-type-checked.d.ts
-|   |   |       |   |   |   |   |   |   |-- recommended-type-checked.js
-|   |   |       |   |   |   |   |   |   |-- recommended.d.ts
-|   |   |       |   |   |   |   |   |   |-- recommended.js
-|   |   |       |   |   |   |   |   |   |-- strict-type-checked-only.d.ts
-|   |   |       |   |   |   |   |   |   |-- strict-type-checked-only.js
-|   |   |       |   |   |   |   |   |   |-- strict-type-checked.d.ts
-|   |   |       |   |   |   |   |   |   |-- strict-type-checked.js
-|   |   |       |   |   |   |   |   |   |-- strict.d.ts
-|   |   |       |   |   |   |   |   |   |-- strict.js
-|   |   |       |   |   |   |   |   |   |-- stylistic-type-checked-only.d.ts
-|   |   |       |   |   |   |   |   |   |-- stylistic-type-checked-only.js
-|   |   |       |   |   |   |   |   |   |-- stylistic-type-checked.d.ts
-|   |   |       |   |   |   |   |   |   |-- stylistic-type-checked.js
-|   |   |       |   |   |   |   |   |   |-- stylistic.d.ts
-|   |   |       |   |   |   |   |   |   `-- stylistic.js
-|   |   |       |   |   |   |   |   `-- flat
-|   |   |       |   |   |   |   |       |-- all.d.ts
-|   |   |       |   |   |   |   |       |-- all.js
-|   |   |       |   |   |   |   |       |-- base.d.ts
-|   |   |       |   |   |   |   |       |-- base.js
-|   |   |       |   |   |   |   |       |-- disable-type-checked.d.ts
-|   |   |       |   |   |   |   |       |-- disable-type-checked.js
-|   |   |       |   |   |   |   |       |-- eslint-recommended.d.ts
-|   |   |       |   |   |   |   |       |-- eslint-recommended.js
-|   |   |       |   |   |   |   |       |-- recommended-type-checked-only.d.ts
-|   |   |       |   |   |   |   |       |-- recommended-type-checked-only.js
-|   |   |       |   |   |   |   |       |-- recommended-type-checked.d.ts
-|   |   |       |   |   |   |   |       |-- recommended-type-checked.js
-|   |   |       |   |   |   |   |       |-- recommended.d.ts
-|   |   |       |   |   |   |   |       |-- recommended.js
-|   |   |       |   |   |   |   |       |-- strict-type-checked-only.d.ts
-|   |   |       |   |   |   |   |       |-- strict-type-checked-only.js
-|   |   |       |   |   |   |   |       |-- strict-type-checked.d.ts
-|   |   |       |   |   |   |   |       |-- strict-type-checked.js
-|   |   |       |   |   |   |   |       |-- strict.d.ts
-|   |   |       |   |   |   |   |       |-- strict.js
-|   |   |       |   |   |   |   |       |-- stylistic-type-checked-only.d.ts
-|   |   |       |   |   |   |   |       |-- stylistic-type-checked-only.js
-|   |   |       |   |   |   |   |       |-- stylistic-type-checked.d.ts
-|   |   |       |   |   |   |   |       |-- stylistic-type-checked.js
-|   |   |       |   |   |   |   |       |-- stylistic.d.ts
-|   |   |       |   |   |   |   |       `-- stylistic.js
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- raw-plugin.d.ts
-|   |   |       |   |   |   |   |-- raw-plugin.js
-|   |   |       |   |   |   |   |-- rules
-|   |   |       |   |   |   |   |   |-- adjacent-overload-signatures.d.ts
-|   |   |       |   |   |   |   |   |-- adjacent-overload-signatures.js
-|   |   |       |   |   |   |   |   |-- array-type.d.ts
-|   |   |       |   |   |   |   |   |-- array-type.js
-|   |   |       |   |   |   |   |   |-- await-thenable.d.ts
-|   |   |       |   |   |   |   |   |-- await-thenable.js
-|   |   |       |   |   |   |   |   |-- ban-ts-comment.d.ts
-|   |   |       |   |   |   |   |   |-- ban-ts-comment.js
-|   |   |       |   |   |   |   |   |-- ban-tslint-comment.d.ts
-|   |   |       |   |   |   |   |   |-- ban-tslint-comment.js
-|   |   |       |   |   |   |   |   |-- class-literal-property-style.d.ts
-|   |   |       |   |   |   |   |   |-- class-literal-property-style.js
-|   |   |       |   |   |   |   |   |-- class-methods-use-this.d.ts
-|   |   |       |   |   |   |   |   |-- class-methods-use-this.js
-|   |   |       |   |   |   |   |   |-- consistent-generic-constructors.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-generic-constructors.js
-|   |   |       |   |   |   |   |   |-- consistent-indexed-object-style.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-indexed-object-style.js
-|   |   |       |   |   |   |   |   |-- consistent-return.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-return.js
-|   |   |       |   |   |   |   |   |-- consistent-type-assertions.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-type-assertions.js
-|   |   |       |   |   |   |   |   |-- consistent-type-definitions.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-type-definitions.js
-|   |   |       |   |   |   |   |   |-- consistent-type-exports.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-type-exports.js
-|   |   |       |   |   |   |   |   |-- consistent-type-imports.d.ts
-|   |   |       |   |   |   |   |   |-- consistent-type-imports.js
-|   |   |       |   |   |   |   |   |-- default-param-last.d.ts
-|   |   |       |   |   |   |   |   |-- default-param-last.js
-|   |   |       |   |   |   |   |   |-- dot-notation.d.ts
-|   |   |       |   |   |   |   |   |-- dot-notation.js
-|   |   |       |   |   |   |   |   |-- enum-utils
-|   |   |       |   |   |   |   |   |   |-- shared.d.ts
-|   |   |       |   |   |   |   |   |   `-- shared.js
-|   |   |       |   |   |   |   |   |-- explicit-function-return-type.d.ts
-|   |   |       |   |   |   |   |   |-- explicit-function-return-type.js
-|   |   |       |   |   |   |   |   |-- explicit-member-accessibility.d.ts
-|   |   |       |   |   |   |   |   |-- explicit-member-accessibility.js
-|   |   |       |   |   |   |   |   |-- explicit-module-boundary-types.d.ts
-|   |   |       |   |   |   |   |   |-- explicit-module-boundary-types.js
-|   |   |       |   |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |   |-- init-declarations.d.ts
-|   |   |       |   |   |   |   |   |-- init-declarations.js
-|   |   |       |   |   |   |   |   |-- max-params.d.ts
-|   |   |       |   |   |   |   |   |-- max-params.js
-|   |   |       |   |   |   |   |   |-- member-ordering.d.ts
-|   |   |       |   |   |   |   |   |-- member-ordering.js
-|   |   |       |   |   |   |   |   |-- method-signature-style.d.ts
-|   |   |       |   |   |   |   |   |-- method-signature-style.js
-|   |   |       |   |   |   |   |   |-- naming-convention-utils
-|   |   |       |   |   |   |   |   |   |-- enums.d.ts
-|   |   |       |   |   |   |   |   |   |-- enums.js
-|   |   |       |   |   |   |   |   |   |-- format.d.ts
-|   |   |       |   |   |   |   |   |   |-- format.js
-|   |   |       |   |   |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |   |   |-- parse-options.d.ts
-|   |   |       |   |   |   |   |   |   |-- parse-options.js
-|   |   |       |   |   |   |   |   |   |-- schema.d.ts
-|   |   |       |   |   |   |   |   |   |-- schema.js
-|   |   |       |   |   |   |   |   |   |-- shared.d.ts
-|   |   |       |   |   |   |   |   |   |-- shared.js
-|   |   |       |   |   |   |   |   |   |-- types.d.ts
-|   |   |       |   |   |   |   |   |   |-- types.js
-|   |   |       |   |   |   |   |   |   |-- validator.d.ts
-|   |   |       |   |   |   |   |   |   `-- validator.js
-|   |   |       |   |   |   |   |   |-- naming-convention.d.ts
-|   |   |       |   |   |   |   |   |-- naming-convention.js
-|   |   |       |   |   |   |   |   |-- no-array-constructor.d.ts
-|   |   |       |   |   |   |   |   |-- no-array-constructor.js
-|   |   |       |   |   |   |   |   |-- no-array-delete.d.ts
-|   |   |       |   |   |   |   |   |-- no-array-delete.js
-|   |   |       |   |   |   |   |   |-- no-base-to-string.d.ts
-|   |   |       |   |   |   |   |   |-- no-base-to-string.js
-|   |   |       |   |   |   |   |   |-- no-confusing-non-null-assertion.d.ts
-|   |   |       |   |   |   |   |   |-- no-confusing-non-null-assertion.js
-|   |   |       |   |   |   |   |   |-- no-confusing-void-expression.d.ts
-|   |   |       |   |   |   |   |   |-- no-confusing-void-expression.js
-|   |   |       |   |   |   |   |   |-- no-deprecated.d.ts
-|   |   |       |   |   |   |   |   |-- no-deprecated.js
-|   |   |       |   |   |   |   |   |-- no-dupe-class-members.d.ts
-|   |   |       |   |   |   |   |   |-- no-dupe-class-members.js
-|   |   |       |   |   |   |   |   |-- no-duplicate-enum-values.d.ts
-|   |   |       |   |   |   |   |   |-- no-duplicate-enum-values.js
-|   |   |       |   |   |   |   |   |-- no-duplicate-type-constituents.d.ts
-|   |   |       |   |   |   |   |   |-- no-duplicate-type-constituents.js
-|   |   |       |   |   |   |   |   |-- no-dynamic-delete.d.ts
-|   |   |       |   |   |   |   |   |-- no-dynamic-delete.js
-|   |   |       |   |   |   |   |   |-- no-empty-function.d.ts
-|   |   |       |   |   |   |   |   |-- no-empty-function.js
-|   |   |       |   |   |   |   |   |-- no-empty-interface.d.ts
-|   |   |       |   |   |   |   |   |-- no-empty-interface.js
-|   |   |       |   |   |   |   |   |-- no-empty-object-type.d.ts
-|   |   |       |   |   |   |   |   |-- no-empty-object-type.js
-|   |   |       |   |   |   |   |   |-- no-explicit-any.d.ts
-|   |   |       |   |   |   |   |   |-- no-explicit-any.js
-|   |   |       |   |   |   |   |   |-- no-extra-non-null-assertion.d.ts
-|   |   |       |   |   |   |   |   |-- no-extra-non-null-assertion.js
-|   |   |       |   |   |   |   |   |-- no-extraneous-class.d.ts
-|   |   |       |   |   |   |   |   |-- no-extraneous-class.js
-|   |   |       |   |   |   |   |   |-- no-floating-promises.d.ts
-|   |   |       |   |   |   |   |   |-- no-floating-promises.js
-|   |   |       |   |   |   |   |   |-- no-for-in-array.d.ts
-|   |   |       |   |   |   |   |   |-- no-for-in-array.js
-|   |   |       |   |   |   |   |   |-- no-implied-eval.d.ts
-|   |   |       |   |   |   |   |   |-- no-implied-eval.js
-|   |   |       |   |   |   |   |   |-- no-import-type-side-effects.d.ts
-|   |   |       |   |   |   |   |   |-- no-import-type-side-effects.js
-|   |   |       |   |   |   |   |   |-- no-inferrable-types.d.ts
-|   |   |       |   |   |   |   |   |-- no-inferrable-types.js
-|   |   |       |   |   |   |   |   |-- no-invalid-this.d.ts
-|   |   |       |   |   |   |   |   |-- no-invalid-this.js
-|   |   |       |   |   |   |   |   |-- no-invalid-void-type.d.ts
-|   |   |       |   |   |   |   |   |-- no-invalid-void-type.js
-|   |   |       |   |   |   |   |   |-- no-loop-func.d.ts
-|   |   |       |   |   |   |   |   |-- no-loop-func.js
-|   |   |       |   |   |   |   |   |-- no-loss-of-precision.d.ts
-|   |   |       |   |   |   |   |   |-- no-loss-of-precision.js
-|   |   |       |   |   |   |   |   |-- no-magic-numbers.d.ts
-|   |   |       |   |   |   |   |   |-- no-magic-numbers.js
-|   |   |       |   |   |   |   |   |-- no-meaningless-void-operator.d.ts
-|   |   |       |   |   |   |   |   |-- no-meaningless-void-operator.js
-|   |   |       |   |   |   |   |   |-- no-misused-new.d.ts
-|   |   |       |   |   |   |   |   |-- no-misused-new.js
-|   |   |       |   |   |   |   |   |-- no-misused-promises.d.ts
-|   |   |       |   |   |   |   |   |-- no-misused-promises.js
-|   |   |       |   |   |   |   |   |-- no-misused-spread.d.ts
-|   |   |       |   |   |   |   |   |-- no-misused-spread.js
-|   |   |       |   |   |   |   |   |-- no-mixed-enums.d.ts
-|   |   |       |   |   |   |   |   |-- no-mixed-enums.js
-|   |   |       |   |   |   |   |   |-- no-namespace.d.ts
-|   |   |       |   |   |   |   |   |-- no-namespace.js
-|   |   |       |   |   |   |   |   |-- no-non-null-asserted-nullish-coalescing.d.ts
-|   |   |       |   |   |   |   |   |-- no-non-null-asserted-nullish-coalescing.js
-|   |   |       |   |   |   |   |   |-- no-non-null-asserted-optional-chain.d.ts
-|   |   |       |   |   |   |   |   |-- no-non-null-asserted-optional-chain.js
-|   |   |       |   |   |   |   |   |-- no-non-null-assertion.d.ts
-|   |   |       |   |   |   |   |   |-- no-non-null-assertion.js
-|   |   |       |   |   |   |   |   |-- no-redeclare.d.ts
-|   |   |       |   |   |   |   |   |-- no-redeclare.js
-|   |   |       |   |   |   |   |   |-- no-redundant-type-constituents.d.ts
-|   |   |       |   |   |   |   |   |-- no-redundant-type-constituents.js
-|   |   |       |   |   |   |   |   |-- no-require-imports.d.ts
-|   |   |       |   |   |   |   |   |-- no-require-imports.js
-|   |   |       |   |   |   |   |   |-- no-restricted-imports.d.ts
-|   |   |       |   |   |   |   |   |-- no-restricted-imports.js
-|   |   |       |   |   |   |   |   |-- no-restricted-types.d.ts
-|   |   |       |   |   |   |   |   |-- no-restricted-types.js
-|   |   |       |   |   |   |   |   |-- no-shadow.d.ts
-|   |   |       |   |   |   |   |   |-- no-shadow.js
-|   |   |       |   |   |   |   |   |-- no-this-alias.d.ts
-|   |   |       |   |   |   |   |   |-- no-this-alias.js
-|   |   |       |   |   |   |   |   |-- no-type-alias.d.ts
-|   |   |       |   |   |   |   |   |-- no-type-alias.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-boolean-literal-compare.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-boolean-literal-compare.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-condition.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-condition.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-parameter-property-assignment.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-parameter-property-assignment.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-qualifier.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-qualifier.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-template-expression.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-template-expression.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-arguments.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-arguments.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-assertion.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-assertion.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-constraint.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-constraint.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-conversion.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-conversion.js
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-parameters.d.ts
-|   |   |       |   |   |   |   |   |-- no-unnecessary-type-parameters.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-argument.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-argument.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-assignment.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-assignment.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-call.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-call.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-declaration-merging.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-declaration-merging.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-enum-comparison.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-enum-comparison.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-function-type.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-function-type.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-member-access.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-member-access.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-return.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-return.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-type-assertion.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-type-assertion.js
-|   |   |       |   |   |   |   |   |-- no-unsafe-unary-minus.d.ts
-|   |   |       |   |   |   |   |   |-- no-unsafe-unary-minus.js
-|   |   |       |   |   |   |   |   |-- no-unused-expressions.d.ts
-|   |   |       |   |   |   |   |   |-- no-unused-expressions.js
-|   |   |       |   |   |   |   |   |-- no-unused-private-class-members.d.ts
-|   |   |       |   |   |   |   |   |-- no-unused-private-class-members.js
-|   |   |       |   |   |   |   |   |-- no-unused-vars.d.ts
-|   |   |       |   |   |   |   |   |-- no-unused-vars.js
-|   |   |       |   |   |   |   |   |-- no-use-before-define.d.ts
-|   |   |       |   |   |   |   |   |-- no-use-before-define.js
-|   |   |       |   |   |   |   |   |-- no-useless-constructor.d.ts
-|   |   |       |   |   |   |   |   |-- no-useless-constructor.js
-|   |   |       |   |   |   |   |   |-- no-useless-default-assignment.d.ts
-|   |   |       |   |   |   |   |   |-- no-useless-default-assignment.js
-|   |   |       |   |   |   |   |   |-- no-useless-empty-export.d.ts
-|   |   |       |   |   |   |   |   |-- no-useless-empty-export.js
-|   |   |       |   |   |   |   |   |-- no-var-requires.d.ts
-|   |   |       |   |   |   |   |   |-- no-var-requires.js
-|   |   |       |   |   |   |   |   |-- no-wrapper-object-types.d.ts
-|   |   |       |   |   |   |   |   |-- no-wrapper-object-types.js
-|   |   |       |   |   |   |   |   |-- non-nullable-type-assertion-style.d.ts
-|   |   |       |   |   |   |   |   |-- non-nullable-type-assertion-style.js
-|   |   |       |   |   |   |   |   |-- only-throw-error.d.ts
-|   |   |       |   |   |   |   |   |-- only-throw-error.js
-|   |   |       |   |   |   |   |   |-- parameter-properties.d.ts
-|   |   |       |   |   |   |   |   |-- parameter-properties.js
-|   |   |       |   |   |   |   |   |-- prefer-as-const.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-as-const.js
-|   |   |       |   |   |   |   |   |-- prefer-destructuring.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-destructuring.js
-|   |   |       |   |   |   |   |   |-- prefer-enum-initializers.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-enum-initializers.js
-|   |   |       |   |   |   |   |   |-- prefer-find.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-find.js
-|   |   |       |   |   |   |   |   |-- prefer-for-of.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-for-of.js
-|   |   |       |   |   |   |   |   |-- prefer-function-type.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-function-type.js
-|   |   |       |   |   |   |   |   |-- prefer-includes.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-includes.js
-|   |   |       |   |   |   |   |   |-- prefer-literal-enum-member.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-literal-enum-member.js
-|   |   |       |   |   |   |   |   |-- prefer-namespace-keyword.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-namespace-keyword.js
-|   |   |       |   |   |   |   |   |-- prefer-nullish-coalescing.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-nullish-coalescing.js
-|   |   |       |   |   |   |   |   |-- prefer-optional-chain-utils
-|   |   |       |   |   |   |   |   |   |-- PreferOptionalChainOptions.d.ts
-|   |   |       |   |   |   |   |   |   |-- PreferOptionalChainOptions.js
-|   |   |       |   |   |   |   |   |   |-- analyzeChain.d.ts
-|   |   |       |   |   |   |   |   |   |-- analyzeChain.js
-|   |   |       |   |   |   |   |   |   |-- checkNullishAndReport.d.ts
-|   |   |       |   |   |   |   |   |   |-- checkNullishAndReport.js
-|   |   |       |   |   |   |   |   |   |-- compareNodes.d.ts
-|   |   |       |   |   |   |   |   |   |-- compareNodes.js
-|   |   |       |   |   |   |   |   |   |-- gatherLogicalOperands.d.ts
-|   |   |       |   |   |   |   |   |   `-- gatherLogicalOperands.js
-|   |   |       |   |   |   |   |   |-- prefer-optional-chain.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-optional-chain.js
-|   |   |       |   |   |   |   |   |-- prefer-promise-reject-errors.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-promise-reject-errors.js
-|   |   |       |   |   |   |   |   |-- prefer-readonly-parameter-types.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-readonly-parameter-types.js
-|   |   |       |   |   |   |   |   |-- prefer-readonly.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-readonly.js
-|   |   |       |   |   |   |   |   |-- prefer-reduce-type-parameter.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-reduce-type-parameter.js
-|   |   |       |   |   |   |   |   |-- prefer-regexp-exec.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-regexp-exec.js
-|   |   |       |   |   |   |   |   |-- prefer-return-this-type.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-return-this-type.js
-|   |   |       |   |   |   |   |   |-- prefer-string-starts-ends-with.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-string-starts-ends-with.js
-|   |   |       |   |   |   |   |   |-- prefer-ts-expect-error.d.ts
-|   |   |       |   |   |   |   |   |-- prefer-ts-expect-error.js
-|   |   |       |   |   |   |   |   |-- promise-function-async.d.ts
-|   |   |       |   |   |   |   |   |-- promise-function-async.js
-|   |   |       |   |   |   |   |   |-- related-getter-setter-pairs.d.ts
-|   |   |       |   |   |   |   |   |-- related-getter-setter-pairs.js
-|   |   |       |   |   |   |   |   |-- require-array-sort-compare.d.ts
-|   |   |       |   |   |   |   |   |-- require-array-sort-compare.js
-|   |   |       |   |   |   |   |   |-- require-await.d.ts
-|   |   |       |   |   |   |   |   |-- require-await.js
-|   |   |       |   |   |   |   |   |-- restrict-plus-operands.d.ts
-|   |   |       |   |   |   |   |   |-- restrict-plus-operands.js
-|   |   |       |   |   |   |   |   |-- restrict-template-expressions.d.ts
-|   |   |       |   |   |   |   |   |-- restrict-template-expressions.js
-|   |   |       |   |   |   |   |   |-- return-await.d.ts
-|   |   |       |   |   |   |   |   |-- return-await.js
-|   |   |       |   |   |   |   |   |-- sort-type-constituents.d.ts
-|   |   |       |   |   |   |   |   |-- sort-type-constituents.js
-|   |   |       |   |   |   |   |   |-- strict-boolean-expressions.d.ts
-|   |   |       |   |   |   |   |   |-- strict-boolean-expressions.js
-|   |   |       |   |   |   |   |   |-- strict-void-return.d.ts
-|   |   |       |   |   |   |   |   |-- strict-void-return.js
-|   |   |       |   |   |   |   |   |-- switch-exhaustiveness-check.d.ts
-|   |   |       |   |   |   |   |   |-- switch-exhaustiveness-check.js
-|   |   |       |   |   |   |   |   |-- triple-slash-reference.d.ts
-|   |   |       |   |   |   |   |   |-- triple-slash-reference.js
-|   |   |       |   |   |   |   |   |-- typedef.d.ts
-|   |   |       |   |   |   |   |   |-- typedef.js
-|   |   |       |   |   |   |   |   |-- unbound-method.d.ts
-|   |   |       |   |   |   |   |   |-- unbound-method.js
-|   |   |       |   |   |   |   |   |-- unified-signatures.d.ts
-|   |   |       |   |   |   |   |   |-- unified-signatures.js
-|   |   |       |   |   |   |   |   |-- use-unknown-in-catch-callback-variable.d.ts
-|   |   |       |   |   |   |   |   `-- use-unknown-in-catch-callback-variable.js
-|   |   |       |   |   |   |   |-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   |   `-- util
-|   |   |       |   |   |   |       |-- assertionFunctionUtils.d.ts
-|   |   |       |   |   |   |       |-- assertionFunctionUtils.js
-|   |   |       |   |   |   |       |-- astUtils.d.ts
-|   |   |       |   |   |   |       |-- astUtils.js
-|   |   |       |   |   |   |       |-- baseTypeUtils.d.ts
-|   |   |       |   |   |   |       |-- baseTypeUtils.js
-|   |   |       |   |   |   |       |-- class-scope-analyzer
-|   |   |       |   |   |   |       |   |-- classScopeAnalyzer.d.ts
-|   |   |       |   |   |   |       |   |-- classScopeAnalyzer.js
-|   |   |       |   |   |   |       |   |-- extractComputedName.d.ts
-|   |   |       |   |   |   |       |   |-- extractComputedName.js
-|   |   |       |   |   |   |       |   |-- types.d.ts
-|   |   |       |   |   |   |       |   `-- types.js
-|   |   |       |   |   |   |       |-- collectUnusedVariables.d.ts
-|   |   |       |   |   |   |       |-- collectUnusedVariables.js
-|   |   |       |   |   |   |       |-- createRule.d.ts
-|   |   |       |   |   |   |       |-- createRule.js
-|   |   |       |   |   |   |       |-- escapeRegExp.d.ts
-|   |   |       |   |   |   |       |-- escapeRegExp.js
-|   |   |       |   |   |   |       |-- explicitReturnTypeUtils.d.ts
-|   |   |       |   |   |   |       |-- explicitReturnTypeUtils.js
-|   |   |       |   |   |   |       |-- getBaseTypesOfClassMember.d.ts
-|   |   |       |   |   |   |       |-- getBaseTypesOfClassMember.js
-|   |   |       |   |   |   |       |-- getConstraintInfo.d.ts
-|   |   |       |   |   |   |       |-- getConstraintInfo.js
-|   |   |       |   |   |   |       |-- getESLintCoreRule.d.ts
-|   |   |       |   |   |   |       |-- getESLintCoreRule.js
-|   |   |       |   |   |   |       |-- getFixOrSuggest.d.ts
-|   |   |       |   |   |   |       |-- getFixOrSuggest.js
-|   |   |       |   |   |   |       |-- getForStatementHeadLoc.d.ts
-|   |   |       |   |   |   |       |-- getForStatementHeadLoc.js
-|   |   |       |   |   |   |       |-- getFunctionHeadLoc.d.ts
-|   |   |       |   |   |   |       |-- getFunctionHeadLoc.js
-|   |   |       |   |   |   |       |-- getMemberHeadLoc.d.ts
-|   |   |       |   |   |   |       |-- getMemberHeadLoc.js
-|   |   |       |   |   |   |       |-- getOperatorPrecedence.d.ts
-|   |   |       |   |   |   |       |-- getOperatorPrecedence.js
-|   |   |       |   |   |   |       |-- getParentFunctionNode.d.ts
-|   |   |       |   |   |   |       |-- getParentFunctionNode.js
-|   |   |       |   |   |   |       |-- getStaticStringValue.d.ts
-|   |   |       |   |   |   |       |-- getStaticStringValue.js
-|   |   |       |   |   |   |       |-- getStringLength.d.ts
-|   |   |       |   |   |   |       |-- getStringLength.js
-|   |   |       |   |   |   |       |-- getTextWithParentheses.d.ts
-|   |   |       |   |   |   |       |-- getTextWithParentheses.js
-|   |   |       |   |   |   |       |-- getThisExpression.d.ts
-|   |   |       |   |   |   |       |-- getThisExpression.js
-|   |   |       |   |   |   |       |-- getValueOfLiteralType.d.ts
-|   |   |       |   |   |   |       |-- getValueOfLiteralType.js
-|   |   |       |   |   |   |       |-- getWrappedCode.d.ts
-|   |   |       |   |   |   |       |-- getWrappedCode.js
-|   |   |       |   |   |   |       |-- getWrappingFixer.d.ts
-|   |   |       |   |   |   |       |-- getWrappingFixer.js
-|   |   |       |   |   |   |       |-- hasOverloadSignatures.d.ts
-|   |   |       |   |   |   |       |-- hasOverloadSignatures.js
-|   |   |       |   |   |   |       |-- index.d.ts
-|   |   |       |   |   |   |       |-- index.js
-|   |   |       |   |   |   |       |-- isArrayMethodCallWithPredicate.d.ts
-|   |   |       |   |   |   |       |-- isArrayMethodCallWithPredicate.js
-|   |   |       |   |   |   |       |-- isAssignee.d.ts
-|   |   |       |   |   |   |       |-- isAssignee.js
-|   |   |       |   |   |   |       |-- isHigherPrecedenceThanAwait.d.ts
-|   |   |       |   |   |   |       |-- isHigherPrecedenceThanAwait.js
-|   |   |       |   |   |   |       |-- isNodeEqual.d.ts
-|   |   |       |   |   |   |       |-- isNodeEqual.js
-|   |   |       |   |   |   |       |-- isNullLiteral.d.ts
-|   |   |       |   |   |   |       |-- isNullLiteral.js
-|   |   |       |   |   |   |       |-- isPromiseAggregatorMethod.d.ts
-|   |   |       |   |   |   |       |-- isPromiseAggregatorMethod.js
-|   |   |       |   |   |   |       |-- isStartOfExpressionStatement.d.ts
-|   |   |       |   |   |   |       |-- isStartOfExpressionStatement.js
-|   |   |       |   |   |   |       |-- isTypeImport.d.ts
-|   |   |       |   |   |   |       |-- isTypeImport.js
-|   |   |       |   |   |   |       |-- isUndefinedIdentifier.d.ts
-|   |   |       |   |   |   |       |-- isUndefinedIdentifier.js
-|   |   |       |   |   |   |       |-- misc.d.ts
-|   |   |       |   |   |   |       |-- misc.js
-|   |   |       |   |   |   |       |-- needsPrecedingSemiColon.d.ts
-|   |   |       |   |   |   |       |-- needsPrecedingSemiColon.js
-|   |   |       |   |   |   |       |-- needsToBeAwaited.d.ts
-|   |   |       |   |   |   |       |-- needsToBeAwaited.js
-|   |   |       |   |   |   |       |-- objectIterators.d.ts
-|   |   |       |   |   |   |       |-- objectIterators.js
-|   |   |       |   |   |   |       |-- promiseUtils.d.ts
-|   |   |       |   |   |   |       |-- promiseUtils.js
-|   |   |       |   |   |   |       |-- rangeToLoc.d.ts
-|   |   |       |   |   |   |       |-- rangeToLoc.js
-|   |   |       |   |   |   |       |-- referenceContainsTypeQuery.d.ts
-|   |   |       |   |   |   |       |-- referenceContainsTypeQuery.js
-|   |   |       |   |   |   |       |-- scopeUtils.d.ts
-|   |   |       |   |   |   |       |-- scopeUtils.js
-|   |   |       |   |   |   |       |-- skipChainExpression.d.ts
-|   |   |       |   |   |   |       |-- skipChainExpression.js
-|   |   |       |   |   |   |       |-- truthinessUtils.d.ts
-|   |   |       |   |   |   |       |-- truthinessUtils.js
-|   |   |       |   |   |   |       |-- types.d.ts
-|   |   |       |   |   |   |       |-- types.js
-|   |   |       |   |   |   |       |-- walkStatements.d.ts
-|   |   |       |   |   |   |       `-- walkStatements.js
-|   |   |       |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |-- node_modules
-|   |   |       |   |   |   |   `-- @typescript-eslint
-|   |   |       |   |   |   |       `-- type-utils
-|   |   |       |   |   |   |           |-- LICENSE
-|   |   |       |   |   |   |           |-- README.md
-|   |   |       |   |   |   |           |-- dist
-|   |   |       |   |   |   |           |   |-- TypeOrValueSpecifier.d.ts
-|   |   |       |   |   |   |           |   |-- TypeOrValueSpecifier.js
-|   |   |       |   |   |   |           |   |-- builtinSymbolLikes.d.ts
-|   |   |       |   |   |   |           |   |-- builtinSymbolLikes.js
-|   |   |       |   |   |   |           |   |-- containsAllTypesByName.d.ts
-|   |   |       |   |   |   |           |   |-- containsAllTypesByName.js
-|   |   |       |   |   |   |           |   |-- discriminateAnyType.d.ts
-|   |   |       |   |   |   |           |   |-- discriminateAnyType.js
-|   |   |       |   |   |   |           |   |-- getConstrainedTypeAtLocation.d.ts
-|   |   |       |   |   |   |           |   |-- getConstrainedTypeAtLocation.js
-|   |   |       |   |   |   |           |   |-- getContextualType.d.ts
-|   |   |       |   |   |   |           |   |-- getContextualType.js
-|   |   |       |   |   |   |           |   |-- getDeclaration.d.ts
-|   |   |       |   |   |   |           |   |-- getDeclaration.js
-|   |   |       |   |   |   |           |   |-- getSourceFileOfNode.d.ts
-|   |   |       |   |   |   |           |   |-- getSourceFileOfNode.js
-|   |   |       |   |   |   |           |   |-- getTypeName.d.ts
-|   |   |       |   |   |   |           |   |-- getTypeName.js
-|   |   |       |   |   |   |           |   |-- index.d.ts
-|   |   |       |   |   |   |           |   |-- index.js
-|   |   |       |   |   |   |           |   |-- isSymbolFromDefaultLibrary.d.ts
-|   |   |       |   |   |   |           |   |-- isSymbolFromDefaultLibrary.js
-|   |   |       |   |   |   |           |   |-- isTypeBrandedLiteralLike.d.ts
-|   |   |       |   |   |   |           |   |-- isTypeBrandedLiteralLike.js
-|   |   |       |   |   |   |           |   |-- isTypeReadonly.d.ts
-|   |   |       |   |   |   |           |   |-- isTypeReadonly.js
-|   |   |       |   |   |   |           |   |-- isUnsafeAssignment.d.ts
-|   |   |       |   |   |   |           |   |-- isUnsafeAssignment.js
-|   |   |       |   |   |   |           |   |-- predicates.d.ts
-|   |   |       |   |   |   |           |   |-- predicates.js
-|   |   |       |   |   |   |           |   |-- propertyTypes.d.ts
-|   |   |       |   |   |   |           |   |-- propertyTypes.js
-|   |   |       |   |   |   |           |   |-- requiresQuoting.d.ts
-|   |   |       |   |   |   |           |   |-- requiresQuoting.js
-|   |   |       |   |   |   |           |   |-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   |           |   |-- typeFlagUtils.d.ts
-|   |   |       |   |   |   |           |   |-- typeFlagUtils.js
-|   |   |       |   |   |   |           |   `-- typeOrValueSpecifiers
-|   |   |       |   |   |   |           |       |-- specifierNameMatches.d.ts
-|   |   |       |   |   |   |           |       |-- specifierNameMatches.js
-|   |   |       |   |   |   |           |       |-- typeDeclaredInFile.d.ts
-|   |   |       |   |   |   |           |       |-- typeDeclaredInFile.js
-|   |   |       |   |   |   |           |       |-- typeDeclaredInLib.d.ts
-|   |   |       |   |   |   |           |       |-- typeDeclaredInLib.js
-|   |   |       |   |   |   |           |       |-- typeDeclaredInPackageDeclarationFile.d.ts
-|   |   |       |   |   |   |           |       `-- typeDeclaredInPackageDeclarationFile.js
-|   |   |       |   |   |   |           `-- package.json
-|   |   |       |   |   |   |-- package.json
-|   |   |       |   |   |   |-- raw-plugin.d.ts
-|   |   |       |   |   |   `-- rules.d.ts
-|   |   |       |   |   |-- parser
-|   |   |       |   |   |   |-- LICENSE
-|   |   |       |   |   |   |-- README.md
-|   |   |       |   |   |   |-- dist
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- parser.d.ts
-|   |   |       |   |   |   |   |-- parser.js
-|   |   |       |   |   |   |   `-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   `-- package.json
-|   |   |       |   |   |-- typescript-estree
-|   |   |       |   |   |   |-- LICENSE
-|   |   |       |   |   |   |-- README.md
-|   |   |       |   |   |   |-- dist
-|   |   |       |   |   |   |   |-- ast-converter.d.ts
-|   |   |       |   |   |   |   |-- ast-converter.js
-|   |   |       |   |   |   |   |-- check-modifiers.d.ts
-|   |   |       |   |   |   |   |-- check-modifiers.js
-|   |   |       |   |   |   |   |-- check-syntax-errors.d.ts
-|   |   |       |   |   |   |   |-- check-syntax-errors.js
-|   |   |       |   |   |   |   |-- clear-caches.d.ts
-|   |   |       |   |   |   |   |-- clear-caches.js
-|   |   |       |   |   |   |   |-- convert-comments.d.ts
-|   |   |       |   |   |   |   |-- convert-comments.js
-|   |   |       |   |   |   |   |-- convert.d.ts
-|   |   |       |   |   |   |   |-- convert.js
-|   |   |       |   |   |   |   |-- create-program
-|   |   |       |   |   |   |   |   |-- WatchCompilerHostOfConfigFile.d.ts
-|   |   |       |   |   |   |   |   |-- WatchCompilerHostOfConfigFile.js
-|   |   |       |   |   |   |   |   |-- createIsolatedProgram.d.ts
-|   |   |       |   |   |   |   |   |-- createIsolatedProgram.js
-|   |   |       |   |   |   |   |   |-- createProjectProgram.d.ts
-|   |   |       |   |   |   |   |   |-- createProjectProgram.js
-|   |   |       |   |   |   |   |   |-- createProjectProgramError.d.ts
-|   |   |       |   |   |   |   |   |-- createProjectProgramError.js
-|   |   |       |   |   |   |   |   |-- createSourceFile.d.ts
-|   |   |       |   |   |   |   |   |-- createSourceFile.js
-|   |   |       |   |   |   |   |   |-- describeFilePath.d.ts
-|   |   |       |   |   |   |   |   |-- describeFilePath.js
-|   |   |       |   |   |   |   |   |-- getScriptKind.d.ts
-|   |   |       |   |   |   |   |   |-- getScriptKind.js
-|   |   |       |   |   |   |   |   |-- getWatchProgramsForProjects.d.ts
-|   |   |       |   |   |   |   |   |-- getWatchProgramsForProjects.js
-|   |   |       |   |   |   |   |   |-- shared.d.ts
-|   |   |       |   |   |   |   |   |-- shared.js
-|   |   |       |   |   |   |   |   |-- useProvidedPrograms.d.ts
-|   |   |       |   |   |   |   |   |-- useProvidedPrograms.js
-|   |   |       |   |   |   |   |   |-- validateDefaultProjectForFilesGlob.d.ts
-|   |   |       |   |   |   |   |   `-- validateDefaultProjectForFilesGlob.js
-|   |   |       |   |   |   |   |-- createParserServices.d.ts
-|   |   |       |   |   |   |   |-- createParserServices.js
-|   |   |       |   |   |   |   |-- getModifiers.d.ts
-|   |   |       |   |   |   |   |-- getModifiers.js
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- jsx
-|   |   |       |   |   |   |   |   |-- xhtml-entities.d.ts
-|   |   |       |   |   |   |   |   `-- xhtml-entities.js
-|   |   |       |   |   |   |   |-- node-utils.d.ts
-|   |   |       |   |   |   |   |-- node-utils.js
-|   |   |       |   |   |   |   |-- parseSettings
-|   |   |       |   |   |   |   |   |-- ExpiringCache.d.ts
-|   |   |       |   |   |   |   |   |-- ExpiringCache.js
-|   |   |       |   |   |   |   |   |-- candidateTSConfigRootDirs.d.ts
-|   |   |       |   |   |   |   |   |-- candidateTSConfigRootDirs.js
-|   |   |       |   |   |   |   |   |-- createParseSettings.d.ts
-|   |   |       |   |   |   |   |   |-- createParseSettings.js
-|   |   |       |   |   |   |   |   |-- getProjectConfigFiles.d.ts
-|   |   |       |   |   |   |   |   |-- getProjectConfigFiles.js
-|   |   |       |   |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |   |-- inferSingleRun.d.ts
-|   |   |       |   |   |   |   |   |-- inferSingleRun.js
-|   |   |       |   |   |   |   |   |-- resolveProjectList.d.ts
-|   |   |       |   |   |   |   |   |-- resolveProjectList.js
-|   |   |       |   |   |   |   |   |-- warnAboutTSVersion.d.ts
-|   |   |       |   |   |   |   |   `-- warnAboutTSVersion.js
-|   |   |       |   |   |   |   |-- parser-options.d.ts
-|   |   |       |   |   |   |   |-- parser-options.js
-|   |   |       |   |   |   |   |-- parser.d.ts
-|   |   |       |   |   |   |   |-- parser.js
-|   |   |       |   |   |   |   |-- semantic-or-syntactic-errors.d.ts
-|   |   |       |   |   |   |   |-- semantic-or-syntactic-errors.js
-|   |   |       |   |   |   |   |-- simple-traverse.d.ts
-|   |   |       |   |   |   |   |-- simple-traverse.js
-|   |   |       |   |   |   |   |-- source-files.d.ts
-|   |   |       |   |   |   |   |-- source-files.js
-|   |   |       |   |   |   |   |-- ts-estree
-|   |   |       |   |   |   |   |   |-- estree-to-ts-node-types.d.ts
-|   |   |       |   |   |   |   |   |-- estree-to-ts-node-types.js
-|   |   |       |   |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |   |-- ts-nodes.d.ts
-|   |   |       |   |   |   |   |   `-- ts-nodes.js
-|   |   |       |   |   |   |   |-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   |   |-- use-at-your-own-risk.d.ts
-|   |   |       |   |   |   |   |-- use-at-your-own-risk.js
-|   |   |       |   |   |   |   |-- useProgramFromProjectService.d.ts
-|   |   |       |   |   |   |   |-- useProgramFromProjectService.js
-|   |   |       |   |   |   |   |-- version-check.d.ts
-|   |   |       |   |   |   |   |-- version-check.js
-|   |   |       |   |   |   |   |-- version.d.ts
-|   |   |       |   |   |   |   |-- version.js
-|   |   |       |   |   |   |   |-- withoutProjectParserOptions.d.ts
-|   |   |       |   |   |   |   `-- withoutProjectParserOptions.js
-|   |   |       |   |   |   |-- node_modules
-|   |   |       |   |   |   |   `-- @typescript-eslint
-|   |   |       |   |   |   |       |-- project-service
-|   |   |       |   |   |   |       |   |-- LICENSE
-|   |   |       |   |   |   |       |   |-- README.md
-|   |   |       |   |   |   |       |   |-- dist
-|   |   |       |   |   |   |       |   |   |-- createProjectService.d.ts
-|   |   |       |   |   |   |       |   |   |-- createProjectService.js
-|   |   |       |   |   |   |       |   |   |-- getParsedConfigFileFromTSServer.d.ts
-|   |   |       |   |   |   |       |   |   |-- getParsedConfigFileFromTSServer.js
-|   |   |       |   |   |   |       |   |   |-- index.d.ts
-|   |   |       |   |   |   |       |   |   |-- index.js
-|   |   |       |   |   |   |       |   |   `-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   |       |   `-- package.json
-|   |   |       |   |   |   |       `-- tsconfig-utils
-|   |   |       |   |   |   |           |-- LICENSE
-|   |   |       |   |   |   |           |-- README.md
-|   |   |       |   |   |   |           |-- dist
-|   |   |       |   |   |   |           |   |-- compilerOptions.d.ts
-|   |   |       |   |   |   |           |   |-- compilerOptions.js
-|   |   |       |   |   |   |           |   |-- getParsedConfigFile.d.ts
-|   |   |       |   |   |   |           |   |-- getParsedConfigFile.js
-|   |   |       |   |   |   |           |   |-- index.d.ts
-|   |   |       |   |   |   |           |   |-- index.js
-|   |   |       |   |   |   |           |   `-- tsconfig.build.tsbuildinfo
-|   |   |       |   |   |   |           `-- package.json
-|   |   |       |   |   |   `-- package.json
-|   |   |       |   |   `-- utils
-|   |   |       |   |       |-- LICENSE
-|   |   |       |   |       |-- README.md
-|   |   |       |   |       |-- dist
-|   |   |       |   |       |   |-- ast-utils
-|   |   |       |   |       |   |   |-- eslint-utils
-|   |   |       |   |       |   |   |   |-- PatternMatcher.d.ts
-|   |   |       |   |       |   |   |   |-- PatternMatcher.js
-|   |   |       |   |       |   |   |   |-- ReferenceTracker.d.ts
-|   |   |       |   |       |   |   |   |-- ReferenceTracker.js
-|   |   |       |   |       |   |   |   |-- astUtilities.d.ts
-|   |   |       |   |       |   |   |   |-- astUtilities.js
-|   |   |       |   |       |   |   |   |-- index.d.ts
-|   |   |       |   |       |   |   |   |-- index.js
-|   |   |       |   |       |   |   |   |-- predicates.d.ts
-|   |   |       |   |       |   |   |   |-- predicates.js
-|   |   |       |   |       |   |   |   |-- scopeAnalysis.d.ts
-|   |   |       |   |       |   |   |   `-- scopeAnalysis.js
-|   |   |       |   |       |   |   |-- helpers.d.ts
-|   |   |       |   |       |   |   |-- helpers.js
-|   |   |       |   |       |   |   |-- index.d.ts
-|   |   |       |   |       |   |   |-- index.js
-|   |   |       |   |       |   |   |-- misc.d.ts
-|   |   |       |   |       |   |   |-- misc.js
-|   |   |       |   |       |   |   |-- predicates.d.ts
-|   |   |       |   |       |   |   `-- predicates.js
-|   |   |       |   |       |   |-- eslint-utils
-|   |   |       |   |       |   |   |-- InferTypesFromRule.d.ts
-|   |   |       |   |       |   |   |-- InferTypesFromRule.js
-|   |   |       |   |       |   |   |-- RuleCreator.d.ts
-|   |   |       |   |       |   |   |-- RuleCreator.js
-|   |   |       |   |       |   |   |-- applyDefault.d.ts
-|   |   |       |   |       |   |   |-- applyDefault.js
-|   |   |       |   |       |   |   |-- deepMerge.d.ts
-|   |   |       |   |       |   |   |-- deepMerge.js
-|   |   |       |   |       |   |   |-- getParserServices.d.ts
-|   |   |       |   |       |   |   |-- getParserServices.js
-|   |   |       |   |       |   |   |-- index.d.ts
-|   |   |       |   |       |   |   |-- index.js
-|   |   |       |   |       |   |   |-- nullThrows.d.ts
-|   |   |       |   |       |   |   |-- nullThrows.js
-|   |   |       |   |       |   |   |-- parserSeemsToBeTSESLint.d.ts
-|   |   |       |   |       |   |   `-- parserSeemsToBeTSESLint.js
-|   |   |       |   |       |   |-- index.d.ts
-|   |   |       |   |       |   |-- index.js
-|   |   |       |   |       |   |-- json-schema.d.ts
-|   |   |       |   |       |   |-- json-schema.js
-|   |   |       |   |       |   |-- ts-eslint
-|   |   |       |   |       |   |   |-- AST.d.ts
-|   |   |       |   |       |   |   |-- AST.js
-|   |   |       |   |       |   |   |-- Config.d.ts
-|   |   |       |   |       |   |   |-- Config.js
-|   |   |       |   |       |   |   |-- ESLint.d.ts
-|   |   |       |   |       |   |   |-- ESLint.js
-|   |   |       |   |       |   |   |-- Linter.d.ts
-|   |   |       |   |       |   |   |-- Linter.js
-|   |   |       |   |       |   |   |-- Parser.d.ts
-|   |   |       |   |       |   |   |-- Parser.js
-|   |   |       |   |       |   |   |-- ParserOptions.d.ts
-|   |   |       |   |       |   |   |-- ParserOptions.js
-|   |   |       |   |       |   |   |-- Processor.d.ts
-|   |   |       |   |       |   |   |-- Processor.js
-|   |   |       |   |       |   |   |-- Rule.d.ts
-|   |   |       |   |       |   |   |-- Rule.js
-|   |   |       |   |       |   |   |-- RuleTester.d.ts
-|   |   |       |   |       |   |   |-- RuleTester.js
-|   |   |       |   |       |   |   |-- Scope.d.ts
-|   |   |       |   |       |   |   |-- Scope.js
-|   |   |       |   |       |   |   |-- SourceCode.d.ts
-|   |   |       |   |       |   |   |-- SourceCode.js
-|   |   |       |   |       |   |   |-- eslint
-|   |   |       |   |       |   |   |   |-- ESLintShared.d.ts
-|   |   |       |   |       |   |   |   |-- ESLintShared.js
-|   |   |       |   |       |   |   |   |-- FlatESLint.d.ts
-|   |   |       |   |       |   |   |   |-- FlatESLint.js
-|   |   |       |   |       |   |   |   |-- LegacyESLint.d.ts
-|   |   |       |   |       |   |   |   `-- LegacyESLint.js
-|   |   |       |   |       |   |   |-- index.d.ts
-|   |   |       |   |       |   |   `-- index.js
-|   |   |       |   |       |   |-- ts-estree.d.ts
-|   |   |       |   |       |   |-- ts-estree.js
-|   |   |       |   |       |   |-- ts-utils
-|   |   |       |   |       |   |   |-- NoInfer.d.ts
-|   |   |       |   |       |   |   |-- NoInfer.js
-|   |   |       |   |       |   |   |-- index.d.ts
-|   |   |       |   |       |   |   |-- index.js
-|   |   |       |   |       |   |   |-- isArray.d.ts
-|   |   |       |   |       |   |   `-- isArray.js
-|   |   |       |   |       |   `-- tsconfig.build.tsbuildinfo
-|   |   |       |   |       `-- package.json
-|   |   |       |   |-- balanced-match
-|   |   |       |   |   |-- LICENSE.md
-|   |   |       |   |   |-- README.md
-|   |   |       |   |   |-- dist
-|   |   |       |   |   |   |-- commonjs
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.d.ts.map
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- index.js.map
-|   |   |       |   |   |   |   `-- package.json
-|   |   |       |   |   |   `-- esm
-|   |   |       |   |   |       |-- index.d.ts
-|   |   |       |   |   |       |-- index.d.ts.map
-|   |   |       |   |   |       |-- index.js
-|   |   |       |   |   |       |-- index.js.map
-|   |   |       |   |   |       `-- package.json
-|   |   |       |   |   `-- package.json
-|   |   |       |   |-- brace-expansion
-|   |   |       |   |   |-- LICENSE
-|   |   |       |   |   |-- README.md
-|   |   |       |   |   |-- dist
-|   |   |       |   |   |   |-- commonjs
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.d.ts.map
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- index.js.map
-|   |   |       |   |   |   |   `-- package.json
-|   |   |       |   |   |   `-- esm
-|   |   |       |   |   |       |-- index.d.ts
-|   |   |       |   |   |       |-- index.d.ts.map
-|   |   |       |   |   |       |-- index.js
-|   |   |       |   |   |       |-- index.js.map
-|   |   |       |   |   |       `-- package.json
-|   |   |       |   |   `-- package.json
-|   |   |       |   |-- minimatch
-|   |   |       |   |   |-- LICENSE.md
-|   |   |       |   |   |-- README.md
-|   |   |       |   |   |-- dist
-|   |   |       |   |   |   |-- commonjs
-|   |   |       |   |   |   |   |-- assert-valid-pattern.d.ts
-|   |   |       |   |   |   |   |-- assert-valid-pattern.d.ts.map
-|   |   |       |   |   |   |   |-- assert-valid-pattern.js
-|   |   |       |   |   |   |   |-- assert-valid-pattern.js.map
-|   |   |       |   |   |   |   |-- ast.d.ts
-|   |   |       |   |   |   |   |-- ast.d.ts.map
-|   |   |       |   |   |   |   |-- ast.js
-|   |   |       |   |   |   |   |-- ast.js.map
-|   |   |       |   |   |   |   |-- brace-expressions.d.ts
-|   |   |       |   |   |   |   |-- brace-expressions.d.ts.map
-|   |   |       |   |   |   |   |-- brace-expressions.js
-|   |   |       |   |   |   |   |-- brace-expressions.js.map
-|   |   |       |   |   |   |   |-- escape.d.ts
-|   |   |       |   |   |   |   |-- escape.d.ts.map
-|   |   |       |   |   |   |   |-- escape.js
-|   |   |       |   |   |   |   |-- escape.js.map
-|   |   |       |   |   |   |   |-- index.d.ts
-|   |   |       |   |   |   |   |-- index.d.ts.map
-|   |   |       |   |   |   |   |-- index.js
-|   |   |       |   |   |   |   |-- index.js.map
-|   |   |       |   |   |   |   |-- package.json
-|   |   |       |   |   |   |   |-- unescape.d.ts
-|   |   |       |   |   |   |   |-- unescape.d.ts.map
-|   |   |       |   |   |   |   |-- unescape.js
-|   |   |       |   |   |   |   `-- unescape.js.map
-|   |   |       |   |   |   `-- esm
-|   |   |       |   |   |       |-- assert-valid-pattern.d.ts
-|   |   |       |   |   |       |-- assert-valid-pattern.d.ts.map
-|   |   |       |   |   |       |-- assert-valid-pattern.js
-|   |   |       |   |   |       |-- assert-valid-pattern.js.map
-|   |   |       |   |   |       |-- ast.d.ts
-|   |   |       |   |   |       |-- ast.d.ts.map
-|   |   |       |   |   |       |-- ast.js
-|   |   |       |   |   |       |-- ast.js.map
-|   |   |       |   |   |       |-- brace-expressions.d.ts
-|   |   |       |   |   |       |-- brace-expressions.d.ts.map
-|   |   |       |   |   |       |-- brace-expressions.js
-|   |   |       |   |   |       |-- brace-expressions.js.map
-|   |   |       |   |   |       |-- escape.d.ts
-|   |   |       |   |   |       |-- escape.d.ts.map
-|   |   |       |   |   |       |-- escape.js
-|   |   |       |   |   |       |-- escape.js.map
-|   |   |       |   |   |       |-- index.d.ts
-|   |   |       |   |   |       |-- index.d.ts.map
-|   |   |       |   |   |       |-- index.js
-|   |   |       |   |   |       |-- index.js.map
-|   |   |       |   |   |       |-- package.json
-|   |   |       |   |   |       |-- unescape.d.ts
-|   |   |       |   |   |       |-- unescape.d.ts.map
-|   |   |       |   |   |       |-- unescape.js
-|   |   |       |   |   |       `-- unescape.js.map
-|   |   |       |   |   `-- package.json
-|   |   |       |   `-- semver
-|   |   |       |       |-- LICENSE
-|   |   |       |       |-- README.md
-|   |   |       |       |-- bin
-|   |   |       |       |   `-- semver.js
-|   |   |       |       |-- classes
-|   |   |       |       |   |-- comparator.js
-|   |   |       |       |   |-- index.js
-|   |   |       |       |   |-- range.js
-|   |   |       |       |   `-- semver.js
-|   |   |       |       |-- functions
-|   |   |       |       |   |-- clean.js
-|   |   |       |       |   |-- cmp.js
-|   |   |       |       |   |-- coerce.js
-|   |   |       |       |   |-- compare-build.js
-|   |   |       |       |   |-- compare-loose.js
-|   |   |       |       |   |-- compare.js
-|   |   |       |       |   |-- diff.js
-|   |   |       |       |   |-- eq.js
-|   |   |       |       |   |-- gt.js
-|   |   |       |       |   |-- gte.js
-|   |   |       |       |   |-- inc.js
-|   |   |       |       |   |-- lt.js
-|   |   |       |       |   |-- lte.js
-|   |   |       |       |   |-- major.js
-|   |   |       |       |   |-- minor.js
-|   |   |       |       |   |-- neq.js
-|   |   |       |       |   |-- parse.js
-|   |   |       |       |   |-- patch.js
-|   |   |       |       |   |-- prerelease.js
-|   |   |       |       |   |-- rcompare.js
-|   |   |       |       |   |-- rsort.js
-|   |   |       |       |   |-- satisfies.js
-|   |   |       |       |   |-- sort.js
-|   |   |       |       |   `-- valid.js
-|   |   |       |       |-- index.js
-|   |   |       |       |-- internal
-|   |   |       |       |   |-- constants.js
-|   |   |       |       |   |-- debug.js
-|   |   |       |       |   |-- identifiers.js
-|   |   |       |       |   |-- lrucache.js
-|   |   |       |       |   |-- parse-options.js
-|   |   |       |       |   `-- re.js
-|   |   |       |       |-- package.json
-|   |   |       |       |-- preload.js
-|   |   |       |       |-- range.bnf
-|   |   |       |       `-- ranges
-|   |   |       |           |-- gtr.js
-|   |   |       |           |-- intersects.js
-|   |   |       |           |-- ltr.js
-|   |   |       |           |-- max-satisfying.js
-|   |   |       |           |-- min-satisfying.js
-|   |   |       |           |-- min-version.js
-|   |   |       |           |-- outside.js
-|   |   |       |           |-- simplify.js
-|   |   |       |           |-- subset.js
-|   |   |       |           |-- to-comparators.js
-|   |   |       |           `-- valid.js
-|   |   |       `-- package.json
+|   |   |   `-- globals
+|   |   |       |-- globals.json
+|   |   |       |-- index.d.ts
+|   |   |       |-- index.js
+|   |   |       |-- license
+|   |   |       |-- package.json
+|   |   |       `-- readme.md
 |   |   `-- package.json
 |   |-- eslint-import-resolver-node
 |   |   |-- LICENSE
@@ -17844,6 +17199,16 @@
 |   |   |           |-- common.js
 |   |   |           |-- index.js
 |   |   |           `-- node.js
+|   |   `-- package.json
+|   |-- eslint-import-resolver-typescript
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- lib
+|   |   |   |-- index.cjs
+|   |   |   |-- index.d.ts
+|   |   |   |-- index.es2020.mjs
+|   |   |   |-- index.js
+|   |   |   `-- index.js.map
 |   |   `-- package.json
 |   |-- eslint-module-utils
 |   |   |-- .nycrc
@@ -17892,6 +17257,826 @@
 |   |   |-- unambiguous.js
 |   |   |-- visit.d.ts
 |   |   `-- visit.js
+|   |-- eslint-plugin-import
+|   |   |-- CHANGELOG.md
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- SECURITY.md
+|   |   |-- config
+|   |   |   |-- electron.js
+|   |   |   |-- errors.js
+|   |   |   |-- flat
+|   |   |   |   |-- errors.js
+|   |   |   |   |-- react.js
+|   |   |   |   |-- recommended.js
+|   |   |   |   `-- warnings.js
+|   |   |   |-- react-native.js
+|   |   |   |-- react.js
+|   |   |   |-- recommended.js
+|   |   |   |-- stage-0.js
+|   |   |   |-- typescript.js
+|   |   |   `-- warnings.js
+|   |   |-- docs
+|   |   |   `-- rules
+|   |   |       |-- consistent-type-specifier-style.md
+|   |   |       |-- default.md
+|   |   |       |-- dynamic-import-chunkname.md
+|   |   |       |-- enforce-node-protocol-usage.md
+|   |   |       |-- export.md
+|   |   |       |-- exports-last.md
+|   |   |       |-- extensions.md
+|   |   |       |-- first.md
+|   |   |       |-- group-exports.md
+|   |   |       |-- imports-first.md
+|   |   |       |-- max-dependencies.md
+|   |   |       |-- named.md
+|   |   |       |-- namespace.md
+|   |   |       |-- newline-after-import.md
+|   |   |       |-- no-absolute-path.md
+|   |   |       |-- no-amd.md
+|   |   |       |-- no-anonymous-default-export.md
+|   |   |       |-- no-commonjs.md
+|   |   |       |-- no-cycle.md
+|   |   |       |-- no-default-export.md
+|   |   |       |-- no-deprecated.md
+|   |   |       |-- no-duplicates.md
+|   |   |       |-- no-dynamic-require.md
+|   |   |       |-- no-empty-named-blocks.md
+|   |   |       |-- no-extraneous-dependencies.md
+|   |   |       |-- no-import-module-exports.md
+|   |   |       |-- no-internal-modules.md
+|   |   |       |-- no-mutable-exports.md
+|   |   |       |-- no-named-as-default-member.md
+|   |   |       |-- no-named-as-default.md
+|   |   |       |-- no-named-default.md
+|   |   |       |-- no-named-export.md
+|   |   |       |-- no-namespace.md
+|   |   |       |-- no-nodejs-modules.md
+|   |   |       |-- no-relative-packages.md
+|   |   |       |-- no-relative-parent-imports.md
+|   |   |       |-- no-restricted-paths.md
+|   |   |       |-- no-self-import.md
+|   |   |       |-- no-unassigned-import.md
+|   |   |       |-- no-unresolved.md
+|   |   |       |-- no-unused-modules.md
+|   |   |       |-- no-useless-path-segments.md
+|   |   |       |-- no-webpack-loader-syntax.md
+|   |   |       |-- order.md
+|   |   |       |-- prefer-default-export.md
+|   |   |       `-- unambiguous.md
+|   |   |-- index.d.ts
+|   |   |-- lib
+|   |   |   |-- core
+|   |   |   |   |-- importType.js
+|   |   |   |   |-- packagePath.js
+|   |   |   |   |-- sourceType.js
+|   |   |   |   `-- staticRequire.js
+|   |   |   |-- docsUrl.js
+|   |   |   |-- exportMap
+|   |   |   |   |-- builder.js
+|   |   |   |   |-- captureDependency.js
+|   |   |   |   |-- childContext.js
+|   |   |   |   |-- doc.js
+|   |   |   |   |-- index.js
+|   |   |   |   |-- namespace.js
+|   |   |   |   |-- patternCapture.js
+|   |   |   |   |-- remotePath.js
+|   |   |   |   |-- specifier.js
+|   |   |   |   |-- typescript.js
+|   |   |   |   `-- visitor.js
+|   |   |   |-- importDeclaration.js
+|   |   |   |-- index.js
+|   |   |   |-- rules
+|   |   |   |   |-- consistent-type-specifier-style.js
+|   |   |   |   |-- default.js
+|   |   |   |   |-- dynamic-import-chunkname.js
+|   |   |   |   |-- enforce-node-protocol-usage.js
+|   |   |   |   |-- export.js
+|   |   |   |   |-- exports-last.js
+|   |   |   |   |-- extensions.js
+|   |   |   |   |-- first.js
+|   |   |   |   |-- group-exports.js
+|   |   |   |   |-- imports-first.js
+|   |   |   |   |-- max-dependencies.js
+|   |   |   |   |-- named.js
+|   |   |   |   |-- namespace.js
+|   |   |   |   |-- newline-after-import.js
+|   |   |   |   |-- no-absolute-path.js
+|   |   |   |   |-- no-amd.js
+|   |   |   |   |-- no-anonymous-default-export.js
+|   |   |   |   |-- no-commonjs.js
+|   |   |   |   |-- no-cycle.js
+|   |   |   |   |-- no-default-export.js
+|   |   |   |   |-- no-deprecated.js
+|   |   |   |   |-- no-duplicates.js
+|   |   |   |   |-- no-dynamic-require.js
+|   |   |   |   |-- no-empty-named-blocks.js
+|   |   |   |   |-- no-extraneous-dependencies.js
+|   |   |   |   |-- no-import-module-exports.js
+|   |   |   |   |-- no-internal-modules.js
+|   |   |   |   |-- no-mutable-exports.js
+|   |   |   |   |-- no-named-as-default-member.js
+|   |   |   |   |-- no-named-as-default.js
+|   |   |   |   |-- no-named-default.js
+|   |   |   |   |-- no-named-export.js
+|   |   |   |   |-- no-namespace.js
+|   |   |   |   |-- no-nodejs-modules.js
+|   |   |   |   |-- no-relative-packages.js
+|   |   |   |   |-- no-relative-parent-imports.js
+|   |   |   |   |-- no-restricted-paths.js
+|   |   |   |   |-- no-self-import.js
+|   |   |   |   |-- no-unassigned-import.js
+|   |   |   |   |-- no-unresolved.js
+|   |   |   |   |-- no-unused-modules.js
+|   |   |   |   |-- no-useless-path-segments.js
+|   |   |   |   |-- no-webpack-loader-syntax.js
+|   |   |   |   |-- order.js
+|   |   |   |   |-- prefer-default-export.js
+|   |   |   |   `-- unambiguous.js
+|   |   |   `-- scc.js
+|   |   |-- memo-parser
+|   |   |   |-- LICENSE
+|   |   |   |-- README.md
+|   |   |   `-- index.js
+|   |   |-- node_modules
+|   |   |   `-- debug
+|   |   |       |-- CHANGELOG.md
+|   |   |       |-- LICENSE
+|   |   |       |-- README.md
+|   |   |       |-- node.js
+|   |   |       |-- package.json
+|   |   |       `-- src
+|   |   |           |-- browser.js
+|   |   |           |-- common.js
+|   |   |           |-- index.js
+|   |   |           `-- node.js
+|   |   `-- package.json
+|   |-- eslint-plugin-jsx-a11y
+|   |   |-- .babelrc
+|   |   |-- .eslintrc
+|   |   |-- CHANGELOG.md
+|   |   |-- LICENSE.md
+|   |   |-- README.md
+|   |   |-- __mocks__
+|   |   |   |-- IdentifierMock.js
+|   |   |   |-- JSXAttributeMock.js
+|   |   |   |-- JSXElementMock.js
+|   |   |   |-- JSXExpressionContainerMock.js
+|   |   |   |-- JSXSpreadAttributeMock.js
+|   |   |   |-- JSXTextMock.js
+|   |   |   |-- LiteralMock.js
+|   |   |   `-- genInteractives.js
+|   |   |-- __tests__
+|   |   |   |-- __util__
+|   |   |   |   |-- axeMapping.js
+|   |   |   |   |-- helpers
+|   |   |   |   |   |-- getESLintCoreRule.js
+|   |   |   |   |   `-- parsers.js
+|   |   |   |   |-- parserOptionsMapper.js
+|   |   |   |   `-- ruleOptionsMapperFactory.js
+|   |   |   |-- index-test.js
+|   |   |   `-- src
+|   |   |       |-- rules
+|   |   |       |   |-- accessible-emoji-test.js
+|   |   |       |   |-- alt-text-test.js
+|   |   |       |   |-- anchor-ambiguous-text-test.js
+|   |   |       |   |-- anchor-has-content-test.js
+|   |   |       |   |-- anchor-is-valid-test.js
+|   |   |       |   |-- aria-activedescendant-has-tabindex-test.js
+|   |   |       |   |-- aria-props-test.js
+|   |   |       |   |-- aria-proptypes-test.js
+|   |   |       |   |-- aria-role-test.js
+|   |   |       |   |-- aria-unsupported-elements-test.js
+|   |   |       |   |-- autocomplete-valid-test.js
+|   |   |       |   |-- click-events-have-key-events-test.js
+|   |   |       |   |-- control-has-associated-label-test.js
+|   |   |       |   |-- heading-has-content-test.js
+|   |   |       |   |-- html-has-lang-test.js
+|   |   |       |   |-- iframe-has-title-test.js
+|   |   |       |   |-- img-redundant-alt-test.js
+|   |   |       |   |-- interactive-supports-focus-test.js
+|   |   |       |   |-- label-has-associated-control-test.js
+|   |   |       |   |-- label-has-for-test.js
+|   |   |       |   |-- lang-test.js
+|   |   |       |   |-- media-has-caption-test.js
+|   |   |       |   |-- mouse-events-have-key-events-test.js
+|   |   |       |   |-- no-access-key-test.js
+|   |   |       |   |-- no-aria-hidden-on-focusable-test.js
+|   |   |       |   |-- no-autofocus-test.js
+|   |   |       |   |-- no-distracting-elements-test.js
+|   |   |       |   |-- no-interactive-element-to-noninteractive-role-test.js
+|   |   |       |   |-- no-noninteractive-element-interactions-test.js
+|   |   |       |   |-- no-noninteractive-element-to-interactive-role-test.js
+|   |   |       |   |-- no-noninteractive-tabindex-test.js
+|   |   |       |   |-- no-onchange-test.js
+|   |   |       |   |-- no-redundant-roles-test.js
+|   |   |       |   |-- no-static-element-interactions-test.js
+|   |   |       |   |-- prefer-tag-over-role-test.js
+|   |   |       |   |-- role-has-required-aria-props-test.js
+|   |   |       |   |-- role-supports-aria-props-test.js
+|   |   |       |   |-- scope-test.js
+|   |   |       |   `-- tabindex-no-positive-test.js
+|   |   |       `-- util
+|   |   |           |-- attributesComparator-test.js
+|   |   |           |-- getAccessibleChildText-test.js
+|   |   |           |-- getComputedRole-test.js
+|   |   |           |-- getElementType-test.js
+|   |   |           |-- getExplicitRole-test.js
+|   |   |           |-- getImplicitRole-test.js
+|   |   |           |-- getSuggestion-test.js
+|   |   |           |-- getTabIndex-test.js
+|   |   |           |-- hasAccessibleChild-test.js
+|   |   |           |-- implicitRoles
+|   |   |           |   |-- input-test.js
+|   |   |           |   |-- menu-test.js
+|   |   |           |   `-- menuitem-test.js
+|   |   |           |-- isAbstractRole-test.js
+|   |   |           |-- isContentEditable-test.js
+|   |   |           |-- isDOMElement-test.js
+|   |   |           |-- isDisabledElement-test.js
+|   |   |           |-- isFocusable-test.js
+|   |   |           |-- isInteractiveElement-test.js
+|   |   |           |-- isInteractiveRole-test.js
+|   |   |           |-- isNonInteractiveElement-test.js
+|   |   |           |-- isNonInteractiveRole-test.js
+|   |   |           |-- isNonLiteralProperty-test.js
+|   |   |           |-- isSemanticRoleElement-test.js
+|   |   |           |-- mayContainChildComponent-test.js
+|   |   |           |-- mayHaveAccessibleLabel-test.js
+|   |   |           |-- parserOptionsMapper-test.js
+|   |   |           `-- schemas-test.js
+|   |   |-- docs
+|   |   |   `-- rules
+|   |   |       |-- accessible-emoji.md
+|   |   |       |-- alt-text.md
+|   |   |       |-- anchor-ambiguous-text.md
+|   |   |       |-- anchor-has-content.md
+|   |   |       |-- anchor-is-valid.md
+|   |   |       |-- aria-activedescendant-has-tabindex.md
+|   |   |       |-- aria-props.md
+|   |   |       |-- aria-proptypes.md
+|   |   |       |-- aria-role.md
+|   |   |       |-- aria-unsupported-elements.md
+|   |   |       |-- autocomplete-valid.md
+|   |   |       |-- click-events-have-key-events.md
+|   |   |       |-- control-has-associated-label.md
+|   |   |       |-- heading-has-content.md
+|   |   |       |-- html-has-lang.md
+|   |   |       |-- iframe-has-title.md
+|   |   |       |-- img-redundant-alt.md
+|   |   |       |-- interactive-supports-focus.md
+|   |   |       |-- label-has-associated-control.md
+|   |   |       |-- label-has-for.md
+|   |   |       |-- lang.md
+|   |   |       |-- media-has-caption.md
+|   |   |       |-- mouse-events-have-key-events.md
+|   |   |       |-- no-access-key.md
+|   |   |       |-- no-aria-hidden-on-focusable.md
+|   |   |       |-- no-autofocus.md
+|   |   |       |-- no-distracting-elements.md
+|   |   |       |-- no-interactive-element-to-noninteractive-role.md
+|   |   |       |-- no-noninteractive-element-interactions.md
+|   |   |       |-- no-noninteractive-element-to-interactive-role.md
+|   |   |       |-- no-noninteractive-tabindex.md
+|   |   |       |-- no-onchange.md
+|   |   |       |-- no-redundant-roles.md
+|   |   |       |-- no-static-element-interactions.md
+|   |   |       |-- prefer-tag-over-role.md
+|   |   |       |-- role-has-required-aria-props.md
+|   |   |       |-- role-supports-aria-props.md
+|   |   |       |-- scope.md
+|   |   |       `-- tabindex-no-positive.md
+|   |   |-- lib
+|   |   |   |-- configs
+|   |   |   |   |-- flat-config-base.js
+|   |   |   |   `-- legacy-config-base.js
+|   |   |   |-- index.js
+|   |   |   |-- rules
+|   |   |   |   |-- accessible-emoji.js
+|   |   |   |   |-- alt-text.js
+|   |   |   |   |-- anchor-ambiguous-text.js
+|   |   |   |   |-- anchor-has-content.js
+|   |   |   |   |-- anchor-is-valid.js
+|   |   |   |   |-- aria-activedescendant-has-tabindex.js
+|   |   |   |   |-- aria-props.js
+|   |   |   |   |-- aria-proptypes.js
+|   |   |   |   |-- aria-role.js
+|   |   |   |   |-- aria-unsupported-elements.js
+|   |   |   |   |-- autocomplete-valid.js
+|   |   |   |   |-- click-events-have-key-events.js
+|   |   |   |   |-- control-has-associated-label.js
+|   |   |   |   |-- heading-has-content.js
+|   |   |   |   |-- html-has-lang.js
+|   |   |   |   |-- iframe-has-title.js
+|   |   |   |   |-- img-redundant-alt.js
+|   |   |   |   |-- interactive-supports-focus.js
+|   |   |   |   |-- label-has-associated-control.js
+|   |   |   |   |-- label-has-for.js
+|   |   |   |   |-- lang.js
+|   |   |   |   |-- media-has-caption.js
+|   |   |   |   |-- mouse-events-have-key-events.js
+|   |   |   |   |-- no-access-key.js
+|   |   |   |   |-- no-aria-hidden-on-focusable.js
+|   |   |   |   |-- no-autofocus.js
+|   |   |   |   |-- no-distracting-elements.js
+|   |   |   |   |-- no-interactive-element-to-noninteractive-role.js
+|   |   |   |   |-- no-noninteractive-element-interactions.js
+|   |   |   |   |-- no-noninteractive-element-to-interactive-role.js
+|   |   |   |   |-- no-noninteractive-tabindex.js
+|   |   |   |   |-- no-onchange.js
+|   |   |   |   |-- no-redundant-roles.js
+|   |   |   |   |-- no-static-element-interactions.js
+|   |   |   |   |-- prefer-tag-over-role.js
+|   |   |   |   |-- role-has-required-aria-props.js
+|   |   |   |   |-- role-supports-aria-props.js
+|   |   |   |   |-- scope.js
+|   |   |   |   `-- tabindex-no-positive.js
+|   |   |   `-- util
+|   |   |       |-- attributesComparator.js
+|   |   |       |-- getAccessibleChildText.js
+|   |   |       |-- getComputedRole.js
+|   |   |       |-- getElementType.js
+|   |   |       |-- getExplicitRole.js
+|   |   |       |-- getImplicitRole.js
+|   |   |       |-- getSuggestion.js
+|   |   |       |-- getTabIndex.js
+|   |   |       |-- hasAccessibleChild.js
+|   |   |       |-- implicitRoles
+|   |   |       |   |-- a.js
+|   |   |       |   |-- area.js
+|   |   |       |   |-- article.js
+|   |   |       |   |-- aside.js
+|   |   |       |   |-- body.js
+|   |   |       |   |-- button.js
+|   |   |       |   |-- datalist.js
+|   |   |       |   |-- details.js
+|   |   |       |   |-- dialog.js
+|   |   |       |   |-- form.js
+|   |   |       |   |-- h1.js
+|   |   |       |   |-- h2.js
+|   |   |       |   |-- h3.js
+|   |   |       |   |-- h4.js
+|   |   |       |   |-- h5.js
+|   |   |       |   |-- h6.js
+|   |   |       |   |-- hr.js
+|   |   |       |   |-- img.js
+|   |   |       |   |-- index.js
+|   |   |       |   |-- input.js
+|   |   |       |   |-- li.js
+|   |   |       |   |-- link.js
+|   |   |       |   |-- menu.js
+|   |   |       |   |-- menuitem.js
+|   |   |       |   |-- meter.js
+|   |   |       |   |-- nav.js
+|   |   |       |   |-- ol.js
+|   |   |       |   |-- option.js
+|   |   |       |   |-- output.js
+|   |   |       |   |-- progress.js
+|   |   |       |   |-- section.js
+|   |   |       |   |-- select.js
+|   |   |       |   |-- tbody.js
+|   |   |       |   |-- textarea.js
+|   |   |       |   |-- tfoot.js
+|   |   |       |   |-- thead.js
+|   |   |       |   `-- ul.js
+|   |   |       |-- isAbstractRole.js
+|   |   |       |-- isContentEditable.js
+|   |   |       |-- isDOMElement.js
+|   |   |       |-- isDisabledElement.js
+|   |   |       |-- isFocusable.js
+|   |   |       |-- isHiddenFromScreenReader.js
+|   |   |       |-- isInteractiveElement.js
+|   |   |       |-- isInteractiveRole.js
+|   |   |       |-- isNonInteractiveElement.js
+|   |   |       |-- isNonInteractiveRole.js
+|   |   |       |-- isNonLiteralProperty.js
+|   |   |       |-- isPresentationRole.js
+|   |   |       |-- isSemanticRoleElement.js
+|   |   |       |-- mayContainChildComponent.js
+|   |   |       |-- mayHaveAccessibleLabel.js
+|   |   |       `-- schemas.js
+|   |   `-- package.json
+|   |-- eslint-plugin-react
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- configs
+|   |   |   |-- all.js
+|   |   |   |-- jsx-runtime.js
+|   |   |   `-- recommended.js
+|   |   |-- index.d.ts
+|   |   |-- index.d.ts.map
+|   |   |-- index.js
+|   |   |-- lib
+|   |   |   |-- rules
+|   |   |   |   |-- boolean-prop-naming.d.ts
+|   |   |   |   |-- boolean-prop-naming.d.ts.map
+|   |   |   |   |-- boolean-prop-naming.js
+|   |   |   |   |-- button-has-type.d.ts
+|   |   |   |   |-- button-has-type.d.ts.map
+|   |   |   |   |-- button-has-type.js
+|   |   |   |   |-- checked-requires-onchange-or-readonly.d.ts
+|   |   |   |   |-- checked-requires-onchange-or-readonly.d.ts.map
+|   |   |   |   |-- checked-requires-onchange-or-readonly.js
+|   |   |   |   |-- default-props-match-prop-types.d.ts
+|   |   |   |   |-- default-props-match-prop-types.d.ts.map
+|   |   |   |   |-- default-props-match-prop-types.js
+|   |   |   |   |-- destructuring-assignment.d.ts
+|   |   |   |   |-- destructuring-assignment.d.ts.map
+|   |   |   |   |-- destructuring-assignment.js
+|   |   |   |   |-- display-name.d.ts
+|   |   |   |   |-- display-name.d.ts.map
+|   |   |   |   |-- display-name.js
+|   |   |   |   |-- forbid-component-props.d.ts
+|   |   |   |   |-- forbid-component-props.d.ts.map
+|   |   |   |   |-- forbid-component-props.js
+|   |   |   |   |-- forbid-dom-props.d.ts
+|   |   |   |   |-- forbid-dom-props.d.ts.map
+|   |   |   |   |-- forbid-dom-props.js
+|   |   |   |   |-- forbid-elements.d.ts
+|   |   |   |   |-- forbid-elements.d.ts.map
+|   |   |   |   |-- forbid-elements.js
+|   |   |   |   |-- forbid-foreign-prop-types.d.ts
+|   |   |   |   |-- forbid-foreign-prop-types.d.ts.map
+|   |   |   |   |-- forbid-foreign-prop-types.js
+|   |   |   |   |-- forbid-prop-types.d.ts
+|   |   |   |   |-- forbid-prop-types.d.ts.map
+|   |   |   |   |-- forbid-prop-types.js
+|   |   |   |   |-- forward-ref-uses-ref.d.ts
+|   |   |   |   |-- forward-ref-uses-ref.d.ts.map
+|   |   |   |   |-- forward-ref-uses-ref.js
+|   |   |   |   |-- function-component-definition.d.ts
+|   |   |   |   |-- function-component-definition.d.ts.map
+|   |   |   |   |-- function-component-definition.js
+|   |   |   |   |-- hook-use-state.d.ts
+|   |   |   |   |-- hook-use-state.d.ts.map
+|   |   |   |   |-- hook-use-state.js
+|   |   |   |   |-- iframe-missing-sandbox.d.ts
+|   |   |   |   |-- iframe-missing-sandbox.d.ts.map
+|   |   |   |   |-- iframe-missing-sandbox.js
+|   |   |   |   |-- index.d.ts
+|   |   |   |   |-- index.d.ts.map
+|   |   |   |   |-- index.js
+|   |   |   |   |-- jsx-boolean-value.d.ts
+|   |   |   |   |-- jsx-boolean-value.d.ts.map
+|   |   |   |   |-- jsx-boolean-value.js
+|   |   |   |   |-- jsx-child-element-spacing.d.ts
+|   |   |   |   |-- jsx-child-element-spacing.d.ts.map
+|   |   |   |   |-- jsx-child-element-spacing.js
+|   |   |   |   |-- jsx-closing-bracket-location.d.ts
+|   |   |   |   |-- jsx-closing-bracket-location.d.ts.map
+|   |   |   |   |-- jsx-closing-bracket-location.js
+|   |   |   |   |-- jsx-closing-tag-location.d.ts
+|   |   |   |   |-- jsx-closing-tag-location.d.ts.map
+|   |   |   |   |-- jsx-closing-tag-location.js
+|   |   |   |   |-- jsx-curly-brace-presence.d.ts
+|   |   |   |   |-- jsx-curly-brace-presence.d.ts.map
+|   |   |   |   |-- jsx-curly-brace-presence.js
+|   |   |   |   |-- jsx-curly-newline.d.ts
+|   |   |   |   |-- jsx-curly-newline.d.ts.map
+|   |   |   |   |-- jsx-curly-newline.js
+|   |   |   |   |-- jsx-curly-spacing.d.ts
+|   |   |   |   |-- jsx-curly-spacing.d.ts.map
+|   |   |   |   |-- jsx-curly-spacing.js
+|   |   |   |   |-- jsx-equals-spacing.d.ts
+|   |   |   |   |-- jsx-equals-spacing.d.ts.map
+|   |   |   |   |-- jsx-equals-spacing.js
+|   |   |   |   |-- jsx-filename-extension.d.ts
+|   |   |   |   |-- jsx-filename-extension.d.ts.map
+|   |   |   |   |-- jsx-filename-extension.js
+|   |   |   |   |-- jsx-first-prop-new-line.d.ts
+|   |   |   |   |-- jsx-first-prop-new-line.d.ts.map
+|   |   |   |   |-- jsx-first-prop-new-line.js
+|   |   |   |   |-- jsx-fragments.d.ts
+|   |   |   |   |-- jsx-fragments.d.ts.map
+|   |   |   |   |-- jsx-fragments.js
+|   |   |   |   |-- jsx-handler-names.d.ts
+|   |   |   |   |-- jsx-handler-names.d.ts.map
+|   |   |   |   |-- jsx-handler-names.js
+|   |   |   |   |-- jsx-indent-props.d.ts
+|   |   |   |   |-- jsx-indent-props.d.ts.map
+|   |   |   |   |-- jsx-indent-props.js
+|   |   |   |   |-- jsx-indent.d.ts
+|   |   |   |   |-- jsx-indent.d.ts.map
+|   |   |   |   |-- jsx-indent.js
+|   |   |   |   |-- jsx-key.d.ts
+|   |   |   |   |-- jsx-key.d.ts.map
+|   |   |   |   |-- jsx-key.js
+|   |   |   |   |-- jsx-max-depth.d.ts
+|   |   |   |   |-- jsx-max-depth.d.ts.map
+|   |   |   |   |-- jsx-max-depth.js
+|   |   |   |   |-- jsx-max-props-per-line.d.ts
+|   |   |   |   |-- jsx-max-props-per-line.d.ts.map
+|   |   |   |   |-- jsx-max-props-per-line.js
+|   |   |   |   |-- jsx-newline.d.ts
+|   |   |   |   |-- jsx-newline.d.ts.map
+|   |   |   |   |-- jsx-newline.js
+|   |   |   |   |-- jsx-no-bind.d.ts
+|   |   |   |   |-- jsx-no-bind.d.ts.map
+|   |   |   |   |-- jsx-no-bind.js
+|   |   |   |   |-- jsx-no-comment-textnodes.d.ts
+|   |   |   |   |-- jsx-no-comment-textnodes.d.ts.map
+|   |   |   |   |-- jsx-no-comment-textnodes.js
+|   |   |   |   |-- jsx-no-constructed-context-values.d.ts
+|   |   |   |   |-- jsx-no-constructed-context-values.d.ts.map
+|   |   |   |   |-- jsx-no-constructed-context-values.js
+|   |   |   |   |-- jsx-no-duplicate-props.d.ts
+|   |   |   |   |-- jsx-no-duplicate-props.d.ts.map
+|   |   |   |   |-- jsx-no-duplicate-props.js
+|   |   |   |   |-- jsx-no-leaked-render.d.ts
+|   |   |   |   |-- jsx-no-leaked-render.d.ts.map
+|   |   |   |   |-- jsx-no-leaked-render.js
+|   |   |   |   |-- jsx-no-literals.d.ts
+|   |   |   |   |-- jsx-no-literals.d.ts.map
+|   |   |   |   |-- jsx-no-literals.js
+|   |   |   |   |-- jsx-no-script-url.d.ts
+|   |   |   |   |-- jsx-no-script-url.d.ts.map
+|   |   |   |   |-- jsx-no-script-url.js
+|   |   |   |   |-- jsx-no-target-blank.d.ts
+|   |   |   |   |-- jsx-no-target-blank.d.ts.map
+|   |   |   |   |-- jsx-no-target-blank.js
+|   |   |   |   |-- jsx-no-undef.d.ts
+|   |   |   |   |-- jsx-no-undef.d.ts.map
+|   |   |   |   |-- jsx-no-undef.js
+|   |   |   |   |-- jsx-no-useless-fragment.d.ts
+|   |   |   |   |-- jsx-no-useless-fragment.d.ts.map
+|   |   |   |   |-- jsx-no-useless-fragment.js
+|   |   |   |   |-- jsx-one-expression-per-line.d.ts
+|   |   |   |   |-- jsx-one-expression-per-line.d.ts.map
+|   |   |   |   |-- jsx-one-expression-per-line.js
+|   |   |   |   |-- jsx-pascal-case.d.ts
+|   |   |   |   |-- jsx-pascal-case.d.ts.map
+|   |   |   |   |-- jsx-pascal-case.js
+|   |   |   |   |-- jsx-props-no-multi-spaces.d.ts
+|   |   |   |   |-- jsx-props-no-multi-spaces.d.ts.map
+|   |   |   |   |-- jsx-props-no-multi-spaces.js
+|   |   |   |   |-- jsx-props-no-spread-multi.d.ts
+|   |   |   |   |-- jsx-props-no-spread-multi.d.ts.map
+|   |   |   |   |-- jsx-props-no-spread-multi.js
+|   |   |   |   |-- jsx-props-no-spreading.d.ts
+|   |   |   |   |-- jsx-props-no-spreading.d.ts.map
+|   |   |   |   |-- jsx-props-no-spreading.js
+|   |   |   |   |-- jsx-sort-default-props.d.ts
+|   |   |   |   |-- jsx-sort-default-props.d.ts.map
+|   |   |   |   |-- jsx-sort-default-props.js
+|   |   |   |   |-- jsx-sort-props.d.ts
+|   |   |   |   |-- jsx-sort-props.d.ts.map
+|   |   |   |   |-- jsx-sort-props.js
+|   |   |   |   |-- jsx-space-before-closing.d.ts
+|   |   |   |   |-- jsx-space-before-closing.d.ts.map
+|   |   |   |   |-- jsx-space-before-closing.js
+|   |   |   |   |-- jsx-tag-spacing.d.ts
+|   |   |   |   |-- jsx-tag-spacing.d.ts.map
+|   |   |   |   |-- jsx-tag-spacing.js
+|   |   |   |   |-- jsx-uses-react.d.ts
+|   |   |   |   |-- jsx-uses-react.d.ts.map
+|   |   |   |   |-- jsx-uses-react.js
+|   |   |   |   |-- jsx-uses-vars.d.ts
+|   |   |   |   |-- jsx-uses-vars.d.ts.map
+|   |   |   |   |-- jsx-uses-vars.js
+|   |   |   |   |-- jsx-wrap-multilines.d.ts
+|   |   |   |   |-- jsx-wrap-multilines.d.ts.map
+|   |   |   |   |-- jsx-wrap-multilines.js
+|   |   |   |   |-- no-access-state-in-setstate.d.ts
+|   |   |   |   |-- no-access-state-in-setstate.d.ts.map
+|   |   |   |   |-- no-access-state-in-setstate.js
+|   |   |   |   |-- no-adjacent-inline-elements.d.ts
+|   |   |   |   |-- no-adjacent-inline-elements.d.ts.map
+|   |   |   |   |-- no-adjacent-inline-elements.js
+|   |   |   |   |-- no-array-index-key.d.ts
+|   |   |   |   |-- no-array-index-key.d.ts.map
+|   |   |   |   |-- no-array-index-key.js
+|   |   |   |   |-- no-arrow-function-lifecycle.d.ts
+|   |   |   |   |-- no-arrow-function-lifecycle.d.ts.map
+|   |   |   |   |-- no-arrow-function-lifecycle.js
+|   |   |   |   |-- no-children-prop.d.ts
+|   |   |   |   |-- no-children-prop.d.ts.map
+|   |   |   |   |-- no-children-prop.js
+|   |   |   |   |-- no-danger-with-children.d.ts
+|   |   |   |   |-- no-danger-with-children.d.ts.map
+|   |   |   |   |-- no-danger-with-children.js
+|   |   |   |   |-- no-danger.d.ts
+|   |   |   |   |-- no-danger.d.ts.map
+|   |   |   |   |-- no-danger.js
+|   |   |   |   |-- no-deprecated.d.ts
+|   |   |   |   |-- no-deprecated.d.ts.map
+|   |   |   |   |-- no-deprecated.js
+|   |   |   |   |-- no-did-mount-set-state.d.ts
+|   |   |   |   |-- no-did-mount-set-state.d.ts.map
+|   |   |   |   |-- no-did-mount-set-state.js
+|   |   |   |   |-- no-did-update-set-state.d.ts
+|   |   |   |   |-- no-did-update-set-state.d.ts.map
+|   |   |   |   |-- no-did-update-set-state.js
+|   |   |   |   |-- no-direct-mutation-state.d.ts
+|   |   |   |   |-- no-direct-mutation-state.d.ts.map
+|   |   |   |   |-- no-direct-mutation-state.js
+|   |   |   |   |-- no-find-dom-node.d.ts
+|   |   |   |   |-- no-find-dom-node.d.ts.map
+|   |   |   |   |-- no-find-dom-node.js
+|   |   |   |   |-- no-invalid-html-attribute.d.ts
+|   |   |   |   |-- no-invalid-html-attribute.d.ts.map
+|   |   |   |   |-- no-invalid-html-attribute.js
+|   |   |   |   |-- no-is-mounted.d.ts
+|   |   |   |   |-- no-is-mounted.d.ts.map
+|   |   |   |   |-- no-is-mounted.js
+|   |   |   |   |-- no-multi-comp.d.ts
+|   |   |   |   |-- no-multi-comp.d.ts.map
+|   |   |   |   |-- no-multi-comp.js
+|   |   |   |   |-- no-namespace.d.ts
+|   |   |   |   |-- no-namespace.d.ts.map
+|   |   |   |   |-- no-namespace.js
+|   |   |   |   |-- no-object-type-as-default-prop.d.ts
+|   |   |   |   |-- no-object-type-as-default-prop.d.ts.map
+|   |   |   |   |-- no-object-type-as-default-prop.js
+|   |   |   |   |-- no-redundant-should-component-update.d.ts
+|   |   |   |   |-- no-redundant-should-component-update.d.ts.map
+|   |   |   |   |-- no-redundant-should-component-update.js
+|   |   |   |   |-- no-render-return-value.d.ts
+|   |   |   |   |-- no-render-return-value.d.ts.map
+|   |   |   |   |-- no-render-return-value.js
+|   |   |   |   |-- no-set-state.d.ts
+|   |   |   |   |-- no-set-state.d.ts.map
+|   |   |   |   |-- no-set-state.js
+|   |   |   |   |-- no-string-refs.d.ts
+|   |   |   |   |-- no-string-refs.d.ts.map
+|   |   |   |   |-- no-string-refs.js
+|   |   |   |   |-- no-this-in-sfc.d.ts
+|   |   |   |   |-- no-this-in-sfc.d.ts.map
+|   |   |   |   |-- no-this-in-sfc.js
+|   |   |   |   |-- no-typos.d.ts
+|   |   |   |   |-- no-typos.d.ts.map
+|   |   |   |   |-- no-typos.js
+|   |   |   |   |-- no-unescaped-entities.d.ts
+|   |   |   |   |-- no-unescaped-entities.d.ts.map
+|   |   |   |   |-- no-unescaped-entities.js
+|   |   |   |   |-- no-unknown-property.d.ts
+|   |   |   |   |-- no-unknown-property.d.ts.map
+|   |   |   |   |-- no-unknown-property.js
+|   |   |   |   |-- no-unsafe.d.ts
+|   |   |   |   |-- no-unsafe.d.ts.map
+|   |   |   |   |-- no-unsafe.js
+|   |   |   |   |-- no-unstable-nested-components.d.ts
+|   |   |   |   |-- no-unstable-nested-components.d.ts.map
+|   |   |   |   |-- no-unstable-nested-components.js
+|   |   |   |   |-- no-unused-class-component-methods.d.ts
+|   |   |   |   |-- no-unused-class-component-methods.d.ts.map
+|   |   |   |   |-- no-unused-class-component-methods.js
+|   |   |   |   |-- no-unused-prop-types.d.ts
+|   |   |   |   |-- no-unused-prop-types.d.ts.map
+|   |   |   |   |-- no-unused-prop-types.js
+|   |   |   |   |-- no-unused-state.d.ts
+|   |   |   |   |-- no-unused-state.d.ts.map
+|   |   |   |   |-- no-unused-state.js
+|   |   |   |   |-- no-will-update-set-state.d.ts
+|   |   |   |   |-- no-will-update-set-state.d.ts.map
+|   |   |   |   |-- no-will-update-set-state.js
+|   |   |   |   |-- prefer-es6-class.d.ts
+|   |   |   |   |-- prefer-es6-class.d.ts.map
+|   |   |   |   |-- prefer-es6-class.js
+|   |   |   |   |-- prefer-exact-props.d.ts
+|   |   |   |   |-- prefer-exact-props.d.ts.map
+|   |   |   |   |-- prefer-exact-props.js
+|   |   |   |   |-- prefer-read-only-props.d.ts
+|   |   |   |   |-- prefer-read-only-props.d.ts.map
+|   |   |   |   |-- prefer-read-only-props.js
+|   |   |   |   |-- prefer-stateless-function.d.ts
+|   |   |   |   |-- prefer-stateless-function.d.ts.map
+|   |   |   |   |-- prefer-stateless-function.js
+|   |   |   |   |-- prop-types.d.ts
+|   |   |   |   |-- prop-types.d.ts.map
+|   |   |   |   |-- prop-types.js
+|   |   |   |   |-- react-in-jsx-scope.d.ts
+|   |   |   |   |-- react-in-jsx-scope.d.ts.map
+|   |   |   |   |-- react-in-jsx-scope.js
+|   |   |   |   |-- require-default-props.d.ts
+|   |   |   |   |-- require-default-props.d.ts.map
+|   |   |   |   |-- require-default-props.js
+|   |   |   |   |-- require-optimization.d.ts
+|   |   |   |   |-- require-optimization.d.ts.map
+|   |   |   |   |-- require-optimization.js
+|   |   |   |   |-- require-render-return.d.ts
+|   |   |   |   |-- require-render-return.d.ts.map
+|   |   |   |   |-- require-render-return.js
+|   |   |   |   |-- self-closing-comp.d.ts
+|   |   |   |   |-- self-closing-comp.d.ts.map
+|   |   |   |   |-- self-closing-comp.js
+|   |   |   |   |-- sort-comp.d.ts
+|   |   |   |   |-- sort-comp.d.ts.map
+|   |   |   |   |-- sort-comp.js
+|   |   |   |   |-- sort-default-props.d.ts
+|   |   |   |   |-- sort-default-props.d.ts.map
+|   |   |   |   |-- sort-default-props.js
+|   |   |   |   |-- sort-prop-types.d.ts
+|   |   |   |   |-- sort-prop-types.d.ts.map
+|   |   |   |   |-- sort-prop-types.js
+|   |   |   |   |-- state-in-constructor.d.ts
+|   |   |   |   |-- state-in-constructor.d.ts.map
+|   |   |   |   |-- state-in-constructor.js
+|   |   |   |   |-- static-property-placement.d.ts
+|   |   |   |   |-- static-property-placement.d.ts.map
+|   |   |   |   |-- static-property-placement.js
+|   |   |   |   |-- style-prop-object.d.ts
+|   |   |   |   |-- style-prop-object.d.ts.map
+|   |   |   |   |-- style-prop-object.js
+|   |   |   |   |-- void-dom-elements-no-children.d.ts
+|   |   |   |   |-- void-dom-elements-no-children.d.ts.map
+|   |   |   |   `-- void-dom-elements-no-children.js
+|   |   |   |-- types.d.ts
+|   |   |   `-- util
+|   |   |       |-- Components.d.ts
+|   |   |       |-- Components.d.ts.map
+|   |   |       |-- Components.js
+|   |   |       |-- annotations.d.ts
+|   |   |       |-- annotations.d.ts.map
+|   |   |       |-- annotations.js
+|   |   |       |-- ast.d.ts
+|   |   |       |-- ast.d.ts.map
+|   |   |       |-- ast.js
+|   |   |       |-- componentUtil.d.ts
+|   |   |       |-- componentUtil.d.ts.map
+|   |   |       |-- componentUtil.js
+|   |   |       |-- defaultProps.d.ts
+|   |   |       |-- defaultProps.d.ts.map
+|   |   |       |-- defaultProps.js
+|   |   |       |-- docsUrl.d.ts
+|   |   |       |-- docsUrl.d.ts.map
+|   |   |       |-- docsUrl.js
+|   |   |       |-- error.d.ts
+|   |   |       |-- error.d.ts.map
+|   |   |       |-- error.js
+|   |   |       |-- eslint.d.ts
+|   |   |       |-- eslint.d.ts.map
+|   |   |       |-- eslint.js
+|   |   |       |-- getTokenBeforeClosingBracket.d.ts
+|   |   |       |-- getTokenBeforeClosingBracket.d.ts.map
+|   |   |       |-- getTokenBeforeClosingBracket.js
+|   |   |       |-- isCreateContext.d.ts
+|   |   |       |-- isCreateContext.d.ts.map
+|   |   |       |-- isCreateContext.js
+|   |   |       |-- isCreateElement.d.ts
+|   |   |       |-- isCreateElement.d.ts.map
+|   |   |       |-- isCreateElement.js
+|   |   |       |-- isDestructuredFromPragmaImport.d.ts
+|   |   |       |-- isDestructuredFromPragmaImport.d.ts.map
+|   |   |       |-- isDestructuredFromPragmaImport.js
+|   |   |       |-- isFirstLetterCapitalized.d.ts
+|   |   |       |-- isFirstLetterCapitalized.d.ts.map
+|   |   |       |-- isFirstLetterCapitalized.js
+|   |   |       |-- jsx.d.ts
+|   |   |       |-- jsx.d.ts.map
+|   |   |       |-- jsx.js
+|   |   |       |-- lifecycleMethods.d.ts
+|   |   |       |-- lifecycleMethods.d.ts.map
+|   |   |       |-- lifecycleMethods.js
+|   |   |       |-- linkComponents.d.ts
+|   |   |       |-- linkComponents.d.ts.map
+|   |   |       |-- linkComponents.js
+|   |   |       |-- log.d.ts
+|   |   |       |-- log.d.ts.map
+|   |   |       |-- log.js
+|   |   |       |-- makeNoMethodSetStateRule.d.ts
+|   |   |       |-- makeNoMethodSetStateRule.d.ts.map
+|   |   |       |-- makeNoMethodSetStateRule.js
+|   |   |       |-- message.d.ts
+|   |   |       |-- message.d.ts.map
+|   |   |       |-- message.js
+|   |   |       |-- pragma.d.ts
+|   |   |       |-- pragma.d.ts.map
+|   |   |       |-- pragma.js
+|   |   |       |-- propTypes.d.ts
+|   |   |       |-- propTypes.d.ts.map
+|   |   |       |-- propTypes.js
+|   |   |       |-- propTypesSort.d.ts
+|   |   |       |-- propTypesSort.d.ts.map
+|   |   |       |-- propTypesSort.js
+|   |   |       |-- propWrapper.d.ts
+|   |   |       |-- propWrapper.d.ts.map
+|   |   |       |-- propWrapper.js
+|   |   |       |-- props.d.ts
+|   |   |       |-- props.d.ts.map
+|   |   |       |-- props.js
+|   |   |       |-- report.d.ts
+|   |   |       |-- report.d.ts.map
+|   |   |       |-- report.js
+|   |   |       |-- usedPropTypes.d.ts
+|   |   |       |-- usedPropTypes.d.ts.map
+|   |   |       |-- usedPropTypes.js
+|   |   |       |-- variable.d.ts
+|   |   |       |-- variable.d.ts.map
+|   |   |       |-- variable.js
+|   |   |       |-- version.d.ts
+|   |   |       |-- version.d.ts.map
+|   |   |       `-- version.js
+|   |   `-- package.json
+|   |-- eslint-plugin-react-hooks
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- cjs
+|   |   |   |-- eslint-plugin-react-hooks.d.ts
+|   |   |   |-- eslint-plugin-react-hooks.development.js
+|   |   |   `-- eslint-plugin-react-hooks.production.js
+|   |   |-- index.d.ts
+|   |   |-- index.js
+|   |   `-- package.json
 |   |-- eslint-scope
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -17900,15 +18085,14 @@
 |   |   |-- lib
 |   |   |   |-- assert.js
 |   |   |   |-- definition.js
-|   |   |   |-- index.d.cts
-|   |   |   |-- index.d.ts
 |   |   |   |-- index.js
 |   |   |   |-- pattern-visitor.js
 |   |   |   |-- reference.js
 |   |   |   |-- referencer.js
 |   |   |   |-- scope-manager.js
 |   |   |   |-- scope.js
-|   |   |   `-- variable.js
+|   |   |   |-- variable.js
+|   |   |   `-- version.js
 |   |   `-- package.json
 |   |-- eslint-visitor-keys
 |   |   |-- LICENSE
@@ -17926,30 +18110,14 @@
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- dist
-|   |   |   |-- espree.cjs
-|   |   |   |-- espree.d.cts
-|   |   |   |-- espree.d.cts.map
-|   |   |   |-- espree.d.ts
-|   |   |   `-- espree.d.ts.map
+|   |   |   `-- espree.cjs
 |   |   |-- espree.js
 |   |   |-- lib
 |   |   |   |-- espree.js
+|   |   |   |-- features.js
 |   |   |   |-- options.js
 |   |   |   |-- token-translator.js
-|   |   |   `-- types.js
-|   |   |-- node_modules
-|   |   |   `-- eslint-visitor-keys
-|   |   |       |-- LICENSE
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- eslint-visitor-keys.cjs
-|   |   |       |   |-- eslint-visitor-keys.d.cts
-|   |   |       |   |-- index.d.ts
-|   |   |       |   `-- visitor-keys.d.ts
-|   |   |       |-- lib
-|   |   |       |   |-- index.js
-|   |   |       |   `-- visitor-keys.js
-|   |   |       `-- package.json
+|   |   |   `-- version.js
 |   |   `-- package.json
 |   |-- esquery
 |   |   |-- README.md
@@ -18102,13 +18270,11 @@
 |   |   |-- levenshtein.js
 |   |   `-- package.json
 |   |-- fastq
-|   |   |-- .github
-|   |   |   |-- dependabot.yml
-|   |   |   `-- workflows
-|   |   |       `-- ci.yml
 |   |   |-- LICENSE
 |   |   |-- README.md
+|   |   |-- SECURITY.md
 |   |   |-- bench.js
+|   |   |-- eslint.config.js
 |   |   |-- example.js
 |   |   |-- example.mjs
 |   |   |-- index.d.ts
@@ -18175,6 +18341,11 @@
 |   |   |-- esm
 |   |   |   `-- index.js
 |   |   |-- esm.js
+|   |   |-- golang
+|   |   |   |-- README.md
+|   |   |   `-- pkg
+|   |   |       `-- flatted
+|   |   |           `-- flatted.go
 |   |   |-- index.js
 |   |   |-- min.js
 |   |   |-- package.json
@@ -18200,39 +18371,6 @@
 |   |   |-- test
 |   |   |   `-- test.js
 |   |   `-- tsconfig.json
-|   |-- foreground-child
-|   |   |-- LICENSE
-|   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- cjs
-|   |   |   |   |-- all-signals.d.ts
-|   |   |   |   |-- all-signals.d.ts.map
-|   |   |   |   |-- all-signals.js
-|   |   |   |   |-- all-signals.js.map
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   |-- package.json
-|   |   |   |   |-- watchdog.d.ts
-|   |   |   |   |-- watchdog.d.ts.map
-|   |   |   |   |-- watchdog.js
-|   |   |   |   `-- watchdog.js.map
-|   |   |   `-- mjs
-|   |   |       |-- all-signals.d.ts
-|   |   |       |-- all-signals.d.ts.map
-|   |   |       |-- all-signals.js
-|   |   |       |-- all-signals.js.map
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       |-- package.json
-|   |   |       |-- watchdog.d.ts
-|   |   |       |-- watchdog.d.ts.map
-|   |   |       |-- watchdog.js
-|   |   |       `-- watchdog.js.map
-|   |   `-- package.json
 |   |-- fraction.js
 |   |   |-- CHANGELOG.md
 |   |   |-- LICENSE
@@ -18835,6 +18973,13 @@
 |   |   |-- README.md
 |   |   |-- index.js
 |   |   `-- package.json
+|   |-- globals
+|   |   |-- globals.json
+|   |   |-- index.d.ts
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- globalthis
 |   |   |-- .eslintrc
 |   |   |-- .nycrc
@@ -18893,10 +19038,18 @@
 |   |   |-- CHANGELOG.md
 |   |   |-- LICENSE
 |   |   |-- README.md
+|   |   |-- index.d.ts
 |   |   |-- index.js
 |   |   |-- package.json
-|   |   `-- test
-|   |       `-- index.js
+|   |   |-- test
+|   |   |   `-- index.js
+|   |   `-- tsconfig.json
+|   |-- has-flag
+|   |   |-- index.d.ts
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- has-property-descriptors
 |   |   |-- .eslintrc
 |   |   |-- .github
@@ -18969,13 +19122,13 @@
 |   |   |   `-- tests.js
 |   |   `-- tsconfig.json
 |   |-- hasown
-|   |   |-- .eslintrc
 |   |   |-- .github
 |   |   |   `-- FUNDING.yml
 |   |   |-- .nycrc
 |   |   |-- CHANGELOG.md
 |   |   |-- LICENSE
 |   |   |-- README.md
+|   |   |-- eslint.config.mjs
 |   |   |-- index.d.ts
 |   |   |-- index.js
 |   |   |-- package.json
@@ -19246,6 +19399,12 @@
 |   |   |   |-- browser.js
 |   |   |   `-- index.js
 |   |   `-- package.json
+|   |-- import-fresh
+|   |   |-- index.d.ts
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- imurmurhash
 |   |   |-- README.md
 |   |   |-- imurmurhash.js
@@ -19375,6 +19534,7 @@
 |   |   |       |   |-- rsort.js
 |   |   |       |   |-- satisfies.js
 |   |   |       |   |-- sort.js
+|   |   |       |   |-- truncate.js
 |   |   |       |   `-- valid.js
 |   |   |       |-- index.js
 |   |   |       |-- internal
@@ -19473,12 +19633,6 @@
 |   |   |-- test
 |   |   |   `-- index.js
 |   |   `-- tsconfig.json
-|   |-- is-fullwidth-code-point
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- package.json
-|   |   `-- readme.md
 |   |-- is-generator-function
 |   |   |-- .eslintrc
 |   |   |-- .nvmrc
@@ -19724,33 +19878,6 @@
 |   |   |   |-- index.js
 |   |   |   `-- index.js.map
 |   |   `-- package.json
-|   |-- jackspeak
-|   |   |-- LICENSE.md
-|   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- commonjs
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   |-- package.json
-|   |   |   |   |-- parse-args-cjs.cjs.map
-|   |   |   |   |-- parse-args-cjs.d.cts.map
-|   |   |   |   |-- parse-args.d.ts
-|   |   |   |   |-- parse-args.d.ts.map
-|   |   |   |   |-- parse-args.js
-|   |   |   |   `-- parse-args.js.map
-|   |   |   `-- esm
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       |-- package.json
-|   |   |       |-- parse-args.d.ts
-|   |   |       |-- parse-args.d.ts.map
-|   |   |       |-- parse-args.js
-|   |   |       `-- parse-args.js.map
-|   |   `-- package.json
 |   |-- jiti
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -19775,6 +19902,44 @@
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- index.js
+|   |   `-- package.json
+|   |-- js-yaml
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- bin
+|   |   |   `-- js-yaml.js
+|   |   |-- dist
+|   |   |   |-- js-yaml.js
+|   |   |   |-- js-yaml.min.js
+|   |   |   `-- js-yaml.mjs
+|   |   |-- index.js
+|   |   |-- lib
+|   |   |   |-- common.js
+|   |   |   |-- dumper.js
+|   |   |   |-- exception.js
+|   |   |   |-- loader.js
+|   |   |   |-- schema
+|   |   |   |   |-- core.js
+|   |   |   |   |-- default.js
+|   |   |   |   |-- failsafe.js
+|   |   |   |   `-- json.js
+|   |   |   |-- schema.js
+|   |   |   |-- snippet.js
+|   |   |   |-- type
+|   |   |   |   |-- binary.js
+|   |   |   |   |-- bool.js
+|   |   |   |   |-- float.js
+|   |   |   |   |-- int.js
+|   |   |   |   |-- map.js
+|   |   |   |   |-- merge.js
+|   |   |   |   |-- null.js
+|   |   |   |   |-- omap.js
+|   |   |   |   |-- pairs.js
+|   |   |   |   |-- seq.js
+|   |   |   |   |-- set.js
+|   |   |   |   |-- str.js
+|   |   |   |   `-- timestamp.js
+|   |   |   `-- type.js
 |   |   `-- package.json
 |   |-- jsesc
 |   |   |-- LICENSE-MIT.txt
@@ -19828,15 +19993,23 @@
 |   |   |-- LICENSE.md
 |   |   |-- README.md
 |   |   |-- dist
-|   |   |   `-- index.js
+|   |   |   |-- index.js
+|   |   |   |-- index.min.js
+|   |   |   |-- index.min.mjs
+|   |   |   `-- index.mjs
 |   |   |-- lib
 |   |   |   |-- cli.js
+|   |   |   |-- index.d.ts
 |   |   |   |-- index.js
+|   |   |   |-- parse.d.ts
 |   |   |   |-- parse.js
 |   |   |   |-- register.js
 |   |   |   |-- require.js
+|   |   |   |-- stringify.d.ts
 |   |   |   |-- stringify.js
+|   |   |   |-- unicode.d.ts
 |   |   |   |-- unicode.js
+|   |   |   |-- util.d.ts
 |   |   |   `-- util.js
 |   |   `-- package.json
 |   |-- jsx-ast-utils
@@ -20009,11 +20182,11 @@
 |   |   `-- polyfill.js
 |   |-- lilconfig
 |   |   |-- LICENSE
-|   |   |-- dist
-|   |   |   |-- index.d.ts
-|   |   |   `-- index.js
 |   |   |-- package.json
-|   |   `-- readme.md
+|   |   |-- readme.md
+|   |   `-- src
+|   |       |-- index.d.ts
+|   |       `-- index.js
 |   |-- lines-and-columns
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -20027,6 +20200,11 @@
 |   |   |-- license
 |   |   |-- package.json
 |   |   `-- readme.md
+|   |-- lodash.merge
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- index.js
+|   |   `-- package.json
 |   |-- loose-envify
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -20247,88 +20425,33 @@
 |   |   |-- LICENSE.md
 |   |   |-- README.md
 |   |   |-- benchmark.js
+|   |   |-- index.d.ts
 |   |   |-- index.js
-|   |   |-- index.module.d.ts
-|   |   |-- index.module.js
+|   |   |-- meshopt_clusterizer.d.ts
 |   |   |-- meshopt_clusterizer.js
-|   |   |-- meshopt_clusterizer.module.d.ts
-|   |   |-- meshopt_clusterizer.module.js
 |   |   |-- meshopt_clusterizer.test.js
-|   |   |-- meshopt_decoder.js
-|   |   |-- meshopt_decoder.module.d.ts
-|   |   |-- meshopt_decoder.module.js
+|   |   |-- meshopt_decoder.cjs
+|   |   |-- meshopt_decoder.d.ts
+|   |   |-- meshopt_decoder.mjs
 |   |   |-- meshopt_decoder.test.js
 |   |   |-- meshopt_decoder_reference.js
+|   |   |-- meshopt_encoder.d.ts
 |   |   |-- meshopt_encoder.js
-|   |   |-- meshopt_encoder.module.d.ts
-|   |   |-- meshopt_encoder.module.js
 |   |   |-- meshopt_encoder.test.js
+|   |   |-- meshopt_simplifier.d.ts
 |   |   |-- meshopt_simplifier.js
-|   |   |-- meshopt_simplifier.module.d.ts
-|   |   |-- meshopt_simplifier.module.js
 |   |   |-- meshopt_simplifier.test.js
-|   |   `-- package.json
+|   |   |-- package.json
+|   |   `-- wasi_trace.js
 |   |-- micromatch
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- index.js
 |   |   `-- package.json
 |   |-- minimatch
-|   |   |-- LICENSE.md
+|   |   |-- LICENSE
 |   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- commonjs
-|   |   |   |   |-- assert-valid-pattern.d.ts
-|   |   |   |   |-- assert-valid-pattern.d.ts.map
-|   |   |   |   |-- assert-valid-pattern.js
-|   |   |   |   |-- assert-valid-pattern.js.map
-|   |   |   |   |-- ast.d.ts
-|   |   |   |   |-- ast.d.ts.map
-|   |   |   |   |-- ast.js
-|   |   |   |   |-- ast.js.map
-|   |   |   |   |-- brace-expressions.d.ts
-|   |   |   |   |-- brace-expressions.d.ts.map
-|   |   |   |   |-- brace-expressions.js
-|   |   |   |   |-- brace-expressions.js.map
-|   |   |   |   |-- escape.d.ts
-|   |   |   |   |-- escape.d.ts.map
-|   |   |   |   |-- escape.js
-|   |   |   |   |-- escape.js.map
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   |-- package.json
-|   |   |   |   |-- unescape.d.ts
-|   |   |   |   |-- unescape.d.ts.map
-|   |   |   |   |-- unescape.js
-|   |   |   |   `-- unescape.js.map
-|   |   |   `-- esm
-|   |   |       |-- assert-valid-pattern.d.ts
-|   |   |       |-- assert-valid-pattern.d.ts.map
-|   |   |       |-- assert-valid-pattern.js
-|   |   |       |-- assert-valid-pattern.js.map
-|   |   |       |-- ast.d.ts
-|   |   |       |-- ast.d.ts.map
-|   |   |       |-- ast.js
-|   |   |       |-- ast.js.map
-|   |   |       |-- brace-expressions.d.ts
-|   |   |       |-- brace-expressions.d.ts.map
-|   |   |       |-- brace-expressions.js
-|   |   |       |-- brace-expressions.js.map
-|   |   |       |-- escape.d.ts
-|   |   |       |-- escape.d.ts.map
-|   |   |       |-- escape.js
-|   |   |       |-- escape.js.map
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       |-- package.json
-|   |   |       |-- unescape.d.ts
-|   |   |       |-- unescape.d.ts.map
-|   |   |       |-- unescape.js
-|   |   |       `-- unescape.js.map
+|   |   |-- minimatch.js
 |   |   `-- package.json
 |   |-- minimist
 |   |   |-- .eslintrc
@@ -20358,23 +20481,6 @@
 |   |       |-- stop_early.js
 |   |       |-- unknown.js
 |   |       `-- whitespace.js
-|   |-- minipass
-|   |   |-- LICENSE
-|   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- commonjs
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   `-- package.json
-|   |   |   `-- esm
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       `-- package.json
-|   |   `-- package.json
 |   |-- motion-dom
 |   |   |-- LICENSE.md
 |   |   |-- dist
@@ -20982,6 +21088,8 @@
 |   |   |-- readline.js
 |   |   `-- zlib.js
 |   |-- nanoid
+|   |   |-- .claude
+|   |   |   `-- settings.local.json
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- async
@@ -30114,6 +30222,11 @@
 |   |   |-- license
 |   |   |-- package.json
 |   |   `-- readme.md
+|   |-- parent-module
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- path-exists
 |   |   |-- index.d.ts
 |   |   |-- index.js
@@ -30130,41 +30243,6 @@
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- index.js
-|   |   `-- package.json
-|   |-- path-scurry
-|   |   |-- LICENSE.md
-|   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- cjs
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   `-- package.json
-|   |   |   `-- mjs
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       `-- package.json
-|   |   |-- node_modules
-|   |   |   `-- lru-cache
-|   |   |       |-- LICENSE
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- commonjs
-|   |   |       |   |   |-- index.d.ts
-|   |   |       |   |   |-- index.d.ts.map
-|   |   |       |   |   |-- index.js
-|   |   |       |   |   |-- index.js.map
-|   |   |       |   |   `-- package.json
-|   |   |       |   `-- esm
-|   |   |       |       |-- index.d.ts
-|   |   |       |       |-- index.d.ts.map
-|   |   |       |       |-- index.js
-|   |   |       |       |-- index.js.map
-|   |   |       |       `-- package.json
-|   |   |       `-- package.json
 |   |   `-- package.json
 |   |-- picocolors
 |   |   |-- LICENSE
@@ -30280,6 +30358,171 @@
 |   |   |   |-- parse-statements.js
 |   |   |   |-- process-content.js
 |   |   |   `-- resolve-id.js
+|   |   |-- node_modules
+|   |   |   |-- .bin
+|   |   |   |   `-- resolve -> ../resolve/bin/resolve
+|   |   |   `-- resolve
+|   |   |       |-- .claude
+|   |   |       |   |-- notes.md
+|   |   |       |   `-- settings.local.json
+|   |   |       |-- .editorconfig
+|   |   |       |-- .eslintrc
+|   |   |       |-- .github
+|   |   |       |   |-- FUNDING.yml
+|   |   |       |   |-- INCIDENT_RESPONSE_PROCESS.md
+|   |   |       |   `-- THREAT_MODEL.md
+|   |   |       |-- LICENSE
+|   |   |       |-- SECURITY.md
+|   |   |       |-- async.js
+|   |   |       |-- bin
+|   |   |       |   `-- resolve
+|   |   |       |-- eslint.config.mjs
+|   |   |       |-- example
+|   |   |       |   |-- async.js
+|   |   |       |   `-- sync.js
+|   |   |       |-- index.js
+|   |   |       |-- lib
+|   |   |       |   |-- async.js
+|   |   |       |   |-- caller.js
+|   |   |       |   |-- core.js
+|   |   |       |   |-- core.json
+|   |   |       |   |-- homedir.js
+|   |   |       |   |-- is-core.js
+|   |   |       |   |-- node-modules-paths.js
+|   |   |       |   |-- normalize-options.js
+|   |   |       |   `-- sync.js
+|   |   |       |-- package.json
+|   |   |       |-- readme.markdown
+|   |   |       |-- sync.js
+|   |   |       `-- test
+|   |   |           |-- core.js
+|   |   |           |-- default_paths.js
+|   |   |           |-- dotdot
+|   |   |           |   |-- abc
+|   |   |           |   |   `-- index.js
+|   |   |           |   `-- index.js
+|   |   |           |-- dotdot.js
+|   |   |           |-- faulty_basedir.js
+|   |   |           |-- filter.js
+|   |   |           |-- filter_sync.js
+|   |   |           |-- home_paths.js
+|   |   |           |-- home_paths_sync.js
+|   |   |           |-- homedir.js
+|   |   |           |-- mock.js
+|   |   |           |-- mock_sync.js
+|   |   |           |-- module_dir
+|   |   |           |   |-- xmodules
+|   |   |           |   |   `-- aaa
+|   |   |           |   |       `-- index.js
+|   |   |           |   |-- ymodules
+|   |   |           |   |   `-- aaa
+|   |   |           |   |       `-- index.js
+|   |   |           |   `-- zmodules
+|   |   |           |       `-- bbb
+|   |   |           |           |-- main.js
+|   |   |           |           `-- package.json
+|   |   |           |-- module_dir.js
+|   |   |           |-- node-modules-paths.js
+|   |   |           |-- node_path
+|   |   |           |   |-- x
+|   |   |           |   |   |-- aaa
+|   |   |           |   |   |   `-- index.js
+|   |   |           |   |   `-- ccc
+|   |   |           |   |       `-- index.js
+|   |   |           |   `-- y
+|   |   |           |       |-- bbb
+|   |   |           |       |   `-- index.js
+|   |   |           |       `-- ccc
+|   |   |           |           `-- index.js
+|   |   |           |-- node_path.js
+|   |   |           |-- nonstring.js
+|   |   |           |-- pathfilter
+|   |   |           |   `-- deep_ref
+|   |   |           |       `-- main.js
+|   |   |           |-- pathfilter.js
+|   |   |           |-- pathfilter_sync.js
+|   |   |           |-- precedence
+|   |   |           |   |-- aaa
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- main.js
+|   |   |           |   |-- aaa.js
+|   |   |           |   |-- bbb
+|   |   |           |   |   `-- main.js
+|   |   |           |   `-- bbb.js
+|   |   |           |-- precedence.js
+|   |   |           |-- resolver
+|   |   |           |   |-- baz
+|   |   |           |   |   |-- doom.js
+|   |   |           |   |   |-- package.json
+|   |   |           |   |   `-- quux.js
+|   |   |           |   |-- browser_field
+|   |   |           |   |   |-- a.js
+|   |   |           |   |   |-- b.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- cup.coffee
+|   |   |           |   |-- dot_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- dot_slash_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- false_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- foo.js
+|   |   |           |   |-- incorrect_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- invalid_main
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- mug.coffee
+|   |   |           |   |-- mug.js
+|   |   |           |   |-- multirepo
+|   |   |           |   |   |-- lerna.json
+|   |   |           |   |   |-- package.json
+|   |   |           |   |   `-- packages
+|   |   |           |   |       |-- package-a
+|   |   |           |   |       |   |-- index.js
+|   |   |           |   |       |   `-- package.json
+|   |   |           |   |       `-- package-b
+|   |   |           |   |           |-- index.js
+|   |   |           |   |           `-- package.json
+|   |   |           |   |-- nested_symlinks
+|   |   |           |   |   `-- mylib
+|   |   |           |   |       |-- async.js
+|   |   |           |   |       |-- package.json
+|   |   |           |   |       `-- sync.js
+|   |   |           |   |-- other_path
+|   |   |           |   |   |-- lib
+|   |   |           |   |   |   `-- other-lib.js
+|   |   |           |   |   `-- root.js
+|   |   |           |   |-- quux
+|   |   |           |   |   `-- foo
+|   |   |           |   |       `-- index.js
+|   |   |           |   |-- same_names
+|   |   |           |   |   |-- foo
+|   |   |           |   |   |   `-- index.js
+|   |   |           |   |   `-- foo.js
+|   |   |           |   |-- symlinked
+|   |   |           |   |   |-- _
+|   |   |           |   |   |   |-- node_modules
+|   |   |           |   |   |   |   `-- foo.js
+|   |   |           |   |   |   `-- symlink_target
+|   |   |           |   |   |       `-- .gitkeep
+|   |   |           |   |   `-- package
+|   |   |           |   |       |-- bar.js
+|   |   |           |   |       `-- package.json
+|   |   |           |   `-- without_basedir
+|   |   |           |       `-- main.js
+|   |   |           |-- resolver.js
+|   |   |           |-- resolver_sync.js
+|   |   |           |-- shadowed_core
+|   |   |           |   `-- node_modules
+|   |   |           |       `-- util
+|   |   |           |           `-- index.js
+|   |   |           |-- shadowed_core.js
+|   |   |           |-- subdirs.js
+|   |   |           `-- symlinks.js
 |   |   `-- package.json
 |   |-- postcss-js
 |   |   |-- LICENSE
@@ -30295,14 +30538,6 @@
 |   |-- postcss-load-config
 |   |   |-- LICENSE
 |   |   |-- README.md
-|   |   |-- node_modules
-|   |   |   `-- lilconfig
-|   |   |       |-- LICENSE
-|   |   |       |-- dist
-|   |   |       |   |-- index.d.ts
-|   |   |       |   `-- index.js
-|   |   |       |-- package.json
-|   |   |       `-- readme.md
 |   |   |-- package.json
 |   |   `-- src
 |   |       |-- index.d.ts
@@ -30768,39 +31003,47 @@
 |   |   |-- package.json
 |   |   `-- readme.md
 |   |-- resolve
+|   |   |-- .claude
+|   |   |   `-- settings.local.json
 |   |   |-- .editorconfig
-|   |   |-- .eslintrc
 |   |   |-- .github
-|   |   |   `-- FUNDING.yml
+|   |   |   |-- FUNDING.yml
+|   |   |   |-- INCIDENT_RESPONSE_PROCESS.md
+|   |   |   `-- THREAT_MODEL.md
+|   |   |-- .gitmodules
 |   |   |-- LICENSE
 |   |   |-- SECURITY.md
 |   |   |-- async.js
 |   |   |-- bin
 |   |   |   `-- resolve
+|   |   |-- eslint.config.mjs
 |   |   |-- example
 |   |   |   |-- async.js
 |   |   |   `-- sync.js
 |   |   |-- index.js
+|   |   |-- index.mjs
 |   |   |-- lib
 |   |   |   |-- async.js
 |   |   |   |-- caller.js
-|   |   |   |-- core.js
-|   |   |   |-- core.json
+|   |   |   |-- exports-resolve.js
+|   |   |   |-- get-exports-category.js
 |   |   |   |-- homedir.js
-|   |   |   |-- is-core.js
 |   |   |   |-- node-modules-paths.js
 |   |   |   |-- normalize-options.js
+|   |   |   |-- parse-package-specifier.js
+|   |   |   |-- select-most-restrictive.js
 |   |   |   `-- sync.js
 |   |   |-- package.json
 |   |   |-- readme.markdown
 |   |   |-- sync.js
 |   |   `-- test
-|   |       |-- core.js
 |   |       |-- dotdot
 |   |       |   |-- abc
 |   |       |   |   `-- index.js
 |   |       |   `-- index.js
 |   |       |-- dotdot.js
+|   |       |-- exports.js
+|   |       |-- exports_sync.js
 |   |       |-- faulty_basedir.js
 |   |       |-- filter.js
 |   |       |-- filter_sync.js
@@ -30838,6 +31081,7 @@
 |   |       |   `-- deep_ref
 |   |       |       `-- main.js
 |   |       |-- pathfilter.js
+|   |       |-- pathfilter_sync.js
 |   |       |-- precedence
 |   |       |   |-- aaa
 |   |       |   |   |-- index.js
@@ -30863,6 +31107,9 @@
 |   |       |   |-- dot_slash_main
 |   |       |   |   |-- index.js
 |   |       |   |   `-- package.json
+|   |       |   |-- empty_main
+|   |       |   |   |-- index.js
+|   |       |   |   `-- package.json
 |   |       |   |-- false_main
 |   |       |   |   |-- index.js
 |   |       |   |   `-- package.json
@@ -30871,6 +31118,11 @@
 |   |       |   |   |-- index.js
 |   |       |   |   `-- package.json
 |   |       |   |-- invalid_main
+|   |       |   |   `-- package.json
+|   |       |   |-- missing_index
+|   |       |   |   `-- package.json
+|   |       |   |-- missing_main
+|   |       |   |   |-- index.js
 |   |       |   |   `-- package.json
 |   |       |   |-- mug.coffee
 |   |       |   |-- mug.js
@@ -30889,6 +31141,9 @@
 |   |       |   |       |-- async.js
 |   |       |   |       |-- package.json
 |   |       |   |       `-- sync.js
+|   |       |   |-- null_main
+|   |       |   |   |-- index.js
+|   |       |   |   `-- package.json
 |   |       |   |-- other_path
 |   |       |   |   |-- lib
 |   |       |   |   |   `-- other-lib.js
@@ -30920,6 +31175,11 @@
 |   |       |-- shadowed_core.js
 |   |       |-- subdirs.js
 |   |       `-- symlinks.js
+|   |-- resolve-from
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- resolve-pkg-maps
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -30930,17 +31190,23 @@
 |   |   |   `-- index.mjs
 |   |   `-- package.json
 |   |-- reusify
-|   |   |-- .coveralls.yml
-|   |   |-- .travis.yml
+|   |   |-- .github
+|   |   |   |-- dependabot.yml
+|   |   |   `-- workflows
+|   |   |       `-- ci.yml
 |   |   |-- LICENSE
 |   |   |-- README.md
+|   |   |-- SECURITY.md
 |   |   |-- benchmarks
 |   |   |   |-- createNoCodeFunction.js
 |   |   |   |-- fib.js
 |   |   |   `-- reuseNoCodeFunction.js
+|   |   |-- eslint.config.js
 |   |   |-- package.json
+|   |   |-- reusify.d.ts
 |   |   |-- reusify.js
-|   |   `-- test.js
+|   |   |-- test.js
+|   |   `-- tsconfig.json
 |   |-- run-parallel
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -31114,6 +31380,7 @@
 |   |   |       |   |-- rsort.js
 |   |   |       |   |-- satisfies.js
 |   |   |       |   |-- sort.js
+|   |   |       |   |-- truncate.js
 |   |   |       |   `-- valid.js
 |   |   |       |-- index.js
 |   |   |       |-- internal
@@ -31226,39 +31493,6 @@
 |   |   |-- test
 |   |   |   `-- index.js
 |   |   `-- tsconfig.json
-|   |-- signal-exit
-|   |   |-- LICENSE.txt
-|   |   |-- README.md
-|   |   |-- dist
-|   |   |   |-- cjs
-|   |   |   |   |-- browser.d.ts
-|   |   |   |   |-- browser.d.ts.map
-|   |   |   |   |-- browser.js
-|   |   |   |   |-- browser.js.map
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.d.ts.map
-|   |   |   |   |-- index.js
-|   |   |   |   |-- index.js.map
-|   |   |   |   |-- package.json
-|   |   |   |   |-- signals.d.ts
-|   |   |   |   |-- signals.d.ts.map
-|   |   |   |   |-- signals.js
-|   |   |   |   `-- signals.js.map
-|   |   |   `-- mjs
-|   |   |       |-- browser.d.ts
-|   |   |       |-- browser.d.ts.map
-|   |   |       |-- browser.js
-|   |   |       |-- browser.js.map
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.d.ts.map
-|   |   |       |-- index.js
-|   |   |       |-- index.js.map
-|   |   |       |-- package.json
-|   |   |       |-- signals.d.ts
-|   |   |       |-- signals.d.ts.map
-|   |   |       |-- signals.js
-|   |   |       `-- signals.js.map
-|   |   `-- package.json
 |   |-- source-map-js
 |   |   |-- LICENSE
 |   |   |-- README.md
@@ -32502,42 +32736,6 @@
 |   |   |-- test
 |   |   |   `-- index.js
 |   |   `-- tsconfig.json
-|   |-- string-width
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- node_modules
-|   |   |   |-- ansi-regex
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- license
-|   |   |   |   |-- package.json
-|   |   |   |   `-- readme.md
-|   |   |   `-- strip-ansi
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.js
-|   |   |       |-- license
-|   |   |       |-- package.json
-|   |   |       `-- readme.md
-|   |   |-- package.json
-|   |   `-- readme.md
-|   |-- string-width-cjs
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- node_modules
-|   |   |   `-- emoji-regex
-|   |   |       |-- LICENSE-MIT.txt
-|   |   |       |-- README.md
-|   |   |       |-- es2015
-|   |   |       |   |-- index.js
-|   |   |       |   `-- text.js
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.js
-|   |   |       |-- package.json
-|   |   |       `-- text.js
-|   |   |-- package.json
-|   |   `-- readme.md
 |   |-- string.prototype.includes
 |   |   |-- .editorconfig
 |   |   |-- .eslintrc
@@ -32654,19 +32852,13 @@
 |   |       |-- index.js
 |   |       |-- shimmed.js
 |   |       `-- tests.js
-|   |-- strip-ansi
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- package.json
-|   |   `-- readme.md
-|   |-- strip-ansi-cjs
-|   |   |-- index.d.ts
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- package.json
-|   |   `-- readme.md
 |   |-- strip-bom
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
+|   |-- strip-json-comments
+|   |   |-- index.d.ts
 |   |   |-- index.js
 |   |   |-- license
 |   |   |-- package.json
@@ -32907,142 +33099,6 @@
 |   |   |       |-- isIdentifier.js
 |   |   |       |-- removeMaybeImportAttributes.js
 |   |   |       `-- shouldElideDefaultExport.js
-|   |   |-- node_modules
-|   |   |   |-- .bin
-|   |   |   |   `-- glob -> ../glob/dist/esm/bin.mjs
-|   |   |   |-- brace-expansion
-|   |   |   |   |-- .github
-|   |   |   |   |   `-- FUNDING.yml
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- index.js
-|   |   |   |   `-- package.json
-|   |   |   |-- glob
-|   |   |   |   |-- LICENSE
-|   |   |   |   |-- README.md
-|   |   |   |   |-- dist
-|   |   |   |   |   |-- commonjs
-|   |   |   |   |   |   |-- glob.d.ts
-|   |   |   |   |   |   |-- glob.d.ts.map
-|   |   |   |   |   |   |-- glob.js
-|   |   |   |   |   |   |-- glob.js.map
-|   |   |   |   |   |   |-- has-magic.d.ts
-|   |   |   |   |   |   |-- has-magic.d.ts.map
-|   |   |   |   |   |   |-- has-magic.js
-|   |   |   |   |   |   |-- has-magic.js.map
-|   |   |   |   |   |   |-- ignore.d.ts
-|   |   |   |   |   |   |-- ignore.d.ts.map
-|   |   |   |   |   |   |-- ignore.js
-|   |   |   |   |   |   |-- ignore.js.map
-|   |   |   |   |   |   |-- index.d.ts
-|   |   |   |   |   |   |-- index.d.ts.map
-|   |   |   |   |   |   |-- index.js
-|   |   |   |   |   |   |-- index.js.map
-|   |   |   |   |   |   |-- package.json
-|   |   |   |   |   |   |-- pattern.d.ts
-|   |   |   |   |   |   |-- pattern.d.ts.map
-|   |   |   |   |   |   |-- pattern.js
-|   |   |   |   |   |   |-- pattern.js.map
-|   |   |   |   |   |   |-- processor.d.ts
-|   |   |   |   |   |   |-- processor.d.ts.map
-|   |   |   |   |   |   |-- processor.js
-|   |   |   |   |   |   |-- processor.js.map
-|   |   |   |   |   |   |-- walker.d.ts
-|   |   |   |   |   |   |-- walker.d.ts.map
-|   |   |   |   |   |   |-- walker.js
-|   |   |   |   |   |   `-- walker.js.map
-|   |   |   |   |   `-- esm
-|   |   |   |   |       |-- bin.d.mts
-|   |   |   |   |       |-- bin.d.mts.map
-|   |   |   |   |       |-- bin.mjs
-|   |   |   |   |       |-- bin.mjs.map
-|   |   |   |   |       |-- glob.d.ts
-|   |   |   |   |       |-- glob.d.ts.map
-|   |   |   |   |       |-- glob.js
-|   |   |   |   |       |-- glob.js.map
-|   |   |   |   |       |-- has-magic.d.ts
-|   |   |   |   |       |-- has-magic.d.ts.map
-|   |   |   |   |       |-- has-magic.js
-|   |   |   |   |       |-- has-magic.js.map
-|   |   |   |   |       |-- ignore.d.ts
-|   |   |   |   |       |-- ignore.d.ts.map
-|   |   |   |   |       |-- ignore.js
-|   |   |   |   |       |-- ignore.js.map
-|   |   |   |   |       |-- index.d.ts
-|   |   |   |   |       |-- index.d.ts.map
-|   |   |   |   |       |-- index.js
-|   |   |   |   |       |-- index.js.map
-|   |   |   |   |       |-- package.json
-|   |   |   |   |       |-- pattern.d.ts
-|   |   |   |   |       |-- pattern.d.ts.map
-|   |   |   |   |       |-- pattern.js
-|   |   |   |   |       |-- pattern.js.map
-|   |   |   |   |       |-- processor.d.ts
-|   |   |   |   |       |-- processor.d.ts.map
-|   |   |   |   |       |-- processor.js
-|   |   |   |   |       |-- processor.js.map
-|   |   |   |   |       |-- walker.d.ts
-|   |   |   |   |       |-- walker.d.ts.map
-|   |   |   |   |       |-- walker.js
-|   |   |   |   |       `-- walker.js.map
-|   |   |   |   `-- package.json
-|   |   |   `-- minimatch
-|   |   |       |-- LICENSE
-|   |   |       |-- README.md
-|   |   |       |-- dist
-|   |   |       |   |-- commonjs
-|   |   |       |   |   |-- assert-valid-pattern.d.ts
-|   |   |       |   |   |-- assert-valid-pattern.d.ts.map
-|   |   |       |   |   |-- assert-valid-pattern.js
-|   |   |       |   |   |-- assert-valid-pattern.js.map
-|   |   |       |   |   |-- ast.d.ts
-|   |   |       |   |   |-- ast.d.ts.map
-|   |   |       |   |   |-- ast.js
-|   |   |       |   |   |-- ast.js.map
-|   |   |       |   |   |-- brace-expressions.d.ts
-|   |   |       |   |   |-- brace-expressions.d.ts.map
-|   |   |       |   |   |-- brace-expressions.js
-|   |   |       |   |   |-- brace-expressions.js.map
-|   |   |       |   |   |-- escape.d.ts
-|   |   |       |   |   |-- escape.d.ts.map
-|   |   |       |   |   |-- escape.js
-|   |   |       |   |   |-- escape.js.map
-|   |   |       |   |   |-- index.d.ts
-|   |   |       |   |   |-- index.d.ts.map
-|   |   |       |   |   |-- index.js
-|   |   |       |   |   |-- index.js.map
-|   |   |       |   |   |-- package.json
-|   |   |       |   |   |-- unescape.d.ts
-|   |   |       |   |   |-- unescape.d.ts.map
-|   |   |       |   |   |-- unescape.js
-|   |   |       |   |   `-- unescape.js.map
-|   |   |       |   `-- esm
-|   |   |       |       |-- assert-valid-pattern.d.ts
-|   |   |       |       |-- assert-valid-pattern.d.ts.map
-|   |   |       |       |-- assert-valid-pattern.js
-|   |   |       |       |-- assert-valid-pattern.js.map
-|   |   |       |       |-- ast.d.ts
-|   |   |       |       |-- ast.d.ts.map
-|   |   |       |       |-- ast.js
-|   |   |       |       |-- ast.js.map
-|   |   |       |       |-- brace-expressions.d.ts
-|   |   |       |       |-- brace-expressions.d.ts.map
-|   |   |       |       |-- brace-expressions.js
-|   |   |       |       |-- brace-expressions.js.map
-|   |   |       |       |-- escape.d.ts
-|   |   |       |       |-- escape.d.ts.map
-|   |   |       |       |-- escape.js
-|   |   |       |       |-- escape.js.map
-|   |   |       |       |-- index.d.ts
-|   |   |       |       |-- index.d.ts.map
-|   |   |       |       |-- index.js
-|   |   |       |       |-- index.js.map
-|   |   |       |       |-- package.json
-|   |   |       |       |-- unescape.d.ts
-|   |   |       |       |-- unescape.d.ts.map
-|   |   |       |       |-- unescape.js
-|   |   |       |       `-- unescape.js.map
-|   |   |       `-- package.json
 |   |   |-- package.json
 |   |   |-- register
 |   |   |   |-- index.js
@@ -33054,6 +33110,12 @@
 |   |   |   `-- tsx.js
 |   |   `-- ts-node-plugin
 |   |       `-- index.js
+|   |-- supports-color
+|   |   |-- browser.js
+|   |   |-- index.js
+|   |   |-- license
+|   |   |-- package.json
+|   |   `-- readme.md
 |   |-- supports-preserve-symlinks-flag
 |   |   |-- .eslintrc
 |   |   |-- .github
@@ -33109,7 +33171,6 @@
 |   |           |-- utils.ts
 |   |           `-- validators.ts
 |   |-- tailwindcss
-|   |   |-- CHANGELOG.md
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- base.css
@@ -33148,7 +33209,6 @@
 |   |   |   |   |-- collapseDuplicateDeclarations.js
 |   |   |   |   |-- content.js
 |   |   |   |   |-- defaultExtractor.js
-|   |   |   |   |-- detectNesting.js
 |   |   |   |   |-- evaluateTailwindFunctions.js
 |   |   |   |   |-- expandApplyAtRules.js
 |   |   |   |   |-- expandTailwindAtRules.js
@@ -33166,21 +33226,6 @@
 |   |   |   |   |-- setupTrackingContext.js
 |   |   |   |   |-- sharedState.js
 |   |   |   |   `-- substituteScreenAtRules.js
-|   |   |   |-- oxide
-|   |   |   |   |-- cli
-|   |   |   |   |   |-- build
-|   |   |   |   |   |   |-- deps.js
-|   |   |   |   |   |   |-- index.js
-|   |   |   |   |   |   |-- plugin.js
-|   |   |   |   |   |   |-- utils.js
-|   |   |   |   |   |   `-- watching.js
-|   |   |   |   |   |-- help
-|   |   |   |   |   |   `-- index.js
-|   |   |   |   |   |-- index.js
-|   |   |   |   |   `-- init
-|   |   |   |   |       `-- index.js
-|   |   |   |   |-- cli.js
-|   |   |   |   `-- postcss-plugin.js
 |   |   |   |-- plugin.js
 |   |   |   |-- postcss-plugins
 |   |   |   |   `-- nesting
@@ -33218,6 +33263,7 @@
 |   |   |   |   |-- isPlainObject.js
 |   |   |   |   |-- isSyntacticallyValidPropertyValue.js
 |   |   |   |   |-- log.js
+|   |   |   |   |-- math-operators.js
 |   |   |   |   |-- nameClass.js
 |   |   |   |   |-- negateValue.js
 |   |   |   |   |-- normalizeConfig.js
@@ -33256,6 +33302,243 @@
 |   |   |-- nesting
 |   |   |   |-- index.d.ts
 |   |   |   `-- index.js
+|   |   |-- node_modules
+|   |   |   |-- .bin
+|   |   |   |   `-- resolve -> ../resolve/bin/resolve
+|   |   |   |-- fast-glob
+|   |   |   |   |-- LICENSE
+|   |   |   |   |-- README.md
+|   |   |   |   |-- node_modules
+|   |   |   |   |   `-- glob-parent
+|   |   |   |   |       |-- CHANGELOG.md
+|   |   |   |   |       |-- LICENSE
+|   |   |   |   |       |-- README.md
+|   |   |   |   |       |-- index.js
+|   |   |   |   |       `-- package.json
+|   |   |   |   |-- out
+|   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |-- index.js
+|   |   |   |   |   |-- managers
+|   |   |   |   |   |   |-- tasks.d.ts
+|   |   |   |   |   |   `-- tasks.js
+|   |   |   |   |   |-- providers
+|   |   |   |   |   |   |-- async.d.ts
+|   |   |   |   |   |   |-- async.js
+|   |   |   |   |   |   |-- filters
+|   |   |   |   |   |   |   |-- deep.d.ts
+|   |   |   |   |   |   |   |-- deep.js
+|   |   |   |   |   |   |   |-- entry.d.ts
+|   |   |   |   |   |   |   |-- entry.js
+|   |   |   |   |   |   |   |-- error.d.ts
+|   |   |   |   |   |   |   `-- error.js
+|   |   |   |   |   |   |-- matchers
+|   |   |   |   |   |   |   |-- matcher.d.ts
+|   |   |   |   |   |   |   |-- matcher.js
+|   |   |   |   |   |   |   |-- partial.d.ts
+|   |   |   |   |   |   |   `-- partial.js
+|   |   |   |   |   |   |-- provider.d.ts
+|   |   |   |   |   |   |-- provider.js
+|   |   |   |   |   |   |-- stream.d.ts
+|   |   |   |   |   |   |-- stream.js
+|   |   |   |   |   |   |-- sync.d.ts
+|   |   |   |   |   |   |-- sync.js
+|   |   |   |   |   |   `-- transformers
+|   |   |   |   |   |       |-- entry.d.ts
+|   |   |   |   |   |       `-- entry.js
+|   |   |   |   |   |-- readers
+|   |   |   |   |   |   |-- async.d.ts
+|   |   |   |   |   |   |-- async.js
+|   |   |   |   |   |   |-- reader.d.ts
+|   |   |   |   |   |   |-- reader.js
+|   |   |   |   |   |   |-- stream.d.ts
+|   |   |   |   |   |   |-- stream.js
+|   |   |   |   |   |   |-- sync.d.ts
+|   |   |   |   |   |   `-- sync.js
+|   |   |   |   |   |-- settings.d.ts
+|   |   |   |   |   |-- settings.js
+|   |   |   |   |   |-- types
+|   |   |   |   |   |   |-- index.d.ts
+|   |   |   |   |   |   `-- index.js
+|   |   |   |   |   `-- utils
+|   |   |   |   |       |-- array.d.ts
+|   |   |   |   |       |-- array.js
+|   |   |   |   |       |-- errno.d.ts
+|   |   |   |   |       |-- errno.js
+|   |   |   |   |       |-- fs.d.ts
+|   |   |   |   |       |-- fs.js
+|   |   |   |   |       |-- index.d.ts
+|   |   |   |   |       |-- index.js
+|   |   |   |   |       |-- path.d.ts
+|   |   |   |   |       |-- path.js
+|   |   |   |   |       |-- pattern.d.ts
+|   |   |   |   |       |-- pattern.js
+|   |   |   |   |       |-- stream.d.ts
+|   |   |   |   |       |-- stream.js
+|   |   |   |   |       |-- string.d.ts
+|   |   |   |   |       `-- string.js
+|   |   |   |   `-- package.json
+|   |   |   `-- resolve
+|   |   |       |-- .claude
+|   |   |       |   |-- notes.md
+|   |   |       |   `-- settings.local.json
+|   |   |       |-- .editorconfig
+|   |   |       |-- .eslintrc
+|   |   |       |-- .github
+|   |   |       |   |-- FUNDING.yml
+|   |   |       |   |-- INCIDENT_RESPONSE_PROCESS.md
+|   |   |       |   `-- THREAT_MODEL.md
+|   |   |       |-- LICENSE
+|   |   |       |-- SECURITY.md
+|   |   |       |-- async.js
+|   |   |       |-- bin
+|   |   |       |   `-- resolve
+|   |   |       |-- eslint.config.mjs
+|   |   |       |-- example
+|   |   |       |   |-- async.js
+|   |   |       |   `-- sync.js
+|   |   |       |-- index.js
+|   |   |       |-- lib
+|   |   |       |   |-- async.js
+|   |   |       |   |-- caller.js
+|   |   |       |   |-- core.js
+|   |   |       |   |-- core.json
+|   |   |       |   |-- homedir.js
+|   |   |       |   |-- is-core.js
+|   |   |       |   |-- node-modules-paths.js
+|   |   |       |   |-- normalize-options.js
+|   |   |       |   `-- sync.js
+|   |   |       |-- package.json
+|   |   |       |-- readme.markdown
+|   |   |       |-- sync.js
+|   |   |       `-- test
+|   |   |           |-- core.js
+|   |   |           |-- default_paths.js
+|   |   |           |-- dotdot
+|   |   |           |   |-- abc
+|   |   |           |   |   `-- index.js
+|   |   |           |   `-- index.js
+|   |   |           |-- dotdot.js
+|   |   |           |-- faulty_basedir.js
+|   |   |           |-- filter.js
+|   |   |           |-- filter_sync.js
+|   |   |           |-- home_paths.js
+|   |   |           |-- home_paths_sync.js
+|   |   |           |-- homedir.js
+|   |   |           |-- mock.js
+|   |   |           |-- mock_sync.js
+|   |   |           |-- module_dir
+|   |   |           |   |-- xmodules
+|   |   |           |   |   `-- aaa
+|   |   |           |   |       `-- index.js
+|   |   |           |   |-- ymodules
+|   |   |           |   |   `-- aaa
+|   |   |           |   |       `-- index.js
+|   |   |           |   `-- zmodules
+|   |   |           |       `-- bbb
+|   |   |           |           |-- main.js
+|   |   |           |           `-- package.json
+|   |   |           |-- module_dir.js
+|   |   |           |-- node-modules-paths.js
+|   |   |           |-- node_path
+|   |   |           |   |-- x
+|   |   |           |   |   |-- aaa
+|   |   |           |   |   |   `-- index.js
+|   |   |           |   |   `-- ccc
+|   |   |           |   |       `-- index.js
+|   |   |           |   `-- y
+|   |   |           |       |-- bbb
+|   |   |           |       |   `-- index.js
+|   |   |           |       `-- ccc
+|   |   |           |           `-- index.js
+|   |   |           |-- node_path.js
+|   |   |           |-- nonstring.js
+|   |   |           |-- pathfilter
+|   |   |           |   `-- deep_ref
+|   |   |           |       `-- main.js
+|   |   |           |-- pathfilter.js
+|   |   |           |-- pathfilter_sync.js
+|   |   |           |-- precedence
+|   |   |           |   |-- aaa
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- main.js
+|   |   |           |   |-- aaa.js
+|   |   |           |   |-- bbb
+|   |   |           |   |   `-- main.js
+|   |   |           |   `-- bbb.js
+|   |   |           |-- precedence.js
+|   |   |           |-- resolver
+|   |   |           |   |-- baz
+|   |   |           |   |   |-- doom.js
+|   |   |           |   |   |-- package.json
+|   |   |           |   |   `-- quux.js
+|   |   |           |   |-- browser_field
+|   |   |           |   |   |-- a.js
+|   |   |           |   |   |-- b.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- cup.coffee
+|   |   |           |   |-- dot_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- dot_slash_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- false_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- foo.js
+|   |   |           |   |-- incorrect_main
+|   |   |           |   |   |-- index.js
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- invalid_main
+|   |   |           |   |   `-- package.json
+|   |   |           |   |-- mug.coffee
+|   |   |           |   |-- mug.js
+|   |   |           |   |-- multirepo
+|   |   |           |   |   |-- lerna.json
+|   |   |           |   |   |-- package.json
+|   |   |           |   |   `-- packages
+|   |   |           |   |       |-- package-a
+|   |   |           |   |       |   |-- index.js
+|   |   |           |   |       |   `-- package.json
+|   |   |           |   |       `-- package-b
+|   |   |           |   |           |-- index.js
+|   |   |           |   |           `-- package.json
+|   |   |           |   |-- nested_symlinks
+|   |   |           |   |   `-- mylib
+|   |   |           |   |       |-- async.js
+|   |   |           |   |       |-- package.json
+|   |   |           |   |       `-- sync.js
+|   |   |           |   |-- other_path
+|   |   |           |   |   |-- lib
+|   |   |           |   |   |   `-- other-lib.js
+|   |   |           |   |   `-- root.js
+|   |   |           |   |-- quux
+|   |   |           |   |   `-- foo
+|   |   |           |   |       `-- index.js
+|   |   |           |   |-- same_names
+|   |   |           |   |   |-- foo
+|   |   |           |   |   |   `-- index.js
+|   |   |           |   |   `-- foo.js
+|   |   |           |   |-- symlinked
+|   |   |           |   |   |-- _
+|   |   |           |   |   |   |-- node_modules
+|   |   |           |   |   |   |   `-- foo.js
+|   |   |           |   |   |   `-- symlink_target
+|   |   |           |   |   |       `-- .gitkeep
+|   |   |           |   |   `-- package
+|   |   |           |   |       |-- bar.js
+|   |   |           |   |       `-- package.json
+|   |   |           |   `-- without_basedir
+|   |   |           |       `-- main.js
+|   |   |           |-- resolver.js
+|   |   |           |-- resolver_sync.js
+|   |   |           |-- shadowed_core
+|   |   |           |   `-- node_modules
+|   |   |           |       `-- util
+|   |   |           |           `-- index.js
+|   |   |           |-- shadowed_core.js
+|   |   |           |-- subdirs.js
+|   |   |           `-- symlinks.js
 |   |   |-- package.json
 |   |   |-- peers
 |   |   |   `-- index.js
@@ -33270,7 +33553,6 @@
 |   |   |   |-- generate-types.js
 |   |   |   |-- release-channel.js
 |   |   |   |-- release-notes.js
-|   |   |   |-- swap-engines.js
 |   |   |   `-- type-utils.js
 |   |   |-- src
 |   |   |   |-- cli
@@ -33300,7 +33582,6 @@
 |   |   |   |   |-- collapseDuplicateDeclarations.js
 |   |   |   |   |-- content.js
 |   |   |   |   |-- defaultExtractor.js
-|   |   |   |   |-- detectNesting.js
 |   |   |   |   |-- evaluateTailwindFunctions.js
 |   |   |   |   |-- expandApplyAtRules.js
 |   |   |   |   |-- expandTailwindAtRules.js
@@ -33318,21 +33599,6 @@
 |   |   |   |   |-- setupTrackingContext.js
 |   |   |   |   |-- sharedState.js
 |   |   |   |   `-- substituteScreenAtRules.js
-|   |   |   |-- oxide
-|   |   |   |   |-- cli
-|   |   |   |   |   |-- build
-|   |   |   |   |   |   |-- deps.ts
-|   |   |   |   |   |   |-- index.ts
-|   |   |   |   |   |   |-- plugin.ts
-|   |   |   |   |   |   |-- utils.ts
-|   |   |   |   |   |   `-- watching.ts
-|   |   |   |   |   |-- help
-|   |   |   |   |   |   `-- index.ts
-|   |   |   |   |   |-- index.ts
-|   |   |   |   |   `-- init
-|   |   |   |   |       `-- index.ts
-|   |   |   |   |-- cli.ts
-|   |   |   |   `-- postcss-plugin.ts
 |   |   |   |-- plugin.js
 |   |   |   |-- postcss-plugins
 |   |   |   |   `-- nesting
@@ -33370,6 +33636,7 @@
 |   |   |   |   |-- isPlainObject.js
 |   |   |   |   |-- isSyntacticallyValidPropertyValue.js
 |   |   |   |   |-- log.js
+|   |   |   |   |-- math-operators.ts
 |   |   |   |   |-- nameClass.js
 |   |   |   |   |-- negateValue.js
 |   |   |   |   |-- normalizeConfig.js
@@ -36470,6 +36737,24 @@
 |   |   |   |-- tsconfig-loader.d.ts
 |   |   |   |-- tsconfig-loader.js
 |   |   |   `-- tsconfig-loader.js.map
+|   |   |-- node_modules
+|   |   |   |-- .bin
+|   |   |   |   `-- json5 -> ../json5/lib/cli.js
+|   |   |   `-- json5
+|   |   |       |-- LICENSE.md
+|   |   |       |-- README.md
+|   |   |       |-- dist
+|   |   |       |   `-- index.js
+|   |   |       |-- lib
+|   |   |       |   |-- cli.js
+|   |   |       |   |-- index.js
+|   |   |       |   |-- parse.js
+|   |   |       |   |-- register.js
+|   |   |       |   |-- require.js
+|   |   |       |   |-- stringify.js
+|   |   |       |   |-- unicode.js
+|   |   |       |   `-- util.js
+|   |   |       `-- package.json
 |   |   |-- package.json
 |   |   |-- register.js
 |   |   `-- src
@@ -36875,28 +37160,20 @@
 |   |   |   |-- lib.es2024.regexp.d.ts
 |   |   |   |-- lib.es2024.sharedmemory.d.ts
 |   |   |   |-- lib.es2024.string.d.ts
-|   |   |   |-- lib.es2025.collection.d.ts
-|   |   |   |-- lib.es2025.d.ts
-|   |   |   |-- lib.es2025.float16.d.ts
-|   |   |   |-- lib.es2025.full.d.ts
-|   |   |   |-- lib.es2025.intl.d.ts
-|   |   |   |-- lib.es2025.iterator.d.ts
-|   |   |   |-- lib.es2025.promise.d.ts
-|   |   |   |-- lib.es2025.regexp.d.ts
 |   |   |   |-- lib.es5.d.ts
 |   |   |   |-- lib.es6.d.ts
 |   |   |   |-- lib.esnext.array.d.ts
 |   |   |   |-- lib.esnext.collection.d.ts
 |   |   |   |-- lib.esnext.d.ts
-|   |   |   |-- lib.esnext.date.d.ts
 |   |   |   |-- lib.esnext.decorators.d.ts
 |   |   |   |-- lib.esnext.disposable.d.ts
 |   |   |   |-- lib.esnext.error.d.ts
+|   |   |   |-- lib.esnext.float16.d.ts
 |   |   |   |-- lib.esnext.full.d.ts
 |   |   |   |-- lib.esnext.intl.d.ts
+|   |   |   |-- lib.esnext.iterator.d.ts
+|   |   |   |-- lib.esnext.promise.d.ts
 |   |   |   |-- lib.esnext.sharedmemory.d.ts
-|   |   |   |-- lib.esnext.temporal.d.ts
-|   |   |   |-- lib.esnext.typedarrays.d.ts
 |   |   |   |-- lib.scripthost.d.ts
 |   |   |   |-- lib.webworker.asynciterable.d.ts
 |   |   |   |-- lib.webworker.d.ts
@@ -36923,6 +37200,19 @@
 |   |   |   |   `-- diagnosticMessages.generated.json
 |   |   |   `-- zh-tw
 |   |   |       `-- diagnosticMessages.generated.json
+|   |   `-- package.json
+|   |-- typescript-eslint
+|   |   |-- LICENSE
+|   |   |-- README.md
+|   |   |-- dist
+|   |   |   |-- compatibility-types.d.ts
+|   |   |   |-- compatibility-types.js
+|   |   |   |-- config-helper.d.ts
+|   |   |   |-- config-helper.js
+|   |   |   |-- getTSConfigRootDirFromStack.d.ts
+|   |   |   |-- getTSConfigRootDirFromStack.js
+|   |   |   |-- index.d.ts
+|   |   |   `-- index.js
 |   |   `-- package.json
 |   |-- unbox-primitive
 |   |   |-- .editorconfig
@@ -37198,313 +37488,18 @@
 |   |   |-- test
 |   |   |   `-- index.js
 |   |   `-- tsconfig.json
-|   |-- wrap-ansi
+|   |-- word-wrap
+|   |   |-- LICENSE
+|   |   |-- README.md
 |   |   |-- index.d.ts
 |   |   |-- index.js
-|   |   |-- license
-|   |   |-- node_modules
-|   |   |   |-- ansi-regex
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- license
-|   |   |   |   |-- package.json
-|   |   |   |   `-- readme.md
-|   |   |   |-- ansi-styles
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- license
-|   |   |   |   |-- package.json
-|   |   |   |   `-- readme.md
-|   |   |   `-- strip-ansi
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.js
-|   |   |       |-- license
-|   |   |       |-- package.json
-|   |   |       `-- readme.md
-|   |   |-- package.json
-|   |   `-- readme.md
-|   |-- wrap-ansi-cjs
-|   |   |-- index.js
-|   |   |-- license
-|   |   |-- node_modules
-|   |   |   |-- emoji-regex
-|   |   |   |   |-- LICENSE-MIT.txt
-|   |   |   |   |-- README.md
-|   |   |   |   |-- es2015
-|   |   |   |   |   |-- index.js
-|   |   |   |   |   `-- text.js
-|   |   |   |   |-- index.d.ts
-|   |   |   |   |-- index.js
-|   |   |   |   |-- package.json
-|   |   |   |   `-- text.js
-|   |   |   `-- string-width
-|   |   |       |-- index.d.ts
-|   |   |       |-- index.js
-|   |   |       |-- license
-|   |   |       |-- package.json
-|   |   |       `-- readme.md
-|   |   |-- package.json
-|   |   `-- readme.md
+|   |   `-- package.json
 |   |-- yallist
 |   |   |-- LICENSE
 |   |   |-- README.md
 |   |   |-- iterator.js
 |   |   |-- package.json
 |   |   `-- yallist.js
-|   |-- yaml
-|   |   |-- LICENSE
-|   |   |-- README.md
-|   |   |-- browser
-|   |   |   |-- dist
-|   |   |   |   |-- compose
-|   |   |   |   |   |-- compose-collection.js
-|   |   |   |   |   |-- compose-doc.js
-|   |   |   |   |   |-- compose-node.js
-|   |   |   |   |   |-- compose-scalar.js
-|   |   |   |   |   |-- composer.js
-|   |   |   |   |   |-- resolve-block-map.js
-|   |   |   |   |   |-- resolve-block-scalar.js
-|   |   |   |   |   |-- resolve-block-seq.js
-|   |   |   |   |   |-- resolve-end.js
-|   |   |   |   |   |-- resolve-flow-collection.js
-|   |   |   |   |   |-- resolve-flow-scalar.js
-|   |   |   |   |   |-- resolve-props.js
-|   |   |   |   |   |-- util-contains-newline.js
-|   |   |   |   |   |-- util-empty-scalar-position.js
-|   |   |   |   |   |-- util-flow-indent-check.js
-|   |   |   |   |   `-- util-map-includes.js
-|   |   |   |   |-- doc
-|   |   |   |   |   |-- Document.js
-|   |   |   |   |   |-- anchors.js
-|   |   |   |   |   |-- applyReviver.js
-|   |   |   |   |   |-- createNode.js
-|   |   |   |   |   `-- directives.js
-|   |   |   |   |-- errors.js
-|   |   |   |   |-- index.js
-|   |   |   |   |-- log.js
-|   |   |   |   |-- node_modules
-|   |   |   |   |   `-- tslib
-|   |   |   |   |       `-- tslib.es6.js
-|   |   |   |   |-- nodes
-|   |   |   |   |   |-- Alias.js
-|   |   |   |   |   |-- Collection.js
-|   |   |   |   |   |-- Node.js
-|   |   |   |   |   |-- Pair.js
-|   |   |   |   |   |-- Scalar.js
-|   |   |   |   |   |-- YAMLMap.js
-|   |   |   |   |   |-- YAMLSeq.js
-|   |   |   |   |   |-- addPairToJSMap.js
-|   |   |   |   |   |-- identity.js
-|   |   |   |   |   `-- toJS.js
-|   |   |   |   |-- parse
-|   |   |   |   |   |-- cst-scalar.js
-|   |   |   |   |   |-- cst-stringify.js
-|   |   |   |   |   |-- cst-visit.js
-|   |   |   |   |   |-- cst.js
-|   |   |   |   |   |-- lexer.js
-|   |   |   |   |   |-- line-counter.js
-|   |   |   |   |   `-- parser.js
-|   |   |   |   |-- public-api.js
-|   |   |   |   |-- schema
-|   |   |   |   |   |-- Schema.js
-|   |   |   |   |   |-- common
-|   |   |   |   |   |   |-- map.js
-|   |   |   |   |   |   |-- null.js
-|   |   |   |   |   |   |-- seq.js
-|   |   |   |   |   |   `-- string.js
-|   |   |   |   |   |-- core
-|   |   |   |   |   |   |-- bool.js
-|   |   |   |   |   |   |-- float.js
-|   |   |   |   |   |   |-- int.js
-|   |   |   |   |   |   `-- schema.js
-|   |   |   |   |   |-- json
-|   |   |   |   |   |   `-- schema.js
-|   |   |   |   |   |-- tags.js
-|   |   |   |   |   `-- yaml-1.1
-|   |   |   |   |       |-- binary.js
-|   |   |   |   |       |-- bool.js
-|   |   |   |   |       |-- float.js
-|   |   |   |   |       |-- int.js
-|   |   |   |   |       |-- omap.js
-|   |   |   |   |       |-- pairs.js
-|   |   |   |   |       |-- schema.js
-|   |   |   |   |       |-- set.js
-|   |   |   |   |       `-- timestamp.js
-|   |   |   |   |-- stringify
-|   |   |   |   |   |-- foldFlowLines.js
-|   |   |   |   |   |-- stringify.js
-|   |   |   |   |   |-- stringifyCollection.js
-|   |   |   |   |   |-- stringifyComment.js
-|   |   |   |   |   |-- stringifyDocument.js
-|   |   |   |   |   |-- stringifyNumber.js
-|   |   |   |   |   |-- stringifyPair.js
-|   |   |   |   |   `-- stringifyString.js
-|   |   |   |   |-- util.js
-|   |   |   |   `-- visit.js
-|   |   |   |-- index.js
-|   |   |   `-- package.json
-|   |   |-- dist
-|   |   |   |-- compose
-|   |   |   |   |-- compose-collection.d.ts
-|   |   |   |   |-- compose-collection.js
-|   |   |   |   |-- compose-doc.d.ts
-|   |   |   |   |-- compose-doc.js
-|   |   |   |   |-- compose-node.d.ts
-|   |   |   |   |-- compose-node.js
-|   |   |   |   |-- compose-scalar.d.ts
-|   |   |   |   |-- compose-scalar.js
-|   |   |   |   |-- composer.d.ts
-|   |   |   |   |-- composer.js
-|   |   |   |   |-- resolve-block-map.d.ts
-|   |   |   |   |-- resolve-block-map.js
-|   |   |   |   |-- resolve-block-scalar.d.ts
-|   |   |   |   |-- resolve-block-scalar.js
-|   |   |   |   |-- resolve-block-seq.d.ts
-|   |   |   |   |-- resolve-block-seq.js
-|   |   |   |   |-- resolve-end.d.ts
-|   |   |   |   |-- resolve-end.js
-|   |   |   |   |-- resolve-flow-collection.d.ts
-|   |   |   |   |-- resolve-flow-collection.js
-|   |   |   |   |-- resolve-flow-scalar.d.ts
-|   |   |   |   |-- resolve-flow-scalar.js
-|   |   |   |   |-- resolve-props.d.ts
-|   |   |   |   |-- resolve-props.js
-|   |   |   |   |-- util-contains-newline.d.ts
-|   |   |   |   |-- util-contains-newline.js
-|   |   |   |   |-- util-empty-scalar-position.d.ts
-|   |   |   |   |-- util-empty-scalar-position.js
-|   |   |   |   |-- util-flow-indent-check.d.ts
-|   |   |   |   |-- util-flow-indent-check.js
-|   |   |   |   |-- util-map-includes.d.ts
-|   |   |   |   `-- util-map-includes.js
-|   |   |   |-- doc
-|   |   |   |   |-- Document.d.ts
-|   |   |   |   |-- Document.js
-|   |   |   |   |-- anchors.d.ts
-|   |   |   |   |-- anchors.js
-|   |   |   |   |-- applyReviver.d.ts
-|   |   |   |   |-- applyReviver.js
-|   |   |   |   |-- createNode.d.ts
-|   |   |   |   |-- createNode.js
-|   |   |   |   |-- directives.d.ts
-|   |   |   |   `-- directives.js
-|   |   |   |-- errors.d.ts
-|   |   |   |-- errors.js
-|   |   |   |-- index.d.ts
-|   |   |   |-- index.js
-|   |   |   |-- log.d.ts
-|   |   |   |-- log.js
-|   |   |   |-- nodes
-|   |   |   |   |-- Alias.d.ts
-|   |   |   |   |-- Alias.js
-|   |   |   |   |-- Collection.d.ts
-|   |   |   |   |-- Collection.js
-|   |   |   |   |-- Node.d.ts
-|   |   |   |   |-- Node.js
-|   |   |   |   |-- Pair.d.ts
-|   |   |   |   |-- Pair.js
-|   |   |   |   |-- Scalar.d.ts
-|   |   |   |   |-- Scalar.js
-|   |   |   |   |-- YAMLMap.d.ts
-|   |   |   |   |-- YAMLMap.js
-|   |   |   |   |-- YAMLSeq.d.ts
-|   |   |   |   |-- YAMLSeq.js
-|   |   |   |   |-- addPairToJSMap.d.ts
-|   |   |   |   |-- addPairToJSMap.js
-|   |   |   |   |-- identity.d.ts
-|   |   |   |   |-- identity.js
-|   |   |   |   |-- toJS.d.ts
-|   |   |   |   `-- toJS.js
-|   |   |   |-- options.d.ts
-|   |   |   |-- parse
-|   |   |   |   |-- cst-scalar.d.ts
-|   |   |   |   |-- cst-scalar.js
-|   |   |   |   |-- cst-stringify.d.ts
-|   |   |   |   |-- cst-stringify.js
-|   |   |   |   |-- cst-visit.d.ts
-|   |   |   |   |-- cst-visit.js
-|   |   |   |   |-- cst.d.ts
-|   |   |   |   |-- cst.js
-|   |   |   |   |-- lexer.d.ts
-|   |   |   |   |-- lexer.js
-|   |   |   |   |-- line-counter.d.ts
-|   |   |   |   |-- line-counter.js
-|   |   |   |   |-- parser.d.ts
-|   |   |   |   `-- parser.js
-|   |   |   |-- public-api.d.ts
-|   |   |   |-- public-api.js
-|   |   |   |-- schema
-|   |   |   |   |-- Schema.d.ts
-|   |   |   |   |-- Schema.js
-|   |   |   |   |-- common
-|   |   |   |   |   |-- map.d.ts
-|   |   |   |   |   |-- map.js
-|   |   |   |   |   |-- null.d.ts
-|   |   |   |   |   |-- null.js
-|   |   |   |   |   |-- seq.d.ts
-|   |   |   |   |   |-- seq.js
-|   |   |   |   |   |-- string.d.ts
-|   |   |   |   |   `-- string.js
-|   |   |   |   |-- core
-|   |   |   |   |   |-- bool.d.ts
-|   |   |   |   |   |-- bool.js
-|   |   |   |   |   |-- float.d.ts
-|   |   |   |   |   |-- float.js
-|   |   |   |   |   |-- int.d.ts
-|   |   |   |   |   |-- int.js
-|   |   |   |   |   |-- schema.d.ts
-|   |   |   |   |   `-- schema.js
-|   |   |   |   |-- json
-|   |   |   |   |   |-- schema.d.ts
-|   |   |   |   |   `-- schema.js
-|   |   |   |   |-- json-schema.d.ts
-|   |   |   |   |-- tags.d.ts
-|   |   |   |   |-- tags.js
-|   |   |   |   |-- types.d.ts
-|   |   |   |   `-- yaml-1.1
-|   |   |   |       |-- binary.d.ts
-|   |   |   |       |-- binary.js
-|   |   |   |       |-- bool.d.ts
-|   |   |   |       |-- bool.js
-|   |   |   |       |-- float.d.ts
-|   |   |   |       |-- float.js
-|   |   |   |       |-- int.d.ts
-|   |   |   |       |-- int.js
-|   |   |   |       |-- omap.d.ts
-|   |   |   |       |-- omap.js
-|   |   |   |       |-- pairs.d.ts
-|   |   |   |       |-- pairs.js
-|   |   |   |       |-- schema.d.ts
-|   |   |   |       |-- schema.js
-|   |   |   |       |-- set.d.ts
-|   |   |   |       |-- set.js
-|   |   |   |       |-- timestamp.d.ts
-|   |   |   |       `-- timestamp.js
-|   |   |   |-- stringify
-|   |   |   |   |-- foldFlowLines.d.ts
-|   |   |   |   |-- foldFlowLines.js
-|   |   |   |   |-- stringify.d.ts
-|   |   |   |   |-- stringify.js
-|   |   |   |   |-- stringifyCollection.d.ts
-|   |   |   |   |-- stringifyCollection.js
-|   |   |   |   |-- stringifyComment.d.ts
-|   |   |   |   |-- stringifyComment.js
-|   |   |   |   |-- stringifyDocument.d.ts
-|   |   |   |   |-- stringifyDocument.js
-|   |   |   |   |-- stringifyNumber.d.ts
-|   |   |   |   |-- stringifyNumber.js
-|   |   |   |   |-- stringifyPair.d.ts
-|   |   |   |   |-- stringifyPair.js
-|   |   |   |   |-- stringifyString.d.ts
-|   |   |   |   `-- stringifyString.js
-|   |   |   |-- test-events.d.ts
-|   |   |   |-- test-events.js
-|   |   |   |-- util.d.ts
-|   |   |   |-- util.js
-|   |   |   |-- visit.d.ts
-|   |   |   `-- visit.js
-|   |   |-- package.json
-|   |   `-- util.js
 |   |-- yocto-queue
 |   |   |-- index.d.ts
 |   |   |-- index.js
@@ -37659,6 +37654,7 @@
 |   |   |   |   |       |-- default.test.ts
 |   |   |   |   |       |-- describe-meta-checks.test.ts
 |   |   |   |   |       |-- description.test.ts
+|   |   |   |   |       |-- detached-methods.test.ts
 |   |   |   |   |       |-- discriminated-unions.test.ts
 |   |   |   |   |       |-- enum.test.ts
 |   |   |   |   |       |-- error-utils.test.ts
@@ -37669,13 +37665,17 @@
 |   |   |   |   |       |-- from-json-schema.test.ts
 |   |   |   |   |       |-- function.test.ts
 |   |   |   |   |       |-- generics.test.ts
+|   |   |   |   |       |-- global-config.test.ts
 |   |   |   |   |       |-- hash.test.ts
 |   |   |   |   |       |-- index.test.ts
 |   |   |   |   |       |-- instanceof.test.ts
 |   |   |   |   |       |-- intersection.test.ts
+|   |   |   |   |       |-- jitless-allows-eval.test.ts
 |   |   |   |   |       |-- json.test.ts
 |   |   |   |   |       |-- lazy.test.ts
 |   |   |   |   |       |-- literal.test.ts
+|   |   |   |   |       |-- locales_ka.test.ts
+|   |   |   |   |       |-- locales_ro.test.ts
 |   |   |   |   |       |-- map.test.ts
 |   |   |   |   |       |-- nan.test.ts
 |   |   |   |   |       |-- nested-refine.test.ts
@@ -37688,6 +37688,7 @@
 |   |   |   |   |       |-- pickomit.test.ts
 |   |   |   |   |       |-- pipe.test.ts
 |   |   |   |   |       |-- prefault.test.ts
+|   |   |   |   |       |-- preprocess-types.test.ts
 |   |   |   |   |       |-- preprocess.test.ts
 |   |   |   |   |       |-- primitive.test.ts
 |   |   |   |   |       |-- promise.test.ts
@@ -37732,9 +37733,12 @@
 |   |   |   |   |   |   |-- index.test.ts
 |   |   |   |   |   |   |-- locales
 |   |   |   |   |   |   |   |-- be.test.ts
+|   |   |   |   |   |   |   |-- el.test.ts
 |   |   |   |   |   |   |   |-- en.test.ts
 |   |   |   |   |   |   |   |-- es.test.ts
+|   |   |   |   |   |   |   |-- fr.test.ts
 |   |   |   |   |   |   |   |-- he.test.ts
+|   |   |   |   |   |   |   |-- hr.test.ts
 |   |   |   |   |   |   |   |-- nl.test.ts
 |   |   |   |   |   |   |   |-- ru.test.ts
 |   |   |   |   |   |   |   |-- tr.test.ts
@@ -37755,6 +37759,7 @@
 |   |   |   |   |   |-- cs.ts
 |   |   |   |   |   |-- da.ts
 |   |   |   |   |   |-- de.ts
+|   |   |   |   |   |-- el.ts
 |   |   |   |   |   |-- en.ts
 |   |   |   |   |   |-- eo.ts
 |   |   |   |   |   |-- es.ts
@@ -37763,6 +37768,7 @@
 |   |   |   |   |   |-- fr-CA.ts
 |   |   |   |   |   |-- fr.ts
 |   |   |   |   |   |-- he.ts
+|   |   |   |   |   |-- hr.ts
 |   |   |   |   |   |-- hu.ts
 |   |   |   |   |   |-- hy.ts
 |   |   |   |   |   |-- id.ts
@@ -37783,6 +37789,7 @@
 |   |   |   |   |   |-- pl.ts
 |   |   |   |   |   |-- ps.ts
 |   |   |   |   |   |-- pt.ts
+|   |   |   |   |   |-- ro.ts
 |   |   |   |   |   |-- ru.ts
 |   |   |   |   |   |-- sl.ts
 |   |   |   |   |   |-- sv.ts
@@ -38029,6 +38036,10 @@
 |   |   |   |   |-- de.d.cts
 |   |   |   |   |-- de.d.ts
 |   |   |   |   |-- de.js
+|   |   |   |   |-- el.cjs
+|   |   |   |   |-- el.d.cts
+|   |   |   |   |-- el.d.ts
+|   |   |   |   |-- el.js
 |   |   |   |   |-- en.cjs
 |   |   |   |   |-- en.d.cts
 |   |   |   |   |-- en.d.ts
@@ -38061,6 +38072,10 @@
 |   |   |   |   |-- he.d.cts
 |   |   |   |   |-- he.d.ts
 |   |   |   |   |-- he.js
+|   |   |   |   |-- hr.cjs
+|   |   |   |   |-- hr.d.cts
+|   |   |   |   |-- hr.d.ts
+|   |   |   |   |-- hr.js
 |   |   |   |   |-- hu.cjs
 |   |   |   |   |-- hu.d.cts
 |   |   |   |   |-- hu.d.ts
@@ -38142,6 +38157,10 @@
 |   |   |   |   |-- pt.d.cts
 |   |   |   |   |-- pt.d.ts
 |   |   |   |   |-- pt.js
+|   |   |   |   |-- ro.cjs
+|   |   |   |   |-- ro.d.cts
+|   |   |   |   |-- ro.d.ts
+|   |   |   |   |-- ro.js
 |   |   |   |   |-- ru.cjs
 |   |   |   |   |-- ru.d.cts
 |   |   |   |   |-- ru.d.ts
@@ -38314,6 +38333,86 @@
 |       |   `-- shallow.js
 |       |-- vanilla.d.ts
 |       `-- vanilla.js
+|-- out
+|   |-- 404
+|   |   `-- index.html
+|   |-- 404.html
+|   |-- __next.__PAGE__.txt
+|   |-- __next._full.txt
+|   |-- __next._head.txt
+|   |-- __next._index.txt
+|   |-- __next._tree.txt
+|   |-- _next
+|   |   |-- 8_qnr0AlGKnCpzBC3fqec
+|   |   `-- static
+|   |       |-- 8_qnr0AlGKnCpzBC3fqec
+|   |       |   |-- _buildManifest.js
+|   |       |   |-- _clientMiddlewareManifest.js
+|   |       |   `-- _ssgManifest.js
+|   |       |-- chunks
+|   |       |   |-- 01xlw8hd842-c.js
+|   |       |   |-- 03~yq9q893hmn.js
+|   |       |   |-- 045g~0~zva_mv.js
+|   |       |   |-- 0au83~zq0~0pf.js
+|   |       |   |-- 0d3shmwh5_nmn.js
+|   |       |   |-- 0d431k98k9_xp.js
+|   |       |   |-- 0dgq26a5_oy.a.js
+|   |       |   |-- 0g4_--ngz57ir.css
+|   |       |   |-- 0itiyyj-mcj8k.js
+|   |       |   |-- 0u~6swd_maljl.js
+|   |       |   |-- 13olfx04--8ta.js
+|   |       |   `-- turbopack-0hqz9t2dq3y7d.js
+|   |       `-- media
+|   |           |-- 1bffadaabf893a1e-s.16ipb6fqu393i.woff2
+|   |           |-- 2bbe8d2671613f1f-s.067x_6k0k23tk.woff2
+|   |           |-- 2c55a0e60120577a-s.0bjc5tiuqdqro.woff2
+|   |           |-- 5476f68d60460930-s.0wxq9webf.ew4.woff2
+|   |           |-- 83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2
+|   |           |-- 9c72aa0f40e4eef8-s.0m6w47a4e5dy9.woff2
+|   |           |-- ad66f9afd8947f86-s.11u06r12fd6v_.woff2
+|   |           |-- apple-icon.0i8uzojkp3trm.png
+|   |           |-- favicon.0r_5vh0zc03t1.ico
+|   |           |-- icon1.0pyeq_1f054y3.png
+|   |           `-- icon2.0804iv__iv7.6.png
+|   |-- _not-found
+|   |   |-- __next._full.txt
+|   |   |-- __next._head.txt
+|   |   |-- __next._index.txt
+|   |   |-- __next._not-found.__PAGE__.txt
+|   |   |-- __next._not-found.txt
+|   |   |-- __next._tree.txt
+|   |   |-- index.html
+|   |   `-- index.txt
+|   |-- apple-icon.png
+|   |-- favicon.ico
+|   |-- hero-bg.svg
+|   |-- icon1.png
+|   |-- icon2.png
+|   |-- index.html
+|   |-- index.txt
+|   |-- lock-main.png
+|   |-- lock-top.png
+|   |-- logo.png
+|   |-- skills
+|   |   |-- arch.png
+|   |   |-- css.png
+|   |   |-- docker.png
+|   |   |-- garuda.png
+|   |   |-- html.png
+|   |   |-- js.png
+|   |   |-- kalilinux.png
+|   |   |-- mysql.png
+|   |   |-- next.png
+|   |   |-- node.png
+|   |   |-- ollama-800.png
+|   |   |-- postgresql.png
+|   |   |-- react.png
+|   |   |-- reactnative.png
+|   |   `-- supabase.png
+|   `-- videos
+|       |-- blackhole.webm
+|       |-- encryption-bg.webm
+|       `-- skills-bg.webm
 |-- package-lock.json
 |-- package.json
 |-- postcss.config.js
@@ -38322,36 +38421,24 @@
 |   |-- lock-main.png
 |   |-- lock-top.png
 |   |-- logo.png
-|   |-- projects
-|   |   |-- project-1.png
-|   |   |-- project-2.png
-|   |   `-- project-3.png
 |   |-- skills
+|   |   |-- arch.png
 |   |   |-- css.png
 |   |   |-- docker.png
-|   |   |-- express.png
-|   |   |-- figma.png
-|   |   |-- firebase.png
-|   |   |-- framer.png
-|   |   |-- go.png
-|   |   |-- graphql.png
+|   |   |-- garuda.png
+|   |   |-- git.png
+|   |   |-- github.png
 |   |   |-- html.png
 |   |   |-- js.png
-|   |   |-- mongodb.png
-|   |   |-- mui.png
+|   |   |-- kalilinux.png
 |   |   |-- mysql.png
 |   |   |-- next.png
 |   |   |-- node.png
+|   |   |-- ollama-800.png
 |   |   |-- postgresql.png
-|   |   |-- prisma.png
 |   |   |-- react.png
 |   |   |-- reactnative.png
-|   |   |-- reactquery.png
-|   |   |-- redux.png
-|   |   |-- stripe.png
-|   |   |-- tailwind.png
-|   |   |-- tauri.png
-|   |   `-- ts.png
+|   |   `-- supabase.png
 |   `-- videos
 |       |-- blackhole.webm
 |       |-- encryption-bg.webm
@@ -38360,4 +38447,4 @@
 |-- tailwind.config.ts
 `-- tsconfig.json
 
-3197 directories, 35164 files
+3258 directories, 35190 files
